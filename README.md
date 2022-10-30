@@ -1,80 +1,25 @@
-# Neovim from scratch
-
-**Important Update** When I initially created this repo I didn't anticipate the amount of breaking changes, if you'd like to use the same basic config as this one as a base I recommend my new repo: [nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide)
-
-**Another Update** This repo should work fine with Neovim 0.8, also all packages are pinned so it should remain stable.
-
-Each video will be associated with a branch so checkout the one you are interested in, you can follow along with this [playlist](https://www.youtube.com/watch?v=ctH-a-1eUME&list=PLhoH5vyxr6Qq41NFL4GvhFp-WLd5xzIzZ).
-
-## Try out this config
-
-Make sure to remove or move your current `nvim` directory
-
-**IMPORTANT** Requires [Neovim v0.8.0](https://github.com/neovim/neovim/releases). Please [upgrade](#upgrade-to-latest-release) if you're on an earlier version. 
-```
-git clone https://github.com/LunarVim/Neovim-from-scratch.git ~/.config/nvim
-```
-
-Run `nvim` and wait for the plugins to be installed. (You will notice treesitter pulling in a bunch of parsers the next time you open Neovim) 
-
-**NOTE** [Mason](https://github.com/williamboman/mason.nvim) is now used to install and manage LSP servers, DAP servers, linters, and formatters via the `:Mason` command.
-
-## Get healthy
-
-Open `nvim` and enter the following:
-
-```
-:checkhealth
-```
-
-You'll probably notice you don't have support for copy/paste also that python and node haven't been setup
-
-So let's fix that
-
-First we'll fix copy/paste
-
-- On mac `pbcopy` should be builtin
-
-- On Ubuntu
-
+# Panduan Install Dan Konfigurasi NeoVim
+## Panduan Windows
+1. Download dan Install Neovim 0.8 (https://github.com/neovim/neovim/releases) atau download dari link berikut (https://sourceforge.net/projects/neovim.mirror/files/)
+2. Install Git Download Dari link berikut (https://git-scm.com/download/win)
+3. Install Node Js, Download Dari Link Berikut (https://nodejs.org/en/)
+4. Install C atau C++ Compiler (https://sourceforge.net/projects/mingw-w64/files/) 
+- panduan instalasi sihakan cek youtube https://youtu.be/6Z2aXiADa0c
+5. Import Config Windows
   ```
-  sudo apt install xsel
+  git clone https://github.com/pojokcode/nvim "$env:LOCALAPPDATA\nvim"
   ```
-
-- On Arch Linux
-
+## Panduan Linux
+ 1. Instalasi
+ - sudo apt install software-properties-common -y
+ - sudo add-apt-repository ppa:neovim-ppa/stable -y
+ - sudo apt-get update
+ - sudo apt install neovim -y
+ 2. Install Config
   ```
-  sudo pacman -S xsel
+  git clone https://github.com/pojokcode/nvim ~/.config/nvim
   ```
-
-Next we need to install python support (node is optional)
-
-- Neovim python support
-
-  ```
-  pip install pynvim
-  ```
-
-- Neovim node support
-
-  ```
-  npm i -g neovim
-  ```
----
-
-**NOTE** make sure you have [node](https://nodejs.org/en/) installed, I recommend a node manager like [fnm](https://github.com/Schniz/fnm).
-
-### Upgrade to latest release
-
-Assuming you [built from source](https://github.com/neovim/neovim/wiki/Building-Neovim#quick-start), `cd` into the folder where you cloned `neovim` and run the following commands. 
-```
-git pull
-make distclean && make CMAKE_BUILD_TYPE=Release
-git checkout v0.8.0
-sudo make install
-nvim -v
-```
-
-> The computing scientist's main challenge is not to get confused by the complexities of his own making. 
-
-\- Edsger W. Dijkstra
+  
+  ## Panduan Setup Languae
+  - https://youtube.com/playlist?list=PLhzwHCJWMbnvhPy0wqZGVBRUEAgS93iuk
+ 
