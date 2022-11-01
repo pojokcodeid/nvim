@@ -1,11 +1,11 @@
 ## PHP
 
-![LARAVEL!](laravel.jpeg)
+![LARAVEL!](img/laravel.jpeg)
 
 ## JAVA
 
-![JAVA!](Spring_boot_code.jpeg)
-![JAVA!](terminal_spring_boot.jpeg)
+![JAVA!](img/Spring_boot_code.jpeg)
+![JAVA!](img/terminal_spring_boot.jpeg)
 
 # Panduan Install Dan Konfigurasi NeoVim
 
