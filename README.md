@@ -1,7 +1,9 @@
 ## PHP
 
 ![LARAVEL!](laravel.jpeg)
-##JAVA
+
+## JAVA
+
 ![JAVA!](Spring_boot_code.jpeg)
 ![JAVA!](terminal_spring_boot.jpeg)
 
