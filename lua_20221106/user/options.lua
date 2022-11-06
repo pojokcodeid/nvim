@@ -34,7 +34,9 @@ local options = {
   linebreak = true,                        -- companion to wrap, don't split words
   scrolloff = 8,                           -- minimal number of screen lines to keep above and below the cursor
   sidescrolloff = 8,                       -- minimal number of screen columns either side of cursor if wrap is `false`
-  guifont = "monospace:h17",               -- the font used in graphical neovim applications
+  --guifont = "monospace:h17",               -- the font used in graphical neovim applications
+  guifont = "CaskaydiaCove NF Mono:w20:h17",    -- the font used in graphical neovim applications
+
 }
 
 vim.opt.shortmess:append "c"

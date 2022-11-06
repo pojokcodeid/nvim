@@ -88,13 +88,13 @@ return packer.startup(function(use)
 		"nvim-treesitter/nvim-treesitter",
 		commit = "8e763332b7bf7b3a426fd8707b7f5aa85823a5ac",
 	}
-
-	--by akn
-	use{"williamboman/nvim-lsp-installer"}
-	use{"manzeloth/live-server"}
-	use{"mg979/vim-visual-multi"}
-	use{"navarasu/onedark.nvim"}
-	use{"windwp/nvim-ts-autotag"}
+  
+  --by akn
+  use{"williamboman/nvim-lsp-installer"}
+  use{"manzeloth/live-server"}
+  use{"mg979/vim-visual-multi"}
+  use{"navarasu/onedark.nvim"}
+  use{"windwp/nvim-ts-autotag"}
 
 	-- Git
 	use { "lewis6991/gitsigns.nvim", commit = "2c6f96dda47e55fa07052ce2e2141e8367cbaaf2" }
