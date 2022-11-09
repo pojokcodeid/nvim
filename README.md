@@ -66,5 +66,5 @@ git clone https://github.com/pojokcode/nvim ~/.config/nvim
 <a href="https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md?fbclid=IwAR3BogewbYeP0PbPY1pewCkq2c3PKua3eHi-00rHpdSdz9gSKrY71Pv10u4" target="_blank">Key Lazygit</a>
 
 ## Terima Kasih
-https://github.com/LunarVim/Neovim-from-scratch
+https://github.com/LunarVim/Neovim-from-scratch <br>
 https://github.com/AstroNvim/AstroNvim
