@@ -19,6 +19,7 @@ null_ls.setup({
   on_attach = function(client)
     --if client.resolved_capabilities.document_formatting then
       vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.formatting_seq_sync()")
+      vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.format{async=true}")
       -- if client.resolved_capabilities.document_highlight then
       --   vim.api.nvim_exec([[
       --   augroup document_highlight
