@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Asep\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["code_runner.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Asep\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\code_runner.nvim",
+    url = "https://github.com/CRAG666/code_runner.nvim"
+  },
   ["darkplus.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Asep\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\darkplus.nvim",

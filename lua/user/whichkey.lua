@@ -181,6 +181,9 @@ local mappings = {
     h = { "<cmd>ToggleTerm size=10 direction=horizontal<cr>", "Horizontal" },
     v = { "<cmd>ToggleTerm size=80 direction=vertical<cr>", "Vertical" },
   },
+  rr={"<cmd>RunCode<CR>","Run Code"},
+  rf={"<cmd>RunFile<CR>","Run File"},
+  rp={"<cmd>RunProject<CR>","Run Project"},
 }
 
 which_key.setup(setup)

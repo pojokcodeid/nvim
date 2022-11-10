@@ -81,6 +81,14 @@ keymap("i","<C-l>","<cmd>LiveServer start<cr><cr>",opts)
 keymap("n","q","<cmd>q<cr>",opts)
 keymap("x","<S-Down>",":'<,'>t'><cr>",opts)
 
+keymap("n", '<leader>r', ':RunCode<CR>', opts) 
+keymap("n", '<leader>rf', ':RunFile<CR>', opts) 
+keymap("n", '<leader>rft', ':RunFile tab<CR>', opts) 
+keymap("n", '<leader>rp', ':RunProject<CR>', opts) 
+keymap("n", '<leader>rc', ':RunClose<CR>', opts) 
+keymap("n", '<leader>crf', ':CRFiletype<CR>', opts) 
+keymap("n", '<leader>crp', ':CRProjects<CR>', opts) 
+
 -- Terminal --
 -- Better terminal navigation
 -- keymap("t", "<C-h>", "<C-\\><C-N><C-w>h", term_opts)
