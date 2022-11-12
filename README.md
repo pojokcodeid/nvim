@@ -14,7 +14,7 @@
 1. Download dan Install Neovim 0.8 (https://github.com/neovim/neovim/releases/tag/v0.8.0) <br> atau download dari link berikut (https://sourceforge.net/projects/neovim.mirror/files/)
 2. Install Git Download Dari link berikut (https://git-scm.com/download/win)
 3. Install Node Js, Download Dari Link Berikut (https://nodejs.org/en/)
-4. Install C atau C++ Compiler (https://sourceforge.net/projects/mingw-w64/files/)
+4. Install C atau C++ Compiler (https://sourceforge.net/projects/mingw-w64/files/ ) atau ( https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/)
 
 - panduan instalasi sihakan cek youtube https://youtu.be/6Z2aXiADa0c
 
