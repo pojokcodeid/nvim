@@ -5,6 +5,7 @@ require('code_runner').setup({
 		python = "python3 -u",
 		typescript = "deno run",
     javascript="node $fileName",
-		rust = "cd $dir && rustc $fileName && $dir/$fileNameWithoutExt"
+		rust = "cd $dir && rustc $fileName && $dir/$fileNameWithoutExt",
+    cpp="gcc $fileName -lstdc++ -o $fileNameWithoutExt && $fileNameWithoutExt"
 	},
 })
