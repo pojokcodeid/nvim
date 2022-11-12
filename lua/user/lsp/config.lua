@@ -23,9 +23,3 @@ for _, server in pairs(servers) do
   end
   lspconfig[server].setup(opts)
 end
-
-require 'lspconfig'.sumneko_lua.setup {
-  filetypes = {
-    "lua"
-  }
-}
