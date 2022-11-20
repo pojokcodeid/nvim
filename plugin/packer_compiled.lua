@@ -129,11 +129,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\Asep\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\darkplus.nvim",
     url = "https://github.com/lunarvim/darkplus.nvim"
   },
-  ["dracula.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Asep\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dracula.nvim",
-    url = "https://github.com/Mofiqul/dracula.nvim"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "C:\\Users\\Asep\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
@@ -263,6 +258,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Asep\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  vim = {
+    loaded = true,
+    path = "C:\\Users\\Asep\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim",
+    url = "https://github.com/dracula/vim"
   },
   ["vim-bbye"] = {
     loaded = true,
