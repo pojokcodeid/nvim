@@ -97,6 +97,7 @@ return packer.startup(function(use)
   use{"windwp/nvim-ts-autotag"}
   use{"CRAG666/code_runner.nvim", requires = "nvim-lua/plenary.nvim"}
   use{"NvChad/nvim-colorizer.lua"}
+  use{"Mofiqul/dracula.nvim"}
   
 	-- Git
 	use { "lewis6991/gitsigns.nvim", commit = "2c6f96dda47e55fa07052ce2e2141e8367cbaaf2" }
