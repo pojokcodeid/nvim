@@ -88,8 +88,11 @@ return packer.startup(function(use)
 		"nvim-treesitter/nvim-treesitter",
 		commit = "8e763332b7bf7b3a426fd8707b7f5aa85823a5ac",
 	}
-  
-  --by akn
+
+	-- Git
+	use { "lewis6991/gitsigns.nvim", commit = "2c6f96dda47e55fa07052ce2e2141e8367cbaaf2" }
+
+	--by akn
   use{"williamboman/nvim-lsp-installer"}
   use{"manzeloth/live-server"}
   use{"mg979/vim-visual-multi"}
@@ -97,10 +100,7 @@ return packer.startup(function(use)
   use{"windwp/nvim-ts-autotag"}
   use{"CRAG666/code_runner.nvim", requires = "nvim-lua/plenary.nvim"}
   use{"NvChad/nvim-colorizer.lua"}
-  use{"dracula/vim", name= "dracula"}
-  
-	-- Git
-	use { "lewis6991/gitsigns.nvim", commit = "2c6f96dda47e55fa07052ce2e2141e8367cbaaf2" }
+  use{"mfussenegger/nvim-jdtls"}
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins

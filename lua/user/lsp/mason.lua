@@ -4,11 +4,10 @@ local servers = {
 	"html",
 	"tsserver",
 	"pyright",
-	-- "bashls",
+	"bashls",
 	"jsonls",
-	-- "yamlls",
-  "emmet_ls",
-  "jdtls",
+	"yamlls",
+	"jdtls",
 }
 
 local settings = {

@@ -189,6 +189,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Asep\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-colorizer.lua",
     url = "https://github.com/NvChad/nvim-colorizer.lua"
   },
+  ["nvim-jdtls"] = {
+    loaded = true,
+    path = "C:\\Users\\Asep\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-jdtls",
+    url = "https://github.com/mfussenegger/nvim-jdtls"
+  },
   ["nvim-lsp-installer"] = {
     loaded = true,
     path = "C:\\Users\\Asep\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lsp-installer",
@@ -258,11 +263,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Asep\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
-  },
-  vim = {
-    loaded = true,
-    path = "C:\\Users\\Asep\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim",
-    url = "https://github.com/dracula/vim"
   },
   ["vim-bbye"] = {
     loaded = true,
