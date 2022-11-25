@@ -112,7 +112,7 @@ local astro_plugins = {
       "TSUpdateSync",
     },
     setup = function() table.insert(astronvim.file_plugins, "nvim-treesitter") end,
-    run = function() require("nvim-treesitter.install").update { with_sync = true }() end,
+    run = function() require("nvim-treesitter.install").update { with_sync = true } () end,
     config = function() require "configs.treesitter" end,
   },
 
@@ -283,13 +283,11 @@ local astro_plugins = {
     config = function() require "configs.session_manager" end,
   },
 
-  -- by akn 
-  ["manzeloth/live-server"]={},
-  ["mg979/vim-visual-multi"]={},
-  ["windwp/nvim-ts-autotag"]={},
-  ["CRAG666/code_runner.nvim"]={},
-  ["NvChad/nvim-colorizer.lua"]={},
-  ["mfussenegger/nvim-jdtls"]={},
+  -- by akn
+  ["manzeloth/live-server"] = {},
+  ["mg979/vim-visual-multi"] = {},
+  ["CRAG666/code_runner.nvim"] = {},
+  ["mfussenegger/nvim-jdtls"] = {},
 }
 
 if astronvim.updater.snapshot then
