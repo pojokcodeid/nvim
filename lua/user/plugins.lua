@@ -91,7 +91,8 @@ return packer.startup(function(use)
 	use{"windwp/nvim-ts-autotag"}
 	use{"CRAG666/code_runner.nvim", requires = "nvim-lua/plenary.nvim"}
 	use{"NvChad/nvim-colorizer.lua"}
-
+	use{"MunifTanjim/prettier.nvim"}
+	
 	-- Treesitter
 	use {
 		"nvim-treesitter/nvim-treesitter",
