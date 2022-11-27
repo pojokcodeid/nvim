@@ -18,9 +18,12 @@ null_ls.setup({
 	},
 
 	on_attach = function(client)
-	  -- vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.format{async=true}")
-		vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.formatting()")
-	end	
+	  vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.format{async=true}")
+	 --  if client.resolved_capabilities.document_formatting then
+		-- 	vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.formatting()")
+		-- end
+	end
+	
 })
 
 
