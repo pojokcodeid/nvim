@@ -83,7 +83,7 @@ return packer.startup(function(use)
 	-- Telescope
 	use { "nvim-telescope/telescope.nvim", commit = "76ea9a898d3307244dce3573392dcf2cc38f340f" }
 
-  --by akn
+  -- add by akn
 	use{"williamboman/nvim-lsp-installer"}
 	use{"manzeloth/live-server"}
 	use{"mg979/vim-visual-multi"}

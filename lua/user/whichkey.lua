@@ -181,6 +181,15 @@ local mappings = {
     h = { "<cmd>ToggleTerm size=10 direction=horizontal<cr>", "Horizontal" },
     v = { "<cmd>ToggleTerm size=80 direction=vertical<cr>", "Vertical" },
   },
+
+   r={
+    name="Run",
+    r={"<cmd>RunCode<CR>","Run Code"},
+    f={"<cmd>RunFile<CR>","Run File"},
+    p={"<cmd>RunProject<CR>","Run Project"},
+    g={"<cmd>ToggleTerm size=70 direction=vertical<cr>gradle run<cr>","Run Gradle"},
+    m={"<cmd>ToggleTerm size=70 direction=vertical<cr>mvn exec:java -Dexec.mainClass=com.pojokcode.App<cr>","Run MVN"},
+  }
 }
 
 which_key.setup(setup)
