@@ -17,12 +17,9 @@ local options = {
   preserveindent = true, -- Preserve indent structure as much as possible
   pumheight = 10, -- Height of the pop up menu
   relativenumber = true, -- Show relative numberline
-  scrolloff = 8, -- Number of lines to keep above and below the cursor
   shiftwidth = 2, -- Number of space inserted for indentation
   showmode = false, -- Disable showing modes in command line
   showtabline = 2, -- always display tabline
-  sidescrolloff = 8, -- Number of columns to keep at the sides of the cursor
-  signcolumn = "yes", -- Always show the sign column
   smartcase = true, -- Case sensitivie searching
   splitbelow = true, -- Splitting a new window below the current one
   splitright = true, -- Splitting a new window at the right of the current one
@@ -32,10 +29,13 @@ local options = {
   timeoutlen = 300, -- Length of time to wait for a mapped sequence
   undofile = true, -- Enable persistent undo
   updatetime = 300, -- Length of time to wait before triggering the plugin
-  writebackup = false, -- Disable making a backup before overwriting a file
+  writebackup = false, -- Disable making a backup before overwriting a file           
 
+  signcolumn = "yes",                      -- always show the sign column, otherwise it would shift the text each time
   wrap = true,                             -- display lines as one long line
   linebreak = true,                        -- companion to wrap, don't split words
+  scrolloff = 8,                           -- minimal number of screen lines to keep above and below the cursor
+  sidescrolloff = 8,                       -- minimal number of screen columns either side of cursor if wrap is `false`
   guifont = "monospace:h17",               -- the font used in graphical neovim applications
   whichwrap = "bs<>[]hl",                  -- which "horizontal" keys are allowed to travel to prev/next line
 }
