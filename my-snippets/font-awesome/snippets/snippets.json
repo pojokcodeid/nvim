@@ -1,0 +1,3937 @@
+{
+	"fa-500px": {
+		"prefix": "fa-500px",
+		"body": "fa-500px",
+		"description": "fontawesome icon: fa-500px"
+	},
+	"fa-address-book": {
+		"prefix": "fa-address-book",
+		"body": "fa-address-book",
+		"description": "fontawesome icon: fa-address-book"
+	},
+	"fa-address-book-o": {
+		"prefix": "fa-address-book-o",
+		"body": "fa-address-book-o",
+		"description": "fontawesome icon: fa-address-book-o"
+	},
+	"fa-address-card": {
+		"prefix": "fa-address-card",
+		"body": "fa-address-card",
+		"description": "fontawesome icon: fa-address-card"
+	},
+	"fa-address-card-o": {
+		"prefix": "fa-address-card-o",
+		"body": "fa-address-card-o",
+		"description": "fontawesome icon: fa-address-card-o"
+	},
+	"fa-adjust": {
+		"prefix": "fa-adjust",
+		"body": "fa-adjust",
+		"description": "fontawesome icon: fa-adjust"
+	},
+	"fa-adn": {
+		"prefix": "fa-adn",
+		"body": "fa-adn",
+		"description": "fontawesome icon: fa-adn"
+	},
+	"fa-align-center": {
+		"prefix": "fa-align-center",
+		"body": "fa-align-center",
+		"description": "fontawesome icon: fa-align-center"
+	},
+	"fa-align-justify": {
+		"prefix": "fa-align-justify",
+		"body": "fa-align-justify",
+		"description": "fontawesome icon: fa-align-justify"
+	},
+	"fa-align-left": {
+		"prefix": "fa-align-left",
+		"body": "fa-align-left",
+		"description": "fontawesome icon: fa-align-left"
+	},
+	"fa-align-right": {
+		"prefix": "fa-align-right",
+		"body": "fa-align-right",
+		"description": "fontawesome icon: fa-align-right"
+	},
+	"fa-amazon": {
+		"prefix": "fa-amazon",
+		"body": "fa-amazon",
+		"description": "fontawesome icon: fa-amazon"
+	},
+	"fa-ambulance": {
+		"prefix": "fa-ambulance",
+		"body": "fa-ambulance",
+		"description": "fontawesome icon: fa-ambulance"
+	},
+	"fa-american-sign-language-interpreting": {
+		"prefix": "fa-american-sign-language-interpreting",
+		"body": "fa-american-sign-language-interpreting",
+		"description": "fontawesome icon: fa-american-sign-language-interpreting"
+	},
+	"fa-anchor": {
+		"prefix": "fa-anchor",
+		"body": "fa-anchor",
+		"description": "fontawesome icon: fa-anchor"
+	},
+	"fa-android": {
+		"prefix": "fa-android",
+		"body": "fa-android",
+		"description": "fontawesome icon: fa-android"
+	},
+	"fa-angellist": {
+		"prefix": "fa-angellist",
+		"body": "fa-angellist",
+		"description": "fontawesome icon: fa-angellist"
+	},
+	"fa-angle-double-down": {
+		"prefix": "fa-angle-double-down",
+		"body": "fa-angle-double-down",
+		"description": "fontawesome icon: fa-angle-double-down"
+	},
+	"fa-angle-double-left": {
+		"prefix": "fa-angle-double-left",
+		"body": "fa-angle-double-left",
+		"description": "fontawesome icon: fa-angle-double-left"
+	},
+	"fa-angle-double-right": {
+		"prefix": "fa-angle-double-right",
+		"body": "fa-angle-double-right",
+		"description": "fontawesome icon: fa-angle-double-right"
+	},
+	"fa-angle-double-up": {
+		"prefix": "fa-angle-double-up",
+		"body": "fa-angle-double-up",
+		"description": "fontawesome icon: fa-angle-double-up"
+	},
+	"fa-angle-down": {
+		"prefix": "fa-angle-down",
+		"body": "fa-angle-down",
+		"description": "fontawesome icon: fa-angle-down"
+	},
+	"fa-angle-left": {
+		"prefix": "fa-angle-left",
+		"body": "fa-angle-left",
+		"description": "fontawesome icon: fa-angle-left"
+	},
+	"fa-angle-right": {
+		"prefix": "fa-angle-right",
+		"body": "fa-angle-right",
+		"description": "fontawesome icon: fa-angle-right"
+	},
+	"fa-angle-up": {
+		"prefix": "fa-angle-up",
+		"body": "fa-angle-up",
+		"description": "fontawesome icon: fa-angle-up"
+	},
+	"fa-apple": {
+		"prefix": "fa-apple",
+		"body": "fa-apple",
+		"description": "fontawesome icon: fa-apple"
+	},
+	"fa-archive": {
+		"prefix": "fa-archive",
+		"body": "fa-archive",
+		"description": "fontawesome icon: fa-archive"
+	},
+	"fa-area-chart": {
+		"prefix": "fa-area-chart",
+		"body": "fa-area-chart",
+		"description": "fontawesome icon: fa-area-chart"
+	},
+	"fa-arrow-circle-down": {
+		"prefix": "fa-arrow-circle-down",
+		"body": "fa-arrow-circle-down",
+		"description": "fontawesome icon: fa-arrow-circle-down"
+	},
+	"fa-arrow-circle-left": {
+		"prefix": "fa-arrow-circle-left",
+		"body": "fa-arrow-circle-left",
+		"description": "fontawesome icon: fa-arrow-circle-left"
+	},
+	"fa-arrow-circle-o-down": {
+		"prefix": "fa-arrow-circle-o-down",
+		"body": "fa-arrow-circle-o-down",
+		"description": "fontawesome icon: fa-arrow-circle-o-down"
+	},
+	"fa-arrow-circle-o-left": {
+		"prefix": "fa-arrow-circle-o-left",
+		"body": "fa-arrow-circle-o-left",
+		"description": "fontawesome icon: fa-arrow-circle-o-left"
+	},
+	"fa-arrow-circle-o-right": {
+		"prefix": "fa-arrow-circle-o-right",
+		"body": "fa-arrow-circle-o-right",
+		"description": "fontawesome icon: fa-arrow-circle-o-right"
+	},
+	"fa-arrow-circle-o-up": {
+		"prefix": "fa-arrow-circle-o-up",
+		"body": "fa-arrow-circle-o-up",
+		"description": "fontawesome icon: fa-arrow-circle-o-up"
+	},
+	"fa-arrow-circle-right": {
+		"prefix": "fa-arrow-circle-right",
+		"body": "fa-arrow-circle-right",
+		"description": "fontawesome icon: fa-arrow-circle-right"
+	},
+	"fa-arrow-circle-up": {
+		"prefix": "fa-arrow-circle-up",
+		"body": "fa-arrow-circle-up",
+		"description": "fontawesome icon: fa-arrow-circle-up"
+	},
+	"fa-arrow-down": {
+		"prefix": "fa-arrow-down",
+		"body": "fa-arrow-down",
+		"description": "fontawesome icon: fa-arrow-down"
+	},
+	"fa-arrow-left": {
+		"prefix": "fa-arrow-left",
+		"body": "fa-arrow-left",
+		"description": "fontawesome icon: fa-arrow-left"
+	},
+	"fa-arrow-right": {
+		"prefix": "fa-arrow-right",
+		"body": "fa-arrow-right",
+		"description": "fontawesome icon: fa-arrow-right"
+	},
+	"fa-arrow-up": {
+		"prefix": "fa-arrow-up",
+		"body": "fa-arrow-up",
+		"description": "fontawesome icon: fa-arrow-up"
+	},
+	"fa-arrows": {
+		"prefix": "fa-arrows",
+		"body": "fa-arrows",
+		"description": "fontawesome icon: fa-arrows"
+	},
+	"fa-arrows-alt": {
+		"prefix": "fa-arrows-alt",
+		"body": "fa-arrows-alt",
+		"description": "fontawesome icon: fa-arrows-alt"
+	},
+	"fa-arrows-h": {
+		"prefix": "fa-arrows-h",
+		"body": "fa-arrows-h",
+		"description": "fontawesome icon: fa-arrows-h"
+	},
+	"fa-arrows-v": {
+		"prefix": "fa-arrows-v",
+		"body": "fa-arrows-v",
+		"description": "fontawesome icon: fa-arrows-v"
+	},
+	"fa-asl-interpreting": {
+		"prefix": "fa-asl-interpreting",
+		"body": "fa-asl-interpreting",
+		"description": "fontawesome icon: fa-asl-interpreting"
+	},
+	"fa-assistive-listening-systems": {
+		"prefix": "fa-assistive-listening-systems",
+		"body": "fa-assistive-listening-systems",
+		"description": "fontawesome icon: fa-assistive-listening-systems"
+	},
+	"fa-asterisk": {
+		"prefix": "fa-asterisk",
+		"body": "fa-asterisk",
+		"description": "fontawesome icon: fa-asterisk"
+	},
+	"fa-at": {
+		"prefix": "fa-at",
+		"body": "fa-at",
+		"description": "fontawesome icon: fa-at"
+	},
+	"fa-audio-description": {
+		"prefix": "fa-audio-description",
+		"body": "fa-audio-description",
+		"description": "fontawesome icon: fa-audio-description"
+	},
+	"fa-automobile": {
+		"prefix": "fa-automobile",
+		"body": "fa-automobile",
+		"description": "fontawesome icon: fa-automobile"
+	},
+	"fa-backward": {
+		"prefix": "fa-backward",
+		"body": "fa-backward",
+		"description": "fontawesome icon: fa-backward"
+	},
+	"fa-balance-scale": {
+		"prefix": "fa-balance-scale",
+		"body": "fa-balance-scale",
+		"description": "fontawesome icon: fa-balance-scale"
+	},
+	"fa-ban": {
+		"prefix": "fa-ban",
+		"body": "fa-ban",
+		"description": "fontawesome icon: fa-ban"
+	},
+	"fa-bandcamp": {
+		"prefix": "fa-bandcamp",
+		"body": "fa-bandcamp",
+		"description": "fontawesome icon: fa-bandcamp"
+	},
+	"fa-bank": {
+		"prefix": "fa-bank",
+		"body": "fa-bank",
+		"description": "fontawesome icon: fa-bank"
+	},
+	"fa-bar-chart": {
+		"prefix": "fa-bar-chart",
+		"body": "fa-bar-chart",
+		"description": "fontawesome icon: fa-bar-chart"
+	},
+	"fa-bar-chart-o": {
+		"prefix": "fa-bar-chart-o",
+		"body": "fa-bar-chart-o",
+		"description": "fontawesome icon: fa-bar-chart-o"
+	},
+	"fa-barcode": {
+		"prefix": "fa-barcode",
+		"body": "fa-barcode",
+		"description": "fontawesome icon: fa-barcode"
+	},
+	"fa-bars": {
+		"prefix": "fa-bars",
+		"body": "fa-bars",
+		"description": "fontawesome icon: fa-bars"
+	},
+	"fa-bath": {
+		"prefix": "fa-bath",
+		"body": "fa-bath",
+		"description": "fontawesome icon: fa-bath"
+	},
+	"fa-bathtub": {
+		"prefix": "fa-bathtub",
+		"body": "fa-bathtub",
+		"description": "fontawesome icon: fa-bathtub"
+	},
+	"fa-battery": {
+		"prefix": "fa-battery",
+		"body": "fa-battery",
+		"description": "fontawesome icon: fa-battery"
+	},
+	"fa-battery-0": {
+		"prefix": "fa-battery-0",
+		"body": "fa-battery-0",
+		"description": "fontawesome icon: fa-battery-0"
+	},
+	"fa-battery-1": {
+		"prefix": "fa-battery-1",
+		"body": "fa-battery-1",
+		"description": "fontawesome icon: fa-battery-1"
+	},
+	"fa-battery-2": {
+		"prefix": "fa-battery-2",
+		"body": "fa-battery-2",
+		"description": "fontawesome icon: fa-battery-2"
+	},
+	"fa-battery-3": {
+		"prefix": "fa-battery-3",
+		"body": "fa-battery-3",
+		"description": "fontawesome icon: fa-battery-3"
+	},
+	"fa-battery-4": {
+		"prefix": "fa-battery-4",
+		"body": "fa-battery-4",
+		"description": "fontawesome icon: fa-battery-4"
+	},
+	"fa-battery-empty": {
+		"prefix": "fa-battery-empty",
+		"body": "fa-battery-empty",
+		"description": "fontawesome icon: fa-battery-empty"
+	},
+	"fa-battery-full": {
+		"prefix": "fa-battery-full",
+		"body": "fa-battery-full",
+		"description": "fontawesome icon: fa-battery-full"
+	},
+	"fa-battery-half": {
+		"prefix": "fa-battery-half",
+		"body": "fa-battery-half",
+		"description": "fontawesome icon: fa-battery-half"
+	},
+	"fa-battery-quarter": {
+		"prefix": "fa-battery-quarter",
+		"body": "fa-battery-quarter",
+		"description": "fontawesome icon: fa-battery-quarter"
+	},
+	"fa-battery-three-quarters": {
+		"prefix": "fa-battery-three-quarters",
+		"body": "fa-battery-three-quarters",
+		"description": "fontawesome icon: fa-battery-three-quarters"
+	},
+	"fa-bed": {
+		"prefix": "fa-bed",
+		"body": "fa-bed",
+		"description": "fontawesome icon: fa-bed"
+	},
+	"fa-beer": {
+		"prefix": "fa-beer",
+		"body": "fa-beer",
+		"description": "fontawesome icon: fa-beer"
+	},
+	"fa-behance": {
+		"prefix": "fa-behance",
+		"body": "fa-behance",
+		"description": "fontawesome icon: fa-behance"
+	},
+	"fa-behance-square": {
+		"prefix": "fa-behance-square",
+		"body": "fa-behance-square",
+		"description": "fontawesome icon: fa-behance-square"
+	},
+	"fa-bell": {
+		"prefix": "fa-bell",
+		"body": "fa-bell",
+		"description": "fontawesome icon: fa-bell"
+	},
+	"fa-bell-o": {
+		"prefix": "fa-bell-o",
+		"body": "fa-bell-o",
+		"description": "fontawesome icon: fa-bell-o"
+	},
+	"fa-bell-slash": {
+		"prefix": "fa-bell-slash",
+		"body": "fa-bell-slash",
+		"description": "fontawesome icon: fa-bell-slash"
+	},
+	"fa-bell-slash-o": {
+		"prefix": "fa-bell-slash-o",
+		"body": "fa-bell-slash-o",
+		"description": "fontawesome icon: fa-bell-slash-o"
+	},
+	"fa-bicycle": {
+		"prefix": "fa-bicycle",
+		"body": "fa-bicycle",
+		"description": "fontawesome icon: fa-bicycle"
+	},
+	"fa-binoculars": {
+		"prefix": "fa-binoculars",
+		"body": "fa-binoculars",
+		"description": "fontawesome icon: fa-binoculars"
+	},
+	"fa-birthday-cake": {
+		"prefix": "fa-birthday-cake",
+		"body": "fa-birthday-cake",
+		"description": "fontawesome icon: fa-birthday-cake"
+	},
+	"fa-bitbucket": {
+		"prefix": "fa-bitbucket",
+		"body": "fa-bitbucket",
+		"description": "fontawesome icon: fa-bitbucket"
+	},
+	"fa-bitbucket-square": {
+		"prefix": "fa-bitbucket-square",
+		"body": "fa-bitbucket-square",
+		"description": "fontawesome icon: fa-bitbucket-square"
+	},
+	"fa-bitcoin": {
+		"prefix": "fa-bitcoin",
+		"body": "fa-bitcoin",
+		"description": "fontawesome icon: fa-bitcoin"
+	},
+	"fa-black-tie": {
+		"prefix": "fa-black-tie",
+		"body": "fa-black-tie",
+		"description": "fontawesome icon: fa-black-tie"
+	},
+	"fa-blind": {
+		"prefix": "fa-blind",
+		"body": "fa-blind",
+		"description": "fontawesome icon: fa-blind"
+	},
+	"fa-bluetooth": {
+		"prefix": "fa-bluetooth",
+		"body": "fa-bluetooth",
+		"description": "fontawesome icon: fa-bluetooth"
+	},
+	"fa-bluetooth-b": {
+		"prefix": "fa-bluetooth-b",
+		"body": "fa-bluetooth-b",
+		"description": "fontawesome icon: fa-bluetooth-b"
+	},
+	"fa-bold": {
+		"prefix": "fa-bold",
+		"body": "fa-bold",
+		"description": "fontawesome icon: fa-bold"
+	},
+	"fa-bolt": {
+		"prefix": "fa-bolt",
+		"body": "fa-bolt",
+		"description": "fontawesome icon: fa-bolt"
+	},
+	"fa-bomb": {
+		"prefix": "fa-bomb",
+		"body": "fa-bomb",
+		"description": "fontawesome icon: fa-bomb"
+	},
+	"fa-book": {
+		"prefix": "fa-book",
+		"body": "fa-book",
+		"description": "fontawesome icon: fa-book"
+	},
+	"fa-bookmark": {
+		"prefix": "fa-bookmark",
+		"body": "fa-bookmark",
+		"description": "fontawesome icon: fa-bookmark"
+	},
+	"fa-bookmark-o": {
+		"prefix": "fa-bookmark-o",
+		"body": "fa-bookmark-o",
+		"description": "fontawesome icon: fa-bookmark-o"
+	},
+	"fa-braille": {
+		"prefix": "fa-braille",
+		"body": "fa-braille",
+		"description": "fontawesome icon: fa-braille"
+	},
+	"fa-briefcase": {
+		"prefix": "fa-briefcase",
+		"body": "fa-briefcase",
+		"description": "fontawesome icon: fa-briefcase"
+	},
+	"fa-btc": {
+		"prefix": "fa-btc",
+		"body": "fa-btc",
+		"description": "fontawesome icon: fa-btc"
+	},
+	"fa-bug": {
+		"prefix": "fa-bug",
+		"body": "fa-bug",
+		"description": "fontawesome icon: fa-bug"
+	},
+	"fa-building": {
+		"prefix": "fa-building",
+		"body": "fa-building",
+		"description": "fontawesome icon: fa-building"
+	},
+	"fa-building-o": {
+		"prefix": "fa-building-o",
+		"body": "fa-building-o",
+		"description": "fontawesome icon: fa-building-o"
+	},
+	"fa-bullhorn": {
+		"prefix": "fa-bullhorn",
+		"body": "fa-bullhorn",
+		"description": "fontawesome icon: fa-bullhorn"
+	},
+	"fa-bullseye": {
+		"prefix": "fa-bullseye",
+		"body": "fa-bullseye",
+		"description": "fontawesome icon: fa-bullseye"
+	},
+	"fa-bus": {
+		"prefix": "fa-bus",
+		"body": "fa-bus",
+		"description": "fontawesome icon: fa-bus"
+	},
+	"fa-buysellads": {
+		"prefix": "fa-buysellads",
+		"body": "fa-buysellads",
+		"description": "fontawesome icon: fa-buysellads"
+	},
+	"fa-cab": {
+		"prefix": "fa-cab",
+		"body": "fa-cab",
+		"description": "fontawesome icon: fa-cab"
+	},
+	"fa-calculator": {
+		"prefix": "fa-calculator",
+		"body": "fa-calculator",
+		"description": "fontawesome icon: fa-calculator"
+	},
+	"fa-calendar": {
+		"prefix": "fa-calendar",
+		"body": "fa-calendar",
+		"description": "fontawesome icon: fa-calendar"
+	},
+	"fa-calendar-check-o": {
+		"prefix": "fa-calendar-check-o",
+		"body": "fa-calendar-check-o",
+		"description": "fontawesome icon: fa-calendar-check-o"
+	},
+	"fa-calendar-minus-o": {
+		"prefix": "fa-calendar-minus-o",
+		"body": "fa-calendar-minus-o",
+		"description": "fontawesome icon: fa-calendar-minus-o"
+	},
+	"fa-calendar-o": {
+		"prefix": "fa-calendar-o",
+		"body": "fa-calendar-o",
+		"description": "fontawesome icon: fa-calendar-o"
+	},
+	"fa-calendar-plus-o": {
+		"prefix": "fa-calendar-plus-o",
+		"body": "fa-calendar-plus-o",
+		"description": "fontawesome icon: fa-calendar-plus-o"
+	},
+	"fa-calendar-times-o": {
+		"prefix": "fa-calendar-times-o",
+		"body": "fa-calendar-times-o",
+		"description": "fontawesome icon: fa-calendar-times-o"
+	},
+	"fa-camera": {
+		"prefix": "fa-camera",
+		"body": "fa-camera",
+		"description": "fontawesome icon: fa-camera"
+	},
+	"fa-camera-retro": {
+		"prefix": "fa-camera-retro",
+		"body": "fa-camera-retro",
+		"description": "fontawesome icon: fa-camera-retro"
+	},
+	"fa-car": {
+		"prefix": "fa-car",
+		"body": "fa-car",
+		"description": "fontawesome icon: fa-car"
+	},
+	"fa-caret-down": {
+		"prefix": "fa-caret-down",
+		"body": "fa-caret-down",
+		"description": "fontawesome icon: fa-caret-down"
+	},
+	"fa-caret-left": {
+		"prefix": "fa-caret-left",
+		"body": "fa-caret-left",
+		"description": "fontawesome icon: fa-caret-left"
+	},
+	"fa-caret-right": {
+		"prefix": "fa-caret-right",
+		"body": "fa-caret-right",
+		"description": "fontawesome icon: fa-caret-right"
+	},
+	"fa-caret-square-o-down": {
+		"prefix": "fa-caret-square-o-down",
+		"body": "fa-caret-square-o-down",
+		"description": "fontawesome icon: fa-caret-square-o-down"
+	},
+	"fa-caret-square-o-left": {
+		"prefix": "fa-caret-square-o-left",
+		"body": "fa-caret-square-o-left",
+		"description": "fontawesome icon: fa-caret-square-o-left"
+	},
+	"fa-caret-square-o-right": {
+		"prefix": "fa-caret-square-o-right",
+		"body": "fa-caret-square-o-right",
+		"description": "fontawesome icon: fa-caret-square-o-right"
+	},
+	"fa-caret-square-o-up": {
+		"prefix": "fa-caret-square-o-up",
+		"body": "fa-caret-square-o-up",
+		"description": "fontawesome icon: fa-caret-square-o-up"
+	},
+	"fa-caret-up": {
+		"prefix": "fa-caret-up",
+		"body": "fa-caret-up",
+		"description": "fontawesome icon: fa-caret-up"
+	},
+	"fa-cart-arrow-down": {
+		"prefix": "fa-cart-arrow-down",
+		"body": "fa-cart-arrow-down",
+		"description": "fontawesome icon: fa-cart-arrow-down"
+	},
+	"fa-cart-plus": {
+		"prefix": "fa-cart-plus",
+		"body": "fa-cart-plus",
+		"description": "fontawesome icon: fa-cart-plus"
+	},
+	"fa-cc": {
+		"prefix": "fa-cc",
+		"body": "fa-cc",
+		"description": "fontawesome icon: fa-cc"
+	},
+	"fa-cc-amex": {
+		"prefix": "fa-cc-amex",
+		"body": "fa-cc-amex",
+		"description": "fontawesome icon: fa-cc-amex"
+	},
+	"fa-cc-diners-club": {
+		"prefix": "fa-cc-diners-club",
+		"body": "fa-cc-diners-club",
+		"description": "fontawesome icon: fa-cc-diners-club"
+	},
+	"fa-cc-discover": {
+		"prefix": "fa-cc-discover",
+		"body": "fa-cc-discover",
+		"description": "fontawesome icon: fa-cc-discover"
+	},
+	"fa-cc-jcb": {
+		"prefix": "fa-cc-jcb",
+		"body": "fa-cc-jcb",
+		"description": "fontawesome icon: fa-cc-jcb"
+	},
+	"fa-cc-mastercard": {
+		"prefix": "fa-cc-mastercard",
+		"body": "fa-cc-mastercard",
+		"description": "fontawesome icon: fa-cc-mastercard"
+	},
+	"fa-cc-paypal": {
+		"prefix": "fa-cc-paypal",
+		"body": "fa-cc-paypal",
+		"description": "fontawesome icon: fa-cc-paypal"
+	},
+	"fa-cc-stripe": {
+		"prefix": "fa-cc-stripe",
+		"body": "fa-cc-stripe",
+		"description": "fontawesome icon: fa-cc-stripe"
+	},
+	"fa-cc-visa": {
+		"prefix": "fa-cc-visa",
+		"body": "fa-cc-visa",
+		"description": "fontawesome icon: fa-cc-visa"
+	},
+	"fa-certificate": {
+		"prefix": "fa-certificate",
+		"body": "fa-certificate",
+		"description": "fontawesome icon: fa-certificate"
+	},
+	"fa-chain": {
+		"prefix": "fa-chain",
+		"body": "fa-chain",
+		"description": "fontawesome icon: fa-chain"
+	},
+	"fa-chain-broken": {
+		"prefix": "fa-chain-broken",
+		"body": "fa-chain-broken",
+		"description": "fontawesome icon: fa-chain-broken"
+	},
+	"fa-check": {
+		"prefix": "fa-check",
+		"body": "fa-check",
+		"description": "fontawesome icon: fa-check"
+	},
+	"fa-check-circle": {
+		"prefix": "fa-check-circle",
+		"body": "fa-check-circle",
+		"description": "fontawesome icon: fa-check-circle"
+	},
+	"fa-check-circle-o": {
+		"prefix": "fa-check-circle-o",
+		"body": "fa-check-circle-o",
+		"description": "fontawesome icon: fa-check-circle-o"
+	},
+	"fa-check-square": {
+		"prefix": "fa-check-square",
+		"body": "fa-check-square",
+		"description": "fontawesome icon: fa-check-square"
+	},
+	"fa-check-square-o": {
+		"prefix": "fa-check-square-o",
+		"body": "fa-check-square-o",
+		"description": "fontawesome icon: fa-check-square-o"
+	},
+	"fa-chevron-circle-down": {
+		"prefix": "fa-chevron-circle-down",
+		"body": "fa-chevron-circle-down",
+		"description": "fontawesome icon: fa-chevron-circle-down"
+	},
+	"fa-chevron-circle-left": {
+		"prefix": "fa-chevron-circle-left",
+		"body": "fa-chevron-circle-left",
+		"description": "fontawesome icon: fa-chevron-circle-left"
+	},
+	"fa-chevron-circle-right": {
+		"prefix": "fa-chevron-circle-right",
+		"body": "fa-chevron-circle-right",
+		"description": "fontawesome icon: fa-chevron-circle-right"
+	},
+	"fa-chevron-circle-up": {
+		"prefix": "fa-chevron-circle-up",
+		"body": "fa-chevron-circle-up",
+		"description": "fontawesome icon: fa-chevron-circle-up"
+	},
+	"fa-chevron-down": {
+		"prefix": "fa-chevron-down",
+		"body": "fa-chevron-down",
+		"description": "fontawesome icon: fa-chevron-down"
+	},
+	"fa-chevron-left": {
+		"prefix": "fa-chevron-left",
+		"body": "fa-chevron-left",
+		"description": "fontawesome icon: fa-chevron-left"
+	},
+	"fa-chevron-right": {
+		"prefix": "fa-chevron-right",
+		"body": "fa-chevron-right",
+		"description": "fontawesome icon: fa-chevron-right"
+	},
+	"fa-chevron-up": {
+		"prefix": "fa-chevron-up",
+		"body": "fa-chevron-up",
+		"description": "fontawesome icon: fa-chevron-up"
+	},
+	"fa-child": {
+		"prefix": "fa-child",
+		"body": "fa-child",
+		"description": "fontawesome icon: fa-child"
+	},
+	"fa-chrome": {
+		"prefix": "fa-chrome",
+		"body": "fa-chrome",
+		"description": "fontawesome icon: fa-chrome"
+	},
+	"fa-circle": {
+		"prefix": "fa-circle",
+		"body": "fa-circle",
+		"description": "fontawesome icon: fa-circle"
+	},
+	"fa-circle-o": {
+		"prefix": "fa-circle-o",
+		"body": "fa-circle-o",
+		"description": "fontawesome icon: fa-circle-o"
+	},
+	"fa-circle-o-notch": {
+		"prefix": "fa-circle-o-notch",
+		"body": "fa-circle-o-notch",
+		"description": "fontawesome icon: fa-circle-o-notch"
+	},
+	"fa-circle-thin": {
+		"prefix": "fa-circle-thin",
+		"body": "fa-circle-thin",
+		"description": "fontawesome icon: fa-circle-thin"
+	},
+	"fa-clipboard": {
+		"prefix": "fa-clipboard",
+		"body": "fa-clipboard",
+		"description": "fontawesome icon: fa-clipboard"
+	},
+	"fa-clock-o": {
+		"prefix": "fa-clock-o",
+		"body": "fa-clock-o",
+		"description": "fontawesome icon: fa-clock-o"
+	},
+	"fa-clone": {
+		"prefix": "fa-clone",
+		"body": "fa-clone",
+		"description": "fontawesome icon: fa-clone"
+	},
+	"fa-close": {
+		"prefix": "fa-close",
+		"body": "fa-close",
+		"description": "fontawesome icon: fa-close"
+	},
+	"fa-cloud": {
+		"prefix": "fa-cloud",
+		"body": "fa-cloud",
+		"description": "fontawesome icon: fa-cloud"
+	},
+	"fa-cloud-download": {
+		"prefix": "fa-cloud-download",
+		"body": "fa-cloud-download",
+		"description": "fontawesome icon: fa-cloud-download"
+	},
+	"fa-cloud-upload": {
+		"prefix": "fa-cloud-upload",
+		"body": "fa-cloud-upload",
+		"description": "fontawesome icon: fa-cloud-upload"
+	},
+	"fa-cny": {
+		"prefix": "fa-cny",
+		"body": "fa-cny",
+		"description": "fontawesome icon: fa-cny"
+	},
+	"fa-code": {
+		"prefix": "fa-code",
+		"body": "fa-code",
+		"description": "fontawesome icon: fa-code"
+	},
+	"fa-code-fork": {
+		"prefix": "fa-code-fork",
+		"body": "fa-code-fork",
+		"description": "fontawesome icon: fa-code-fork"
+	},
+	"fa-codepen": {
+		"prefix": "fa-codepen",
+		"body": "fa-codepen",
+		"description": "fontawesome icon: fa-codepen"
+	},
+	"fa-codiepie": {
+		"prefix": "fa-codiepie",
+		"body": "fa-codiepie",
+		"description": "fontawesome icon: fa-codiepie"
+	},
+	"fa-coffee": {
+		"prefix": "fa-coffee",
+		"body": "fa-coffee",
+		"description": "fontawesome icon: fa-coffee"
+	},
+	"fa-cog": {
+		"prefix": "fa-cog",
+		"body": "fa-cog",
+		"description": "fontawesome icon: fa-cog"
+	},
+	"fa-cogs": {
+		"prefix": "fa-cogs",
+		"body": "fa-cogs",
+		"description": "fontawesome icon: fa-cogs"
+	},
+	"fa-columns": {
+		"prefix": "fa-columns",
+		"body": "fa-columns",
+		"description": "fontawesome icon: fa-columns"
+	},
+	"fa-comment": {
+		"prefix": "fa-comment",
+		"body": "fa-comment",
+		"description": "fontawesome icon: fa-comment"
+	},
+	"fa-comment-o": {
+		"prefix": "fa-comment-o",
+		"body": "fa-comment-o",
+		"description": "fontawesome icon: fa-comment-o"
+	},
+	"fa-commenting": {
+		"prefix": "fa-commenting",
+		"body": "fa-commenting",
+		"description": "fontawesome icon: fa-commenting"
+	},
+	"fa-commenting-o": {
+		"prefix": "fa-commenting-o",
+		"body": "fa-commenting-o",
+		"description": "fontawesome icon: fa-commenting-o"
+	},
+	"fa-comments": {
+		"prefix": "fa-comments",
+		"body": "fa-comments",
+		"description": "fontawesome icon: fa-comments"
+	},
+	"fa-comments-o": {
+		"prefix": "fa-comments-o",
+		"body": "fa-comments-o",
+		"description": "fontawesome icon: fa-comments-o"
+	},
+	"fa-compass": {
+		"prefix": "fa-compass",
+		"body": "fa-compass",
+		"description": "fontawesome icon: fa-compass"
+	},
+	"fa-compress": {
+		"prefix": "fa-compress",
+		"body": "fa-compress",
+		"description": "fontawesome icon: fa-compress"
+	},
+	"fa-connectdevelop": {
+		"prefix": "fa-connectdevelop",
+		"body": "fa-connectdevelop",
+		"description": "fontawesome icon: fa-connectdevelop"
+	},
+	"fa-contao": {
+		"prefix": "fa-contao",
+		"body": "fa-contao",
+		"description": "fontawesome icon: fa-contao"
+	},
+	"fa-copy": {
+		"prefix": "fa-copy",
+		"body": "fa-copy",
+		"description": "fontawesome icon: fa-copy"
+	},
+	"fa-copyright": {
+		"prefix": "fa-copyright",
+		"body": "fa-copyright",
+		"description": "fontawesome icon: fa-copyright"
+	},
+	"fa-creative-commons": {
+		"prefix": "fa-creative-commons",
+		"body": "fa-creative-commons",
+		"description": "fontawesome icon: fa-creative-commons"
+	},
+	"fa-credit-card": {
+		"prefix": "fa-credit-card",
+		"body": "fa-credit-card",
+		"description": "fontawesome icon: fa-credit-card"
+	},
+	"fa-credit-card-alt": {
+		"prefix": "fa-credit-card-alt",
+		"body": "fa-credit-card-alt",
+		"description": "fontawesome icon: fa-credit-card-alt"
+	},
+	"fa-crop": {
+		"prefix": "fa-crop",
+		"body": "fa-crop",
+		"description": "fontawesome icon: fa-crop"
+	},
+	"fa-crosshairs": {
+		"prefix": "fa-crosshairs",
+		"body": "fa-crosshairs",
+		"description": "fontawesome icon: fa-crosshairs"
+	},
+	"fa-css3": {
+		"prefix": "fa-css3",
+		"body": "fa-css3",
+		"description": "fontawesome icon: fa-css3"
+	},
+	"fa-cube": {
+		"prefix": "fa-cube",
+		"body": "fa-cube",
+		"description": "fontawesome icon: fa-cube"
+	},
+	"fa-cubes": {
+		"prefix": "fa-cubes",
+		"body": "fa-cubes",
+		"description": "fontawesome icon: fa-cubes"
+	},
+	"fa-cut": {
+		"prefix": "fa-cut",
+		"body": "fa-cut",
+		"description": "fontawesome icon: fa-cut"
+	},
+	"fa-cutlery": {
+		"prefix": "fa-cutlery",
+		"body": "fa-cutlery",
+		"description": "fontawesome icon: fa-cutlery"
+	},
+	"fa-dashboard": {
+		"prefix": "fa-dashboard",
+		"body": "fa-dashboard",
+		"description": "fontawesome icon: fa-dashboard"
+	},
+	"fa-dashcube": {
+		"prefix": "fa-dashcube",
+		"body": "fa-dashcube",
+		"description": "fontawesome icon: fa-dashcube"
+	},
+	"fa-database": {
+		"prefix": "fa-database",
+		"body": "fa-database",
+		"description": "fontawesome icon: fa-database"
+	},
+	"fa-deaf": {
+		"prefix": "fa-deaf",
+		"body": "fa-deaf",
+		"description": "fontawesome icon: fa-deaf"
+	},
+	"fa-deafness": {
+		"prefix": "fa-deafness",
+		"body": "fa-deafness",
+		"description": "fontawesome icon: fa-deafness"
+	},
+	"fa-dedent": {
+		"prefix": "fa-dedent",
+		"body": "fa-dedent",
+		"description": "fontawesome icon: fa-dedent"
+	},
+	"fa-delicious": {
+		"prefix": "fa-delicious",
+		"body": "fa-delicious",
+		"description": "fontawesome icon: fa-delicious"
+	},
+	"fa-desktop": {
+		"prefix": "fa-desktop",
+		"body": "fa-desktop",
+		"description": "fontawesome icon: fa-desktop"
+	},
+	"fa-deviantart": {
+		"prefix": "fa-deviantart",
+		"body": "fa-deviantart",
+		"description": "fontawesome icon: fa-deviantart"
+	},
+	"fa-diamond": {
+		"prefix": "fa-diamond",
+		"body": "fa-diamond",
+		"description": "fontawesome icon: fa-diamond"
+	},
+	"fa-digg": {
+		"prefix": "fa-digg",
+		"body": "fa-digg",
+		"description": "fontawesome icon: fa-digg"
+	},
+	"fa-dollar": {
+		"prefix": "fa-dollar",
+		"body": "fa-dollar",
+		"description": "fontawesome icon: fa-dollar"
+	},
+	"fa-dot-circle-o": {
+		"prefix": "fa-dot-circle-o",
+		"body": "fa-dot-circle-o",
+		"description": "fontawesome icon: fa-dot-circle-o"
+	},
+	"fa-download": {
+		"prefix": "fa-download",
+		"body": "fa-download",
+		"description": "fontawesome icon: fa-download"
+	},
+	"fa-dribbble": {
+		"prefix": "fa-dribbble",
+		"body": "fa-dribbble",
+		"description": "fontawesome icon: fa-dribbble"
+	},
+	"fa-drivers-license": {
+		"prefix": "fa-drivers-license",
+		"body": "fa-drivers-license",
+		"description": "fontawesome icon: fa-drivers-license"
+	},
+	"fa-drivers-license-o": {
+		"prefix": "fa-drivers-license-o",
+		"body": "fa-drivers-license-o",
+		"description": "fontawesome icon: fa-drivers-license-o"
+	},
+	"fa-dropbox": {
+		"prefix": "fa-dropbox",
+		"body": "fa-dropbox",
+		"description": "fontawesome icon: fa-dropbox"
+	},
+	"fa-drupal": {
+		"prefix": "fa-drupal",
+		"body": "fa-drupal",
+		"description": "fontawesome icon: fa-drupal"
+	},
+	"fa-edge": {
+		"prefix": "fa-edge",
+		"body": "fa-edge",
+		"description": "fontawesome icon: fa-edge"
+	},
+	"fa-edit": {
+		"prefix": "fa-edit",
+		"body": "fa-edit",
+		"description": "fontawesome icon: fa-edit"
+	},
+	"fa-eercast": {
+		"prefix": "fa-eercast",
+		"body": "fa-eercast",
+		"description": "fontawesome icon: fa-eercast"
+	},
+	"fa-eject": {
+		"prefix": "fa-eject",
+		"body": "fa-eject",
+		"description": "fontawesome icon: fa-eject"
+	},
+	"fa-ellipsis-h": {
+		"prefix": "fa-ellipsis-h",
+		"body": "fa-ellipsis-h",
+		"description": "fontawesome icon: fa-ellipsis-h"
+	},
+	"fa-ellipsis-v": {
+		"prefix": "fa-ellipsis-v",
+		"body": "fa-ellipsis-v",
+		"description": "fontawesome icon: fa-ellipsis-v"
+	},
+	"fa-empire": {
+		"prefix": "fa-empire",
+		"body": "fa-empire",
+		"description": "fontawesome icon: fa-empire"
+	},
+	"fa-envelope": {
+		"prefix": "fa-envelope",
+		"body": "fa-envelope",
+		"description": "fontawesome icon: fa-envelope"
+	},
+	"fa-envelope-o": {
+		"prefix": "fa-envelope-o",
+		"body": "fa-envelope-o",
+		"description": "fontawesome icon: fa-envelope-o"
+	},
+	"fa-envelope-open": {
+		"prefix": "fa-envelope-open",
+		"body": "fa-envelope-open",
+		"description": "fontawesome icon: fa-envelope-open"
+	},
+	"fa-envelope-open-o": {
+		"prefix": "fa-envelope-open-o",
+		"body": "fa-envelope-open-o",
+		"description": "fontawesome icon: fa-envelope-open-o"
+	},
+	"fa-envelope-square": {
+		"prefix": "fa-envelope-square",
+		"body": "fa-envelope-square",
+		"description": "fontawesome icon: fa-envelope-square"
+	},
+	"fa-envira": {
+		"prefix": "fa-envira",
+		"body": "fa-envira",
+		"description": "fontawesome icon: fa-envira"
+	},
+	"fa-eraser": {
+		"prefix": "fa-eraser",
+		"body": "fa-eraser",
+		"description": "fontawesome icon: fa-eraser"
+	},
+	"fa-etsy": {
+		"prefix": "fa-etsy",
+		"body": "fa-etsy",
+		"description": "fontawesome icon: fa-etsy"
+	},
+	"fa-eur": {
+		"prefix": "fa-eur",
+		"body": "fa-eur",
+		"description": "fontawesome icon: fa-eur"
+	},
+	"fa-euro": {
+		"prefix": "fa-euro",
+		"body": "fa-euro",
+		"description": "fontawesome icon: fa-euro"
+	},
+	"fa-exchange": {
+		"prefix": "fa-exchange",
+		"body": "fa-exchange",
+		"description": "fontawesome icon: fa-exchange"
+	},
+	"fa-exclamation": {
+		"prefix": "fa-exclamation",
+		"body": "fa-exclamation",
+		"description": "fontawesome icon: fa-exclamation"
+	},
+	"fa-exclamation-circle": {
+		"prefix": "fa-exclamation-circle",
+		"body": "fa-exclamation-circle",
+		"description": "fontawesome icon: fa-exclamation-circle"
+	},
+	"fa-exclamation-triangle": {
+		"prefix": "fa-exclamation-triangle",
+		"body": "fa-exclamation-triangle",
+		"description": "fontawesome icon: fa-exclamation-triangle"
+	},
+	"fa-expand": {
+		"prefix": "fa-expand",
+		"body": "fa-expand",
+		"description": "fontawesome icon: fa-expand"
+	},
+	"fa-expeditedssl": {
+		"prefix": "fa-expeditedssl",
+		"body": "fa-expeditedssl",
+		"description": "fontawesome icon: fa-expeditedssl"
+	},
+	"fa-external-link": {
+		"prefix": "fa-external-link",
+		"body": "fa-external-link",
+		"description": "fontawesome icon: fa-external-link"
+	},
+	"fa-external-link-square": {
+		"prefix": "fa-external-link-square",
+		"body": "fa-external-link-square",
+		"description": "fontawesome icon: fa-external-link-square"
+	},
+	"fa-eye": {
+		"prefix": "fa-eye",
+		"body": "fa-eye",
+		"description": "fontawesome icon: fa-eye"
+	},
+	"fa-eye-slash": {
+		"prefix": "fa-eye-slash",
+		"body": "fa-eye-slash",
+		"description": "fontawesome icon: fa-eye-slash"
+	},
+	"fa-eyedropper": {
+		"prefix": "fa-eyedropper",
+		"body": "fa-eyedropper",
+		"description": "fontawesome icon: fa-eyedropper"
+	},
+	"fa-fa": {
+		"prefix": "fa-fa",
+		"body": "fa-fa",
+		"description": "fontawesome icon: fa-fa"
+	},
+	"fa-facebook": {
+		"prefix": "fa-facebook",
+		"body": "fa-facebook",
+		"description": "fontawesome icon: fa-facebook"
+	},
+	"fa-facebook-f": {
+		"prefix": "fa-facebook-f",
+		"body": "fa-facebook-f",
+		"description": "fontawesome icon: fa-facebook-f"
+	},
+	"fa-facebook-official": {
+		"prefix": "fa-facebook-official",
+		"body": "fa-facebook-official",
+		"description": "fontawesome icon: fa-facebook-official"
+	},
+	"fa-facebook-square": {
+		"prefix": "fa-facebook-square",
+		"body": "fa-facebook-square",
+		"description": "fontawesome icon: fa-facebook-square"
+	},
+	"fa-fast-backward": {
+		"prefix": "fa-fast-backward",
+		"body": "fa-fast-backward",
+		"description": "fontawesome icon: fa-fast-backward"
+	},
+	"fa-fast-forward": {
+		"prefix": "fa-fast-forward",
+		"body": "fa-fast-forward",
+		"description": "fontawesome icon: fa-fast-forward"
+	},
+	"fa-fax": {
+		"prefix": "fa-fax",
+		"body": "fa-fax",
+		"description": "fontawesome icon: fa-fax"
+	},
+	"fa-feed": {
+		"prefix": "fa-feed",
+		"body": "fa-feed",
+		"description": "fontawesome icon: fa-feed"
+	},
+	"fa-female": {
+		"prefix": "fa-female",
+		"body": "fa-female",
+		"description": "fontawesome icon: fa-female"
+	},
+	"fa-fighter-jet": {
+		"prefix": "fa-fighter-jet",
+		"body": "fa-fighter-jet",
+		"description": "fontawesome icon: fa-fighter-jet"
+	},
+	"fa-file": {
+		"prefix": "fa-file",
+		"body": "fa-file",
+		"description": "fontawesome icon: fa-file"
+	},
+	"fa-file-archive-o": {
+		"prefix": "fa-file-archive-o",
+		"body": "fa-file-archive-o",
+		"description": "fontawesome icon: fa-file-archive-o"
+	},
+	"fa-file-audio-o": {
+		"prefix": "fa-file-audio-o",
+		"body": "fa-file-audio-o",
+		"description": "fontawesome icon: fa-file-audio-o"
+	},
+	"fa-file-code-o": {
+		"prefix": "fa-file-code-o",
+		"body": "fa-file-code-o",
+		"description": "fontawesome icon: fa-file-code-o"
+	},
+	"fa-file-excel-o": {
+		"prefix": "fa-file-excel-o",
+		"body": "fa-file-excel-o",
+		"description": "fontawesome icon: fa-file-excel-o"
+	},
+	"fa-file-image-o": {
+		"prefix": "fa-file-image-o",
+		"body": "fa-file-image-o",
+		"description": "fontawesome icon: fa-file-image-o"
+	},
+	"fa-file-movie-o": {
+		"prefix": "fa-file-movie-o",
+		"body": "fa-file-movie-o",
+		"description": "fontawesome icon: fa-file-movie-o"
+	},
+	"fa-file-o": {
+		"prefix": "fa-file-o",
+		"body": "fa-file-o",
+		"description": "fontawesome icon: fa-file-o"
+	},
+	"fa-file-pdf-o": {
+		"prefix": "fa-file-pdf-o",
+		"body": "fa-file-pdf-o",
+		"description": "fontawesome icon: fa-file-pdf-o"
+	},
+	"fa-file-photo-o": {
+		"prefix": "fa-file-photo-o",
+		"body": "fa-file-photo-o",
+		"description": "fontawesome icon: fa-file-photo-o"
+	},
+	"fa-file-picture-o": {
+		"prefix": "fa-file-picture-o",
+		"body": "fa-file-picture-o",
+		"description": "fontawesome icon: fa-file-picture-o"
+	},
+	"fa-file-powerpoint-o": {
+		"prefix": "fa-file-powerpoint-o",
+		"body": "fa-file-powerpoint-o",
+		"description": "fontawesome icon: fa-file-powerpoint-o"
+	},
+	"fa-file-sound-o": {
+		"prefix": "fa-file-sound-o",
+		"body": "fa-file-sound-o",
+		"description": "fontawesome icon: fa-file-sound-o"
+	},
+	"fa-file-text": {
+		"prefix": "fa-file-text",
+		"body": "fa-file-text",
+		"description": "fontawesome icon: fa-file-text"
+	},
+	"fa-file-text-o": {
+		"prefix": "fa-file-text-o",
+		"body": "fa-file-text-o",
+		"description": "fontawesome icon: fa-file-text-o"
+	},
+	"fa-file-video-o": {
+		"prefix": "fa-file-video-o",
+		"body": "fa-file-video-o",
+		"description": "fontawesome icon: fa-file-video-o"
+	},
+	"fa-file-word-o": {
+		"prefix": "fa-file-word-o",
+		"body": "fa-file-word-o",
+		"description": "fontawesome icon: fa-file-word-o"
+	},
+	"fa-file-zip-o": {
+		"prefix": "fa-file-zip-o",
+		"body": "fa-file-zip-o",
+		"description": "fontawesome icon: fa-file-zip-o"
+	},
+	"fa-files-o": {
+		"prefix": "fa-files-o",
+		"body": "fa-files-o",
+		"description": "fontawesome icon: fa-files-o"
+	},
+	"fa-film": {
+		"prefix": "fa-film",
+		"body": "fa-film",
+		"description": "fontawesome icon: fa-film"
+	},
+	"fa-filter": {
+		"prefix": "fa-filter",
+		"body": "fa-filter",
+		"description": "fontawesome icon: fa-filter"
+	},
+	"fa-fire": {
+		"prefix": "fa-fire",
+		"body": "fa-fire",
+		"description": "fontawesome icon: fa-fire"
+	},
+	"fa-fire-extinguisher": {
+		"prefix": "fa-fire-extinguisher",
+		"body": "fa-fire-extinguisher",
+		"description": "fontawesome icon: fa-fire-extinguisher"
+	},
+	"fa-firefox": {
+		"prefix": "fa-firefox",
+		"body": "fa-firefox",
+		"description": "fontawesome icon: fa-firefox"
+	},
+	"fa-first-order": {
+		"prefix": "fa-first-order",
+		"body": "fa-first-order",
+		"description": "fontawesome icon: fa-first-order"
+	},
+	"fa-flag": {
+		"prefix": "fa-flag",
+		"body": "fa-flag",
+		"description": "fontawesome icon: fa-flag"
+	},
+	"fa-flag-checkered": {
+		"prefix": "fa-flag-checkered",
+		"body": "fa-flag-checkered",
+		"description": "fontawesome icon: fa-flag-checkered"
+	},
+	"fa-flag-o": {
+		"prefix": "fa-flag-o",
+		"body": "fa-flag-o",
+		"description": "fontawesome icon: fa-flag-o"
+	},
+	"fa-flash": {
+		"prefix": "fa-flash",
+		"body": "fa-flash",
+		"description": "fontawesome icon: fa-flash"
+	},
+	"fa-flask": {
+		"prefix": "fa-flask",
+		"body": "fa-flask",
+		"description": "fontawesome icon: fa-flask"
+	},
+	"fa-flickr": {
+		"prefix": "fa-flickr",
+		"body": "fa-flickr",
+		"description": "fontawesome icon: fa-flickr"
+	},
+	"fa-floppy-o": {
+		"prefix": "fa-floppy-o",
+		"body": "fa-floppy-o",
+		"description": "fontawesome icon: fa-floppy-o"
+	},
+	"fa-folder": {
+		"prefix": "fa-folder",
+		"body": "fa-folder",
+		"description": "fontawesome icon: fa-folder"
+	},
+	"fa-folder-o": {
+		"prefix": "fa-folder-o",
+		"body": "fa-folder-o",
+		"description": "fontawesome icon: fa-folder-o"
+	},
+	"fa-folder-open": {
+		"prefix": "fa-folder-open",
+		"body": "fa-folder-open",
+		"description": "fontawesome icon: fa-folder-open"
+	},
+	"fa-folder-open-o": {
+		"prefix": "fa-folder-open-o",
+		"body": "fa-folder-open-o",
+		"description": "fontawesome icon: fa-folder-open-o"
+	},
+	"fa-font": {
+		"prefix": "fa-font",
+		"body": "fa-font",
+		"description": "fontawesome icon: fa-font"
+	},
+	"fa-font-awesome": {
+		"prefix": "fa-font-awesome",
+		"body": "fa-font-awesome",
+		"description": "fontawesome icon: fa-font-awesome"
+	},
+	"fa-fonticons": {
+		"prefix": "fa-fonticons",
+		"body": "fa-fonticons",
+		"description": "fontawesome icon: fa-fonticons"
+	},
+	"fa-fort-awesome": {
+		"prefix": "fa-fort-awesome",
+		"body": "fa-fort-awesome",
+		"description": "fontawesome icon: fa-fort-awesome"
+	},
+	"fa-forumbee": {
+		"prefix": "fa-forumbee",
+		"body": "fa-forumbee",
+		"description": "fontawesome icon: fa-forumbee"
+	},
+	"fa-forward": {
+		"prefix": "fa-forward",
+		"body": "fa-forward",
+		"description": "fontawesome icon: fa-forward"
+	},
+	"fa-foursquare": {
+		"prefix": "fa-foursquare",
+		"body": "fa-foursquare",
+		"description": "fontawesome icon: fa-foursquare"
+	},
+	"fa-free-code-camp": {
+		"prefix": "fa-free-code-camp",
+		"body": "fa-free-code-camp",
+		"description": "fontawesome icon: fa-free-code-camp"
+	},
+	"fa-frown-o": {
+		"prefix": "fa-frown-o",
+		"body": "fa-frown-o",
+		"description": "fontawesome icon: fa-frown-o"
+	},
+	"fa-futbol-o": {
+		"prefix": "fa-futbol-o",
+		"body": "fa-futbol-o",
+		"description": "fontawesome icon: fa-futbol-o"
+	},
+	"fa-gamepad": {
+		"prefix": "fa-gamepad",
+		"body": "fa-gamepad",
+		"description": "fontawesome icon: fa-gamepad"
+	},
+	"fa-gavel": {
+		"prefix": "fa-gavel",
+		"body": "fa-gavel",
+		"description": "fontawesome icon: fa-gavel"
+	},
+	"fa-gbp": {
+		"prefix": "fa-gbp",
+		"body": "fa-gbp",
+		"description": "fontawesome icon: fa-gbp"
+	},
+	"fa-ge": {
+		"prefix": "fa-ge",
+		"body": "fa-ge",
+		"description": "fontawesome icon: fa-ge"
+	},
+	"fa-gear": {
+		"prefix": "fa-gear",
+		"body": "fa-gear",
+		"description": "fontawesome icon: fa-gear"
+	},
+	"fa-gears": {
+		"prefix": "fa-gears",
+		"body": "fa-gears",
+		"description": "fontawesome icon: fa-gears"
+	},
+	"fa-genderless": {
+		"prefix": "fa-genderless",
+		"body": "fa-genderless",
+		"description": "fontawesome icon: fa-genderless"
+	},
+	"fa-get-pocket": {
+		"prefix": "fa-get-pocket",
+		"body": "fa-get-pocket",
+		"description": "fontawesome icon: fa-get-pocket"
+	},
+	"fa-gg": {
+		"prefix": "fa-gg",
+		"body": "fa-gg",
+		"description": "fontawesome icon: fa-gg"
+	},
+	"fa-gg-circle": {
+		"prefix": "fa-gg-circle",
+		"body": "fa-gg-circle",
+		"description": "fontawesome icon: fa-gg-circle"
+	},
+	"fa-gift": {
+		"prefix": "fa-gift",
+		"body": "fa-gift",
+		"description": "fontawesome icon: fa-gift"
+	},
+	"fa-git": {
+		"prefix": "fa-git",
+		"body": "fa-git",
+		"description": "fontawesome icon: fa-git"
+	},
+	"fa-git-square": {
+		"prefix": "fa-git-square",
+		"body": "fa-git-square",
+		"description": "fontawesome icon: fa-git-square"
+	},
+	"fa-github": {
+		"prefix": "fa-github",
+		"body": "fa-github",
+		"description": "fontawesome icon: fa-github"
+	},
+	"fa-github-alt": {
+		"prefix": "fa-github-alt",
+		"body": "fa-github-alt",
+		"description": "fontawesome icon: fa-github-alt"
+	},
+	"fa-github-square": {
+		"prefix": "fa-github-square",
+		"body": "fa-github-square",
+		"description": "fontawesome icon: fa-github-square"
+	},
+	"fa-gitlab": {
+		"prefix": "fa-gitlab",
+		"body": "fa-gitlab",
+		"description": "fontawesome icon: fa-gitlab"
+	},
+	"fa-gittip": {
+		"prefix": "fa-gittip",
+		"body": "fa-gittip",
+		"description": "fontawesome icon: fa-gittip"
+	},
+	"fa-glass": {
+		"prefix": "fa-glass",
+		"body": "fa-glass",
+		"description": "fontawesome icon: fa-glass"
+	},
+	"fa-glide": {
+		"prefix": "fa-glide",
+		"body": "fa-glide",
+		"description": "fontawesome icon: fa-glide"
+	},
+	"fa-glide-g": {
+		"prefix": "fa-glide-g",
+		"body": "fa-glide-g",
+		"description": "fontawesome icon: fa-glide-g"
+	},
+	"fa-globe": {
+		"prefix": "fa-globe",
+		"body": "fa-globe",
+		"description": "fontawesome icon: fa-globe"
+	},
+	"fa-google": {
+		"prefix": "fa-google",
+		"body": "fa-google",
+		"description": "fontawesome icon: fa-google"
+	},
+	"fa-google-plus": {
+		"prefix": "fa-google-plus",
+		"body": "fa-google-plus",
+		"description": "fontawesome icon: fa-google-plus"
+	},
+	"fa-google-plus-circle": {
+		"prefix": "fa-google-plus-circle",
+		"body": "fa-google-plus-circle",
+		"description": "fontawesome icon: fa-google-plus-circle"
+	},
+	"fa-google-plus-official": {
+		"prefix": "fa-google-plus-official",
+		"body": "fa-google-plus-official",
+		"description": "fontawesome icon: fa-google-plus-official"
+	},
+	"fa-google-plus-square": {
+		"prefix": "fa-google-plus-square",
+		"body": "fa-google-plus-square",
+		"description": "fontawesome icon: fa-google-plus-square"
+	},
+	"fa-google-wallet": {
+		"prefix": "fa-google-wallet",
+		"body": "fa-google-wallet",
+		"description": "fontawesome icon: fa-google-wallet"
+	},
+	"fa-graduation-cap": {
+		"prefix": "fa-graduation-cap",
+		"body": "fa-graduation-cap",
+		"description": "fontawesome icon: fa-graduation-cap"
+	},
+	"fa-gratipay": {
+		"prefix": "fa-gratipay",
+		"body": "fa-gratipay",
+		"description": "fontawesome icon: fa-gratipay"
+	},
+	"fa-grav": {
+		"prefix": "fa-grav",
+		"body": "fa-grav",
+		"description": "fontawesome icon: fa-grav"
+	},
+	"fa-group": {
+		"prefix": "fa-group",
+		"body": "fa-group",
+		"description": "fontawesome icon: fa-group"
+	},
+	"fa-h-square": {
+		"prefix": "fa-h-square",
+		"body": "fa-h-square",
+		"description": "fontawesome icon: fa-h-square"
+	},
+	"fa-hacker-news": {
+		"prefix": "fa-hacker-news",
+		"body": "fa-hacker-news",
+		"description": "fontawesome icon: fa-hacker-news"
+	},
+	"fa-hand-grab-o": {
+		"prefix": "fa-hand-grab-o",
+		"body": "fa-hand-grab-o",
+		"description": "fontawesome icon: fa-hand-grab-o"
+	},
+	"fa-hand-lizard-o": {
+		"prefix": "fa-hand-lizard-o",
+		"body": "fa-hand-lizard-o",
+		"description": "fontawesome icon: fa-hand-lizard-o"
+	},
+	"fa-hand-o-down": {
+		"prefix": "fa-hand-o-down",
+		"body": "fa-hand-o-down",
+		"description": "fontawesome icon: fa-hand-o-down"
+	},
+	"fa-hand-o-left": {
+		"prefix": "fa-hand-o-left",
+		"body": "fa-hand-o-left",
+		"description": "fontawesome icon: fa-hand-o-left"
+	},
+	"fa-hand-o-right": {
+		"prefix": "fa-hand-o-right",
+		"body": "fa-hand-o-right",
+		"description": "fontawesome icon: fa-hand-o-right"
+	},
+	"fa-hand-o-up": {
+		"prefix": "fa-hand-o-up",
+		"body": "fa-hand-o-up",
+		"description": "fontawesome icon: fa-hand-o-up"
+	},
+	"fa-hand-paper-o": {
+		"prefix": "fa-hand-paper-o",
+		"body": "fa-hand-paper-o",
+		"description": "fontawesome icon: fa-hand-paper-o"
+	},
+	"fa-hand-peace-o": {
+		"prefix": "fa-hand-peace-o",
+		"body": "fa-hand-peace-o",
+		"description": "fontawesome icon: fa-hand-peace-o"
+	},
+	"fa-hand-pointer-o": {
+		"prefix": "fa-hand-pointer-o",
+		"body": "fa-hand-pointer-o",
+		"description": "fontawesome icon: fa-hand-pointer-o"
+	},
+	"fa-hand-rock-o": {
+		"prefix": "fa-hand-rock-o",
+		"body": "fa-hand-rock-o",
+		"description": "fontawesome icon: fa-hand-rock-o"
+	},
+	"fa-hand-scissors-o": {
+		"prefix": "fa-hand-scissors-o",
+		"body": "fa-hand-scissors-o",
+		"description": "fontawesome icon: fa-hand-scissors-o"
+	},
+	"fa-hand-spock-o": {
+		"prefix": "fa-hand-spock-o",
+		"body": "fa-hand-spock-o",
+		"description": "fontawesome icon: fa-hand-spock-o"
+	},
+	"fa-hand-stop-o": {
+		"prefix": "fa-hand-stop-o",
+		"body": "fa-hand-stop-o",
+		"description": "fontawesome icon: fa-hand-stop-o"
+	},
+	"fa-handshake-o": {
+		"prefix": "fa-handshake-o",
+		"body": "fa-handshake-o",
+		"description": "fontawesome icon: fa-handshake-o"
+	},
+	"fa-hard-of-hearing": {
+		"prefix": "fa-hard-of-hearing",
+		"body": "fa-hard-of-hearing",
+		"description": "fontawesome icon: fa-hard-of-hearing"
+	},
+	"fa-hashtag": {
+		"prefix": "fa-hashtag",
+		"body": "fa-hashtag",
+		"description": "fontawesome icon: fa-hashtag"
+	},
+	"fa-hdd-o": {
+		"prefix": "fa-hdd-o",
+		"body": "fa-hdd-o",
+		"description": "fontawesome icon: fa-hdd-o"
+	},
+	"fa-header": {
+		"prefix": "fa-header",
+		"body": "fa-header",
+		"description": "fontawesome icon: fa-header"
+	},
+	"fa-headphones": {
+		"prefix": "fa-headphones",
+		"body": "fa-headphones",
+		"description": "fontawesome icon: fa-headphones"
+	},
+	"fa-heart": {
+		"prefix": "fa-heart",
+		"body": "fa-heart",
+		"description": "fontawesome icon: fa-heart"
+	},
+	"fa-heart-o": {
+		"prefix": "fa-heart-o",
+		"body": "fa-heart-o",
+		"description": "fontawesome icon: fa-heart-o"
+	},
+	"fa-heartbeat": {
+		"prefix": "fa-heartbeat",
+		"body": "fa-heartbeat",
+		"description": "fontawesome icon: fa-heartbeat"
+	},
+	"fa-history": {
+		"prefix": "fa-history",
+		"body": "fa-history",
+		"description": "fontawesome icon: fa-history"
+	},
+	"fa-home": {
+		"prefix": "fa-home",
+		"body": "fa-home",
+		"description": "fontawesome icon: fa-home"
+	},
+	"fa-hospital-o": {
+		"prefix": "fa-hospital-o",
+		"body": "fa-hospital-o",
+		"description": "fontawesome icon: fa-hospital-o"
+	},
+	"fa-hotel": {
+		"prefix": "fa-hotel",
+		"body": "fa-hotel",
+		"description": "fontawesome icon: fa-hotel"
+	},
+	"fa-hourglass": {
+		"prefix": "fa-hourglass",
+		"body": "fa-hourglass",
+		"description": "fontawesome icon: fa-hourglass"
+	},
+	"fa-hourglass-1": {
+		"prefix": "fa-hourglass-1",
+		"body": "fa-hourglass-1",
+		"description": "fontawesome icon: fa-hourglass-1"
+	},
+	"fa-hourglass-2": {
+		"prefix": "fa-hourglass-2",
+		"body": "fa-hourglass-2",
+		"description": "fontawesome icon: fa-hourglass-2"
+	},
+	"fa-hourglass-3": {
+		"prefix": "fa-hourglass-3",
+		"body": "fa-hourglass-3",
+		"description": "fontawesome icon: fa-hourglass-3"
+	},
+	"fa-hourglass-end": {
+		"prefix": "fa-hourglass-end",
+		"body": "fa-hourglass-end",
+		"description": "fontawesome icon: fa-hourglass-end"
+	},
+	"fa-hourglass-half": {
+		"prefix": "fa-hourglass-half",
+		"body": "fa-hourglass-half",
+		"description": "fontawesome icon: fa-hourglass-half"
+	},
+	"fa-hourglass-o": {
+		"prefix": "fa-hourglass-o",
+		"body": "fa-hourglass-o",
+		"description": "fontawesome icon: fa-hourglass-o"
+	},
+	"fa-hourglass-start": {
+		"prefix": "fa-hourglass-start",
+		"body": "fa-hourglass-start",
+		"description": "fontawesome icon: fa-hourglass-start"
+	},
+	"fa-houzz": {
+		"prefix": "fa-houzz",
+		"body": "fa-houzz",
+		"description": "fontawesome icon: fa-houzz"
+	},
+	"fa-html5": {
+		"prefix": "fa-html5",
+		"body": "fa-html5",
+		"description": "fontawesome icon: fa-html5"
+	},
+	"fa-i-cursor": {
+		"prefix": "fa-i-cursor",
+		"body": "fa-i-cursor",
+		"description": "fontawesome icon: fa-i-cursor"
+	},
+	"fa-id-badge": {
+		"prefix": "fa-id-badge",
+		"body": "fa-id-badge",
+		"description": "fontawesome icon: fa-id-badge"
+	},
+	"fa-id-card": {
+		"prefix": "fa-id-card",
+		"body": "fa-id-card",
+		"description": "fontawesome icon: fa-id-card"
+	},
+	"fa-id-card-o": {
+		"prefix": "fa-id-card-o",
+		"body": "fa-id-card-o",
+		"description": "fontawesome icon: fa-id-card-o"
+	},
+	"fa-ils": {
+		"prefix": "fa-ils",
+		"body": "fa-ils",
+		"description": "fontawesome icon: fa-ils"
+	},
+	"fa-image": {
+		"prefix": "fa-image",
+		"body": "fa-image",
+		"description": "fontawesome icon: fa-image"
+	},
+	"fa-imdb": {
+		"prefix": "fa-imdb",
+		"body": "fa-imdb",
+		"description": "fontawesome icon: fa-imdb"
+	},
+	"fa-inbox": {
+		"prefix": "fa-inbox",
+		"body": "fa-inbox",
+		"description": "fontawesome icon: fa-inbox"
+	},
+	"fa-indent": {
+		"prefix": "fa-indent",
+		"body": "fa-indent",
+		"description": "fontawesome icon: fa-indent"
+	},
+	"fa-industry": {
+		"prefix": "fa-industry",
+		"body": "fa-industry",
+		"description": "fontawesome icon: fa-industry"
+	},
+	"fa-info": {
+		"prefix": "fa-info",
+		"body": "fa-info",
+		"description": "fontawesome icon: fa-info"
+	},
+	"fa-info-circle": {
+		"prefix": "fa-info-circle",
+		"body": "fa-info-circle",
+		"description": "fontawesome icon: fa-info-circle"
+	},
+	"fa-inr": {
+		"prefix": "fa-inr",
+		"body": "fa-inr",
+		"description": "fontawesome icon: fa-inr"
+	},
+	"fa-instagram": {
+		"prefix": "fa-instagram",
+		"body": "fa-instagram",
+		"description": "fontawesome icon: fa-instagram"
+	},
+	"fa-institution": {
+		"prefix": "fa-institution",
+		"body": "fa-institution",
+		"description": "fontawesome icon: fa-institution"
+	},
+	"fa-internet-explorer": {
+		"prefix": "fa-internet-explorer",
+		"body": "fa-internet-explorer",
+		"description": "fontawesome icon: fa-internet-explorer"
+	},
+	"fa-intersex": {
+		"prefix": "fa-intersex",
+		"body": "fa-intersex",
+		"description": "fontawesome icon: fa-intersex"
+	},
+	"fa-ioxhost": {
+		"prefix": "fa-ioxhost",
+		"body": "fa-ioxhost",
+		"description": "fontawesome icon: fa-ioxhost"
+	},
+	"fa-italic": {
+		"prefix": "fa-italic",
+		"body": "fa-italic",
+		"description": "fontawesome icon: fa-italic"
+	},
+	"fa-joomla": {
+		"prefix": "fa-joomla",
+		"body": "fa-joomla",
+		"description": "fontawesome icon: fa-joomla"
+	},
+	"fa-jpy": {
+		"prefix": "fa-jpy",
+		"body": "fa-jpy",
+		"description": "fontawesome icon: fa-jpy"
+	},
+	"fa-jsfiddle": {
+		"prefix": "fa-jsfiddle",
+		"body": "fa-jsfiddle",
+		"description": "fontawesome icon: fa-jsfiddle"
+	},
+	"fa-key": {
+		"prefix": "fa-key",
+		"body": "fa-key",
+		"description": "fontawesome icon: fa-key"
+	},
+	"fa-keyboard-o": {
+		"prefix": "fa-keyboard-o",
+		"body": "fa-keyboard-o",
+		"description": "fontawesome icon: fa-keyboard-o"
+	},
+	"fa-krw": {
+		"prefix": "fa-krw",
+		"body": "fa-krw",
+		"description": "fontawesome icon: fa-krw"
+	},
+	"fa-language": {
+		"prefix": "fa-language",
+		"body": "fa-language",
+		"description": "fontawesome icon: fa-language"
+	},
+	"fa-laptop": {
+		"prefix": "fa-laptop",
+		"body": "fa-laptop",
+		"description": "fontawesome icon: fa-laptop"
+	},
+	"fa-lastfm": {
+		"prefix": "fa-lastfm",
+		"body": "fa-lastfm",
+		"description": "fontawesome icon: fa-lastfm"
+	},
+	"fa-lastfm-square": {
+		"prefix": "fa-lastfm-square",
+		"body": "fa-lastfm-square",
+		"description": "fontawesome icon: fa-lastfm-square"
+	},
+	"fa-leaf": {
+		"prefix": "fa-leaf",
+		"body": "fa-leaf",
+		"description": "fontawesome icon: fa-leaf"
+	},
+	"fa-leanpub": {
+		"prefix": "fa-leanpub",
+		"body": "fa-leanpub",
+		"description": "fontawesome icon: fa-leanpub"
+	},
+	"fa-legal": {
+		"prefix": "fa-legal",
+		"body": "fa-legal",
+		"description": "fontawesome icon: fa-legal"
+	},
+	"fa-lemon-o": {
+		"prefix": "fa-lemon-o",
+		"body": "fa-lemon-o",
+		"description": "fontawesome icon: fa-lemon-o"
+	},
+	"fa-level-down": {
+		"prefix": "fa-level-down",
+		"body": "fa-level-down",
+		"description": "fontawesome icon: fa-level-down"
+	},
+	"fa-level-up": {
+		"prefix": "fa-level-up",
+		"body": "fa-level-up",
+		"description": "fontawesome icon: fa-level-up"
+	},
+	"fa-life-bouy": {
+		"prefix": "fa-life-bouy",
+		"body": "fa-life-bouy",
+		"description": "fontawesome icon: fa-life-bouy"
+	},
+	"fa-life-buoy": {
+		"prefix": "fa-life-buoy",
+		"body": "fa-life-buoy",
+		"description": "fontawesome icon: fa-life-buoy"
+	},
+	"fa-life-ring": {
+		"prefix": "fa-life-ring",
+		"body": "fa-life-ring",
+		"description": "fontawesome icon: fa-life-ring"
+	},
+	"fa-life-saver": {
+		"prefix": "fa-life-saver",
+		"body": "fa-life-saver",
+		"description": "fontawesome icon: fa-life-saver"
+	},
+	"fa-lightbulb-o": {
+		"prefix": "fa-lightbulb-o",
+		"body": "fa-lightbulb-o",
+		"description": "fontawesome icon: fa-lightbulb-o"
+	},
+	"fa-line-chart": {
+		"prefix": "fa-line-chart",
+		"body": "fa-line-chart",
+		"description": "fontawesome icon: fa-line-chart"
+	},
+	"fa-link": {
+		"prefix": "fa-link",
+		"body": "fa-link",
+		"description": "fontawesome icon: fa-link"
+	},
+	"fa-linkedin": {
+		"prefix": "fa-linkedin",
+		"body": "fa-linkedin",
+		"description": "fontawesome icon: fa-linkedin"
+	},
+	"fa-linkedin-square": {
+		"prefix": "fa-linkedin-square",
+		"body": "fa-linkedin-square",
+		"description": "fontawesome icon: fa-linkedin-square"
+	},
+	"fa-linode": {
+		"prefix": "fa-linode",
+		"body": "fa-linode",
+		"description": "fontawesome icon: fa-linode"
+	},
+	"fa-linux": {
+		"prefix": "fa-linux",
+		"body": "fa-linux",
+		"description": "fontawesome icon: fa-linux"
+	},
+	"fa-list": {
+		"prefix": "fa-list",
+		"body": "fa-list",
+		"description": "fontawesome icon: fa-list"
+	},
+	"fa-list-alt": {
+		"prefix": "fa-list-alt",
+		"body": "fa-list-alt",
+		"description": "fontawesome icon: fa-list-alt"
+	},
+	"fa-list-ol": {
+		"prefix": "fa-list-ol",
+		"body": "fa-list-ol",
+		"description": "fontawesome icon: fa-list-ol"
+	},
+	"fa-list-ul": {
+		"prefix": "fa-list-ul",
+		"body": "fa-list-ul",
+		"description": "fontawesome icon: fa-list-ul"
+	},
+	"fa-location-arrow": {
+		"prefix": "fa-location-arrow",
+		"body": "fa-location-arrow",
+		"description": "fontawesome icon: fa-location-arrow"
+	},
+	"fa-lock": {
+		"prefix": "fa-lock",
+		"body": "fa-lock",
+		"description": "fontawesome icon: fa-lock"
+	},
+	"fa-long-arrow-down": {
+		"prefix": "fa-long-arrow-down",
+		"body": "fa-long-arrow-down",
+		"description": "fontawesome icon: fa-long-arrow-down"
+	},
+	"fa-long-arrow-left": {
+		"prefix": "fa-long-arrow-left",
+		"body": "fa-long-arrow-left",
+		"description": "fontawesome icon: fa-long-arrow-left"
+	},
+	"fa-long-arrow-right": {
+		"prefix": "fa-long-arrow-right",
+		"body": "fa-long-arrow-right",
+		"description": "fontawesome icon: fa-long-arrow-right"
+	},
+	"fa-long-arrow-up": {
+		"prefix": "fa-long-arrow-up",
+		"body": "fa-long-arrow-up",
+		"description": "fontawesome icon: fa-long-arrow-up"
+	},
+	"fa-low-vision": {
+		"prefix": "fa-low-vision",
+		"body": "fa-low-vision",
+		"description": "fontawesome icon: fa-low-vision"
+	},
+	"fa-magic": {
+		"prefix": "fa-magic",
+		"body": "fa-magic",
+		"description": "fontawesome icon: fa-magic"
+	},
+	"fa-magnet": {
+		"prefix": "fa-magnet",
+		"body": "fa-magnet",
+		"description": "fontawesome icon: fa-magnet"
+	},
+	"fa-mail-forward": {
+		"prefix": "fa-mail-forward",
+		"body": "fa-mail-forward",
+		"description": "fontawesome icon: fa-mail-forward"
+	},
+	"fa-mail-reply": {
+		"prefix": "fa-mail-reply",
+		"body": "fa-mail-reply",
+		"description": "fontawesome icon: fa-mail-reply"
+	},
+	"fa-mail-reply-all": {
+		"prefix": "fa-mail-reply-all",
+		"body": "fa-mail-reply-all",
+		"description": "fontawesome icon: fa-mail-reply-all"
+	},
+	"fa-male": {
+		"prefix": "fa-male",
+		"body": "fa-male",
+		"description": "fontawesome icon: fa-male"
+	},
+	"fa-map": {
+		"prefix": "fa-map",
+		"body": "fa-map",
+		"description": "fontawesome icon: fa-map"
+	},
+	"fa-map-marker": {
+		"prefix": "fa-map-marker",
+		"body": "fa-map-marker",
+		"description": "fontawesome icon: fa-map-marker"
+	},
+	"fa-map-o": {
+		"prefix": "fa-map-o",
+		"body": "fa-map-o",
+		"description": "fontawesome icon: fa-map-o"
+	},
+	"fa-map-pin": {
+		"prefix": "fa-map-pin",
+		"body": "fa-map-pin",
+		"description": "fontawesome icon: fa-map-pin"
+	},
+	"fa-map-signs": {
+		"prefix": "fa-map-signs",
+		"body": "fa-map-signs",
+		"description": "fontawesome icon: fa-map-signs"
+	},
+	"fa-mars": {
+		"prefix": "fa-mars",
+		"body": "fa-mars",
+		"description": "fontawesome icon: fa-mars"
+	},
+	"fa-mars-double": {
+		"prefix": "fa-mars-double",
+		"body": "fa-mars-double",
+		"description": "fontawesome icon: fa-mars-double"
+	},
+	"fa-mars-stroke": {
+		"prefix": "fa-mars-stroke",
+		"body": "fa-mars-stroke",
+		"description": "fontawesome icon: fa-mars-stroke"
+	},
+	"fa-mars-stroke-h": {
+		"prefix": "fa-mars-stroke-h",
+		"body": "fa-mars-stroke-h",
+		"description": "fontawesome icon: fa-mars-stroke-h"
+	},
+	"fa-mars-stroke-v": {
+		"prefix": "fa-mars-stroke-v",
+		"body": "fa-mars-stroke-v",
+		"description": "fontawesome icon: fa-mars-stroke-v"
+	},
+	"fa-maxcdn": {
+		"prefix": "fa-maxcdn",
+		"body": "fa-maxcdn",
+		"description": "fontawesome icon: fa-maxcdn"
+	},
+	"fa-meanpath": {
+		"prefix": "fa-meanpath",
+		"body": "fa-meanpath",
+		"description": "fontawesome icon: fa-meanpath"
+	},
+	"fa-medium": {
+		"prefix": "fa-medium",
+		"body": "fa-medium",
+		"description": "fontawesome icon: fa-medium"
+	},
+	"fa-medkit": {
+		"prefix": "fa-medkit",
+		"body": "fa-medkit",
+		"description": "fontawesome icon: fa-medkit"
+	},
+	"fa-meetup": {
+		"prefix": "fa-meetup",
+		"body": "fa-meetup",
+		"description": "fontawesome icon: fa-meetup"
+	},
+	"fa-meh-o": {
+		"prefix": "fa-meh-o",
+		"body": "fa-meh-o",
+		"description": "fontawesome icon: fa-meh-o"
+	},
+	"fa-mercury": {
+		"prefix": "fa-mercury",
+		"body": "fa-mercury",
+		"description": "fontawesome icon: fa-mercury"
+	},
+	"fa-microchip": {
+		"prefix": "fa-microchip",
+		"body": "fa-microchip",
+		"description": "fontawesome icon: fa-microchip"
+	},
+	"fa-microphone": {
+		"prefix": "fa-microphone",
+		"body": "fa-microphone",
+		"description": "fontawesome icon: fa-microphone"
+	},
+	"fa-microphone-slash": {
+		"prefix": "fa-microphone-slash",
+		"body": "fa-microphone-slash",
+		"description": "fontawesome icon: fa-microphone-slash"
+	},
+	"fa-minus": {
+		"prefix": "fa-minus",
+		"body": "fa-minus",
+		"description": "fontawesome icon: fa-minus"
+	},
+	"fa-minus-circle": {
+		"prefix": "fa-minus-circle",
+		"body": "fa-minus-circle",
+		"description": "fontawesome icon: fa-minus-circle"
+	},
+	"fa-minus-square": {
+		"prefix": "fa-minus-square",
+		"body": "fa-minus-square",
+		"description": "fontawesome icon: fa-minus-square"
+	},
+	"fa-minus-square-o": {
+		"prefix": "fa-minus-square-o",
+		"body": "fa-minus-square-o",
+		"description": "fontawesome icon: fa-minus-square-o"
+	},
+	"fa-mixcloud": {
+		"prefix": "fa-mixcloud",
+		"body": "fa-mixcloud",
+		"description": "fontawesome icon: fa-mixcloud"
+	},
+	"fa-mobile": {
+		"prefix": "fa-mobile",
+		"body": "fa-mobile",
+		"description": "fontawesome icon: fa-mobile"
+	},
+	"fa-mobile-phone": {
+		"prefix": "fa-mobile-phone",
+		"body": "fa-mobile-phone",
+		"description": "fontawesome icon: fa-mobile-phone"
+	},
+	"fa-modx": {
+		"prefix": "fa-modx",
+		"body": "fa-modx",
+		"description": "fontawesome icon: fa-modx"
+	},
+	"fa-money": {
+		"prefix": "fa-money",
+		"body": "fa-money",
+		"description": "fontawesome icon: fa-money"
+	},
+	"fa-moon-o": {
+		"prefix": "fa-moon-o",
+		"body": "fa-moon-o",
+		"description": "fontawesome icon: fa-moon-o"
+	},
+	"fa-mortar-board": {
+		"prefix": "fa-mortar-board",
+		"body": "fa-mortar-board",
+		"description": "fontawesome icon: fa-mortar-board"
+	},
+	"fa-motorcycle": {
+		"prefix": "fa-motorcycle",
+		"body": "fa-motorcycle",
+		"description": "fontawesome icon: fa-motorcycle"
+	},
+	"fa-mouse-pointer": {
+		"prefix": "fa-mouse-pointer",
+		"body": "fa-mouse-pointer",
+		"description": "fontawesome icon: fa-mouse-pointer"
+	},
+	"fa-music": {
+		"prefix": "fa-music",
+		"body": "fa-music",
+		"description": "fontawesome icon: fa-music"
+	},
+	"fa-navicon": {
+		"prefix": "fa-navicon",
+		"body": "fa-navicon",
+		"description": "fontawesome icon: fa-navicon"
+	},
+	"fa-neuter": {
+		"prefix": "fa-neuter",
+		"body": "fa-neuter",
+		"description": "fontawesome icon: fa-neuter"
+	},
+	"fa-newspaper-o": {
+		"prefix": "fa-newspaper-o",
+		"body": "fa-newspaper-o",
+		"description": "fontawesome icon: fa-newspaper-o"
+	},
+	"fa-object-group": {
+		"prefix": "fa-object-group",
+		"body": "fa-object-group",
+		"description": "fontawesome icon: fa-object-group"
+	},
+	"fa-object-ungroup": {
+		"prefix": "fa-object-ungroup",
+		"body": "fa-object-ungroup",
+		"description": "fontawesome icon: fa-object-ungroup"
+	},
+	"fa-odnoklassniki": {
+		"prefix": "fa-odnoklassniki",
+		"body": "fa-odnoklassniki",
+		"description": "fontawesome icon: fa-odnoklassniki"
+	},
+	"fa-odnoklassniki-square": {
+		"prefix": "fa-odnoklassniki-square",
+		"body": "fa-odnoklassniki-square",
+		"description": "fontawesome icon: fa-odnoklassniki-square"
+	},
+	"fa-opencart": {
+		"prefix": "fa-opencart",
+		"body": "fa-opencart",
+		"description": "fontawesome icon: fa-opencart"
+	},
+	"fa-openid": {
+		"prefix": "fa-openid",
+		"body": "fa-openid",
+		"description": "fontawesome icon: fa-openid"
+	},
+	"fa-opera": {
+		"prefix": "fa-opera",
+		"body": "fa-opera",
+		"description": "fontawesome icon: fa-opera"
+	},
+	"fa-optin-monster": {
+		"prefix": "fa-optin-monster",
+		"body": "fa-optin-monster",
+		"description": "fontawesome icon: fa-optin-monster"
+	},
+	"fa-outdent": {
+		"prefix": "fa-outdent",
+		"body": "fa-outdent",
+		"description": "fontawesome icon: fa-outdent"
+	},
+	"fa-pagelines": {
+		"prefix": "fa-pagelines",
+		"body": "fa-pagelines",
+		"description": "fontawesome icon: fa-pagelines"
+	},
+	"fa-paint-brush": {
+		"prefix": "fa-paint-brush",
+		"body": "fa-paint-brush",
+		"description": "fontawesome icon: fa-paint-brush"
+	},
+	"fa-paper-plane": {
+		"prefix": "fa-paper-plane",
+		"body": "fa-paper-plane",
+		"description": "fontawesome icon: fa-paper-plane"
+	},
+	"fa-paper-plane-o": {
+		"prefix": "fa-paper-plane-o",
+		"body": "fa-paper-plane-o",
+		"description": "fontawesome icon: fa-paper-plane-o"
+	},
+	"fa-paperclip": {
+		"prefix": "fa-paperclip",
+		"body": "fa-paperclip",
+		"description": "fontawesome icon: fa-paperclip"
+	},
+	"fa-paragraph": {
+		"prefix": "fa-paragraph",
+		"body": "fa-paragraph",
+		"description": "fontawesome icon: fa-paragraph"
+	},
+	"fa-paste": {
+		"prefix": "fa-paste",
+		"body": "fa-paste",
+		"description": "fontawesome icon: fa-paste"
+	},
+	"fa-pause": {
+		"prefix": "fa-pause",
+		"body": "fa-pause",
+		"description": "fontawesome icon: fa-pause"
+	},
+	"fa-pause-circle": {
+		"prefix": "fa-pause-circle",
+		"body": "fa-pause-circle",
+		"description": "fontawesome icon: fa-pause-circle"
+	},
+	"fa-pause-circle-o": {
+		"prefix": "fa-pause-circle-o",
+		"body": "fa-pause-circle-o",
+		"description": "fontawesome icon: fa-pause-circle-o"
+	},
+	"fa-paw": {
+		"prefix": "fa-paw",
+		"body": "fa-paw",
+		"description": "fontawesome icon: fa-paw"
+	},
+	"fa-paypal": {
+		"prefix": "fa-paypal",
+		"body": "fa-paypal",
+		"description": "fontawesome icon: fa-paypal"
+	},
+	"fa-pencil": {
+		"prefix": "fa-pencil",
+		"body": "fa-pencil",
+		"description": "fontawesome icon: fa-pencil"
+	},
+	"fa-pencil-square": {
+		"prefix": "fa-pencil-square",
+		"body": "fa-pencil-square",
+		"description": "fontawesome icon: fa-pencil-square"
+	},
+	"fa-pencil-square-o": {
+		"prefix": "fa-pencil-square-o",
+		"body": "fa-pencil-square-o",
+		"description": "fontawesome icon: fa-pencil-square-o"
+	},
+	"fa-percent": {
+		"prefix": "fa-percent",
+		"body": "fa-percent",
+		"description": "fontawesome icon: fa-percent"
+	},
+	"fa-phone": {
+		"prefix": "fa-phone",
+		"body": "fa-phone",
+		"description": "fontawesome icon: fa-phone"
+	},
+	"fa-phone-square": {
+		"prefix": "fa-phone-square",
+		"body": "fa-phone-square",
+		"description": "fontawesome icon: fa-phone-square"
+	},
+	"fa-photo": {
+		"prefix": "fa-photo",
+		"body": "fa-photo",
+		"description": "fontawesome icon: fa-photo"
+	},
+	"fa-picture-o": {
+		"prefix": "fa-picture-o",
+		"body": "fa-picture-o",
+		"description": "fontawesome icon: fa-picture-o"
+	},
+	"fa-pie-chart": {
+		"prefix": "fa-pie-chart",
+		"body": "fa-pie-chart",
+		"description": "fontawesome icon: fa-pie-chart"
+	},
+	"fa-pied-piper": {
+		"prefix": "fa-pied-piper",
+		"body": "fa-pied-piper",
+		"description": "fontawesome icon: fa-pied-piper"
+	},
+	"fa-pied-piper-alt": {
+		"prefix": "fa-pied-piper-alt",
+		"body": "fa-pied-piper-alt",
+		"description": "fontawesome icon: fa-pied-piper-alt"
+	},
+	"fa-pied-piper-pp": {
+		"prefix": "fa-pied-piper-pp",
+		"body": "fa-pied-piper-pp",
+		"description": "fontawesome icon: fa-pied-piper-pp"
+	},
+	"fa-pinterest": {
+		"prefix": "fa-pinterest",
+		"body": "fa-pinterest",
+		"description": "fontawesome icon: fa-pinterest"
+	},
+	"fa-pinterest-p": {
+		"prefix": "fa-pinterest-p",
+		"body": "fa-pinterest-p",
+		"description": "fontawesome icon: fa-pinterest-p"
+	},
+	"fa-pinterest-square": {
+		"prefix": "fa-pinterest-square",
+		"body": "fa-pinterest-square",
+		"description": "fontawesome icon: fa-pinterest-square"
+	},
+	"fa-plane": {
+		"prefix": "fa-plane",
+		"body": "fa-plane",
+		"description": "fontawesome icon: fa-plane"
+	},
+	"fa-play": {
+		"prefix": "fa-play",
+		"body": "fa-play",
+		"description": "fontawesome icon: fa-play"
+	},
+	"fa-play-circle": {
+		"prefix": "fa-play-circle",
+		"body": "fa-play-circle",
+		"description": "fontawesome icon: fa-play-circle"
+	},
+	"fa-play-circle-o": {
+		"prefix": "fa-play-circle-o",
+		"body": "fa-play-circle-o",
+		"description": "fontawesome icon: fa-play-circle-o"
+	},
+	"fa-plug": {
+		"prefix": "fa-plug",
+		"body": "fa-plug",
+		"description": "fontawesome icon: fa-plug"
+	},
+	"fa-plus": {
+		"prefix": "fa-plus",
+		"body": "fa-plus",
+		"description": "fontawesome icon: fa-plus"
+	},
+	"fa-plus-circle": {
+		"prefix": "fa-plus-circle",
+		"body": "fa-plus-circle",
+		"description": "fontawesome icon: fa-plus-circle"
+	},
+	"fa-plus-square": {
+		"prefix": "fa-plus-square",
+		"body": "fa-plus-square",
+		"description": "fontawesome icon: fa-plus-square"
+	},
+	"fa-plus-square-o": {
+		"prefix": "fa-plus-square-o",
+		"body": "fa-plus-square-o",
+		"description": "fontawesome icon: fa-plus-square-o"
+	},
+	"fa-podcast": {
+		"prefix": "fa-podcast",
+		"body": "fa-podcast",
+		"description": "fontawesome icon: fa-podcast"
+	},
+	"fa-power-off": {
+		"prefix": "fa-power-off",
+		"body": "fa-power-off",
+		"description": "fontawesome icon: fa-power-off"
+	},
+	"fa-print": {
+		"prefix": "fa-print",
+		"body": "fa-print",
+		"description": "fontawesome icon: fa-print"
+	},
+	"fa-product-hunt": {
+		"prefix": "fa-product-hunt",
+		"body": "fa-product-hunt",
+		"description": "fontawesome icon: fa-product-hunt"
+	},
+	"fa-puzzle-piece": {
+		"prefix": "fa-puzzle-piece",
+		"body": "fa-puzzle-piece",
+		"description": "fontawesome icon: fa-puzzle-piece"
+	},
+	"fa-qq": {
+		"prefix": "fa-qq",
+		"body": "fa-qq",
+		"description": "fontawesome icon: fa-qq"
+	},
+	"fa-qrcode": {
+		"prefix": "fa-qrcode",
+		"body": "fa-qrcode",
+		"description": "fontawesome icon: fa-qrcode"
+	},
+	"fa-question": {
+		"prefix": "fa-question",
+		"body": "fa-question",
+		"description": "fontawesome icon: fa-question"
+	},
+	"fa-question-circle": {
+		"prefix": "fa-question-circle",
+		"body": "fa-question-circle",
+		"description": "fontawesome icon: fa-question-circle"
+	},
+	"fa-question-circle-o": {
+		"prefix": "fa-question-circle-o",
+		"body": "fa-question-circle-o",
+		"description": "fontawesome icon: fa-question-circle-o"
+	},
+	"fa-quora": {
+		"prefix": "fa-quora",
+		"body": "fa-quora",
+		"description": "fontawesome icon: fa-quora"
+	},
+	"fa-quote-left": {
+		"prefix": "fa-quote-left",
+		"body": "fa-quote-left",
+		"description": "fontawesome icon: fa-quote-left"
+	},
+	"fa-quote-right": {
+		"prefix": "fa-quote-right",
+		"body": "fa-quote-right",
+		"description": "fontawesome icon: fa-quote-right"
+	},
+	"fa-ra": {
+		"prefix": "fa-ra",
+		"body": "fa-ra",
+		"description": "fontawesome icon: fa-ra"
+	},
+	"fa-random": {
+		"prefix": "fa-random",
+		"body": "fa-random",
+		"description": "fontawesome icon: fa-random"
+	},
+	"fa-ravelry": {
+		"prefix": "fa-ravelry",
+		"body": "fa-ravelry",
+		"description": "fontawesome icon: fa-ravelry"
+	},
+	"fa-rebel": {
+		"prefix": "fa-rebel",
+		"body": "fa-rebel",
+		"description": "fontawesome icon: fa-rebel"
+	},
+	"fa-recycle": {
+		"prefix": "fa-recycle",
+		"body": "fa-recycle",
+		"description": "fontawesome icon: fa-recycle"
+	},
+	"fa-reddit": {
+		"prefix": "fa-reddit",
+		"body": "fa-reddit",
+		"description": "fontawesome icon: fa-reddit"
+	},
+	"fa-reddit-alien": {
+		"prefix": "fa-reddit-alien",
+		"body": "fa-reddit-alien",
+		"description": "fontawesome icon: fa-reddit-alien"
+	},
+	"fa-reddit-square": {
+		"prefix": "fa-reddit-square",
+		"body": "fa-reddit-square",
+		"description": "fontawesome icon: fa-reddit-square"
+	},
+	"fa-refresh": {
+		"prefix": "fa-refresh",
+		"body": "fa-refresh",
+		"description": "fontawesome icon: fa-refresh"
+	},
+	"fa-registered": {
+		"prefix": "fa-registered",
+		"body": "fa-registered",
+		"description": "fontawesome icon: fa-registered"
+	},
+	"fa-remove": {
+		"prefix": "fa-remove",
+		"body": "fa-remove",
+		"description": "fontawesome icon: fa-remove"
+	},
+	"fa-renren": {
+		"prefix": "fa-renren",
+		"body": "fa-renren",
+		"description": "fontawesome icon: fa-renren"
+	},
+	"fa-reorder": {
+		"prefix": "fa-reorder",
+		"body": "fa-reorder",
+		"description": "fontawesome icon: fa-reorder"
+	},
+	"fa-repeat": {
+		"prefix": "fa-repeat",
+		"body": "fa-repeat",
+		"description": "fontawesome icon: fa-repeat"
+	},
+	"fa-reply": {
+		"prefix": "fa-reply",
+		"body": "fa-reply",
+		"description": "fontawesome icon: fa-reply"
+	},
+	"fa-reply-all": {
+		"prefix": "fa-reply-all",
+		"body": "fa-reply-all",
+		"description": "fontawesome icon: fa-reply-all"
+	},
+	"fa-resistance": {
+		"prefix": "fa-resistance",
+		"body": "fa-resistance",
+		"description": "fontawesome icon: fa-resistance"
+	},
+	"fa-retweet": {
+		"prefix": "fa-retweet",
+		"body": "fa-retweet",
+		"description": "fontawesome icon: fa-retweet"
+	},
+	"fa-rmb": {
+		"prefix": "fa-rmb",
+		"body": "fa-rmb",
+		"description": "fontawesome icon: fa-rmb"
+	},
+	"fa-road": {
+		"prefix": "fa-road",
+		"body": "fa-road",
+		"description": "fontawesome icon: fa-road"
+	},
+	"fa-rocket": {
+		"prefix": "fa-rocket",
+		"body": "fa-rocket",
+		"description": "fontawesome icon: fa-rocket"
+	},
+	"fa-rotate-left": {
+		"prefix": "fa-rotate-left",
+		"body": "fa-rotate-left",
+		"description": "fontawesome icon: fa-rotate-left"
+	},
+	"fa-rotate-right": {
+		"prefix": "fa-rotate-right",
+		"body": "fa-rotate-right",
+		"description": "fontawesome icon: fa-rotate-right"
+	},
+	"fa-rouble": {
+		"prefix": "fa-rouble",
+		"body": "fa-rouble",
+		"description": "fontawesome icon: fa-rouble"
+	},
+	"fa-rss": {
+		"prefix": "fa-rss",
+		"body": "fa-rss",
+		"description": "fontawesome icon: fa-rss"
+	},
+	"fa-rss-square": {
+		"prefix": "fa-rss-square",
+		"body": "fa-rss-square",
+		"description": "fontawesome icon: fa-rss-square"
+	},
+	"fa-rub": {
+		"prefix": "fa-rub",
+		"body": "fa-rub",
+		"description": "fontawesome icon: fa-rub"
+	},
+	"fa-ruble": {
+		"prefix": "fa-ruble",
+		"body": "fa-ruble",
+		"description": "fontawesome icon: fa-ruble"
+	},
+	"fa-rupee": {
+		"prefix": "fa-rupee",
+		"body": "fa-rupee",
+		"description": "fontawesome icon: fa-rupee"
+	},
+	"fa-s15": {
+		"prefix": "fa-s15",
+		"body": "fa-s15",
+		"description": "fontawesome icon: fa-s15"
+	},
+	"fa-safari": {
+		"prefix": "fa-safari",
+		"body": "fa-safari",
+		"description": "fontawesome icon: fa-safari"
+	},
+	"fa-save": {
+		"prefix": "fa-save",
+		"body": "fa-save",
+		"description": "fontawesome icon: fa-save"
+	},
+	"fa-scissors": {
+		"prefix": "fa-scissors",
+		"body": "fa-scissors",
+		"description": "fontawesome icon: fa-scissors"
+	},
+	"fa-scribd": {
+		"prefix": "fa-scribd",
+		"body": "fa-scribd",
+		"description": "fontawesome icon: fa-scribd"
+	},
+	"fa-search": {
+		"prefix": "fa-search",
+		"body": "fa-search",
+		"description": "fontawesome icon: fa-search"
+	},
+	"fa-search-minus": {
+		"prefix": "fa-search-minus",
+		"body": "fa-search-minus",
+		"description": "fontawesome icon: fa-search-minus"
+	},
+	"fa-search-plus": {
+		"prefix": "fa-search-plus",
+		"body": "fa-search-plus",
+		"description": "fontawesome icon: fa-search-plus"
+	},
+	"fa-sellsy": {
+		"prefix": "fa-sellsy",
+		"body": "fa-sellsy",
+		"description": "fontawesome icon: fa-sellsy"
+	},
+	"fa-send": {
+		"prefix": "fa-send",
+		"body": "fa-send",
+		"description": "fontawesome icon: fa-send"
+	},
+	"fa-send-o": {
+		"prefix": "fa-send-o",
+		"body": "fa-send-o",
+		"description": "fontawesome icon: fa-send-o"
+	},
+	"fa-server": {
+		"prefix": "fa-server",
+		"body": "fa-server",
+		"description": "fontawesome icon: fa-server"
+	},
+	"fa-share": {
+		"prefix": "fa-share",
+		"body": "fa-share",
+		"description": "fontawesome icon: fa-share"
+	},
+	"fa-share-alt": {
+		"prefix": "fa-share-alt",
+		"body": "fa-share-alt",
+		"description": "fontawesome icon: fa-share-alt"
+	},
+	"fa-share-alt-square": {
+		"prefix": "fa-share-alt-square",
+		"body": "fa-share-alt-square",
+		"description": "fontawesome icon: fa-share-alt-square"
+	},
+	"fa-share-square": {
+		"prefix": "fa-share-square",
+		"body": "fa-share-square",
+		"description": "fontawesome icon: fa-share-square"
+	},
+	"fa-share-square-o": {
+		"prefix": "fa-share-square-o",
+		"body": "fa-share-square-o",
+		"description": "fontawesome icon: fa-share-square-o"
+	},
+	"fa-shekel": {
+		"prefix": "fa-shekel",
+		"body": "fa-shekel",
+		"description": "fontawesome icon: fa-shekel"
+	},
+	"fa-sheqel": {
+		"prefix": "fa-sheqel",
+		"body": "fa-sheqel",
+		"description": "fontawesome icon: fa-sheqel"
+	},
+	"fa-shield": {
+		"prefix": "fa-shield",
+		"body": "fa-shield",
+		"description": "fontawesome icon: fa-shield"
+	},
+	"fa-ship": {
+		"prefix": "fa-ship",
+		"body": "fa-ship",
+		"description": "fontawesome icon: fa-ship"
+	},
+	"fa-shirtsinbulk": {
+		"prefix": "fa-shirtsinbulk",
+		"body": "fa-shirtsinbulk",
+		"description": "fontawesome icon: fa-shirtsinbulk"
+	},
+	"fa-shopping-bag": {
+		"prefix": "fa-shopping-bag",
+		"body": "fa-shopping-bag",
+		"description": "fontawesome icon: fa-shopping-bag"
+	},
+	"fa-shopping-basket": {
+		"prefix": "fa-shopping-basket",
+		"body": "fa-shopping-basket",
+		"description": "fontawesome icon: fa-shopping-basket"
+	},
+	"fa-shopping-cart": {
+		"prefix": "fa-shopping-cart",
+		"body": "fa-shopping-cart",
+		"description": "fontawesome icon: fa-shopping-cart"
+	},
+	"fa-shower": {
+		"prefix": "fa-shower",
+		"body": "fa-shower",
+		"description": "fontawesome icon: fa-shower"
+	},
+	"fa-sign-in": {
+		"prefix": "fa-sign-in",
+		"body": "fa-sign-in",
+		"description": "fontawesome icon: fa-sign-in"
+	},
+	"fa-sign-language": {
+		"prefix": "fa-sign-language",
+		"body": "fa-sign-language",
+		"description": "fontawesome icon: fa-sign-language"
+	},
+	"fa-sign-out": {
+		"prefix": "fa-sign-out",
+		"body": "fa-sign-out",
+		"description": "fontawesome icon: fa-sign-out"
+	},
+	"fa-signal": {
+		"prefix": "fa-signal",
+		"body": "fa-signal",
+		"description": "fontawesome icon: fa-signal"
+	},
+	"fa-signing": {
+		"prefix": "fa-signing",
+		"body": "fa-signing",
+		"description": "fontawesome icon: fa-signing"
+	},
+	"fa-simplybuilt": {
+		"prefix": "fa-simplybuilt",
+		"body": "fa-simplybuilt",
+		"description": "fontawesome icon: fa-simplybuilt"
+	},
+	"fa-sitemap": {
+		"prefix": "fa-sitemap",
+		"body": "fa-sitemap",
+		"description": "fontawesome icon: fa-sitemap"
+	},
+	"fa-skyatlas": {
+		"prefix": "fa-skyatlas",
+		"body": "fa-skyatlas",
+		"description": "fontawesome icon: fa-skyatlas"
+	},
+	"fa-skype": {
+		"prefix": "fa-skype",
+		"body": "fa-skype",
+		"description": "fontawesome icon: fa-skype"
+	},
+	"fa-slack": {
+		"prefix": "fa-slack",
+		"body": "fa-slack",
+		"description": "fontawesome icon: fa-slack"
+	},
+	"fa-sliders": {
+		"prefix": "fa-sliders",
+		"body": "fa-sliders",
+		"description": "fontawesome icon: fa-sliders"
+	},
+	"fa-slideshare": {
+		"prefix": "fa-slideshare",
+		"body": "fa-slideshare",
+		"description": "fontawesome icon: fa-slideshare"
+	},
+	"fa-smile-o": {
+		"prefix": "fa-smile-o",
+		"body": "fa-smile-o",
+		"description": "fontawesome icon: fa-smile-o"
+	},
+	"fa-snapchat": {
+		"prefix": "fa-snapchat",
+		"body": "fa-snapchat",
+		"description": "fontawesome icon: fa-snapchat"
+	},
+	"fa-snapchat-ghost": {
+		"prefix": "fa-snapchat-ghost",
+		"body": "fa-snapchat-ghost",
+		"description": "fontawesome icon: fa-snapchat-ghost"
+	},
+	"fa-snapchat-square": {
+		"prefix": "fa-snapchat-square",
+		"body": "fa-snapchat-square",
+		"description": "fontawesome icon: fa-snapchat-square"
+	},
+	"fa-snowflake-o": {
+		"prefix": "fa-snowflake-o",
+		"body": "fa-snowflake-o",
+		"description": "fontawesome icon: fa-snowflake-o"
+	},
+	"fa-soccer-ball-o": {
+		"prefix": "fa-soccer-ball-o",
+		"body": "fa-soccer-ball-o",
+		"description": "fontawesome icon: fa-soccer-ball-o"
+	},
+	"fa-sort": {
+		"prefix": "fa-sort",
+		"body": "fa-sort",
+		"description": "fontawesome icon: fa-sort"
+	},
+	"fa-sort-alpha-asc": {
+		"prefix": "fa-sort-alpha-asc",
+		"body": "fa-sort-alpha-asc",
+		"description": "fontawesome icon: fa-sort-alpha-asc"
+	},
+	"fa-sort-alpha-desc": {
+		"prefix": "fa-sort-alpha-desc",
+		"body": "fa-sort-alpha-desc",
+		"description": "fontawesome icon: fa-sort-alpha-desc"
+	},
+	"fa-sort-amount-asc": {
+		"prefix": "fa-sort-amount-asc",
+		"body": "fa-sort-amount-asc",
+		"description": "fontawesome icon: fa-sort-amount-asc"
+	},
+	"fa-sort-amount-desc": {
+		"prefix": "fa-sort-amount-desc",
+		"body": "fa-sort-amount-desc",
+		"description": "fontawesome icon: fa-sort-amount-desc"
+	},
+	"fa-sort-asc": {
+		"prefix": "fa-sort-asc",
+		"body": "fa-sort-asc",
+		"description": "fontawesome icon: fa-sort-asc"
+	},
+	"fa-sort-desc": {
+		"prefix": "fa-sort-desc",
+		"body": "fa-sort-desc",
+		"description": "fontawesome icon: fa-sort-desc"
+	},
+	"fa-sort-down": {
+		"prefix": "fa-sort-down",
+		"body": "fa-sort-down",
+		"description": "fontawesome icon: fa-sort-down"
+	},
+	"fa-sort-numeric-asc": {
+		"prefix": "fa-sort-numeric-asc",
+		"body": "fa-sort-numeric-asc",
+		"description": "fontawesome icon: fa-sort-numeric-asc"
+	},
+	"fa-sort-numeric-desc": {
+		"prefix": "fa-sort-numeric-desc",
+		"body": "fa-sort-numeric-desc",
+		"description": "fontawesome icon: fa-sort-numeric-desc"
+	},
+	"fa-sort-up": {
+		"prefix": "fa-sort-up",
+		"body": "fa-sort-up",
+		"description": "fontawesome icon: fa-sort-up"
+	},
+	"fa-soundcloud": {
+		"prefix": "fa-soundcloud",
+		"body": "fa-soundcloud",
+		"description": "fontawesome icon: fa-soundcloud"
+	},
+	"fa-space-shuttle": {
+		"prefix": "fa-space-shuttle",
+		"body": "fa-space-shuttle",
+		"description": "fontawesome icon: fa-space-shuttle"
+	},
+	"fa-spinner": {
+		"prefix": "fa-spinner",
+		"body": "fa-spinner",
+		"description": "fontawesome icon: fa-spinner"
+	},
+	"fa-spoon": {
+		"prefix": "fa-spoon",
+		"body": "fa-spoon",
+		"description": "fontawesome icon: fa-spoon"
+	},
+	"fa-spotify": {
+		"prefix": "fa-spotify",
+		"body": "fa-spotify",
+		"description": "fontawesome icon: fa-spotify"
+	},
+	"fa-square": {
+		"prefix": "fa-square",
+		"body": "fa-square",
+		"description": "fontawesome icon: fa-square"
+	},
+	"fa-square-o": {
+		"prefix": "fa-square-o",
+		"body": "fa-square-o",
+		"description": "fontawesome icon: fa-square-o"
+	},
+	"fa-stack-exchange": {
+		"prefix": "fa-stack-exchange",
+		"body": "fa-stack-exchange",
+		"description": "fontawesome icon: fa-stack-exchange"
+	},
+	"fa-stack-overflow": {
+		"prefix": "fa-stack-overflow",
+		"body": "fa-stack-overflow",
+		"description": "fontawesome icon: fa-stack-overflow"
+	},
+	"fa-star": {
+		"prefix": "fa-star",
+		"body": "fa-star",
+		"description": "fontawesome icon: fa-star"
+	},
+	"fa-star-half": {
+		"prefix": "fa-star-half",
+		"body": "fa-star-half",
+		"description": "fontawesome icon: fa-star-half"
+	},
+	"fa-star-half-empty": {
+		"prefix": "fa-star-half-empty",
+		"body": "fa-star-half-empty",
+		"description": "fontawesome icon: fa-star-half-empty"
+	},
+	"fa-star-half-full": {
+		"prefix": "fa-star-half-full",
+		"body": "fa-star-half-full",
+		"description": "fontawesome icon: fa-star-half-full"
+	},
+	"fa-star-half-o": {
+		"prefix": "fa-star-half-o",
+		"body": "fa-star-half-o",
+		"description": "fontawesome icon: fa-star-half-o"
+	},
+	"fa-star-o": {
+		"prefix": "fa-star-o",
+		"body": "fa-star-o",
+		"description": "fontawesome icon: fa-star-o"
+	},
+	"fa-steam": {
+		"prefix": "fa-steam",
+		"body": "fa-steam",
+		"description": "fontawesome icon: fa-steam"
+	},
+	"fa-steam-square": {
+		"prefix": "fa-steam-square",
+		"body": "fa-steam-square",
+		"description": "fontawesome icon: fa-steam-square"
+	},
+	"fa-step-backward": {
+		"prefix": "fa-step-backward",
+		"body": "fa-step-backward",
+		"description": "fontawesome icon: fa-step-backward"
+	},
+	"fa-step-forward": {
+		"prefix": "fa-step-forward",
+		"body": "fa-step-forward",
+		"description": "fontawesome icon: fa-step-forward"
+	},
+	"fa-stethoscope": {
+		"prefix": "fa-stethoscope",
+		"body": "fa-stethoscope",
+		"description": "fontawesome icon: fa-stethoscope"
+	},
+	"fa-sticky-note": {
+		"prefix": "fa-sticky-note",
+		"body": "fa-sticky-note",
+		"description": "fontawesome icon: fa-sticky-note"
+	},
+	"fa-sticky-note-o": {
+		"prefix": "fa-sticky-note-o",
+		"body": "fa-sticky-note-o",
+		"description": "fontawesome icon: fa-sticky-note-o"
+	},
+	"fa-stop": {
+		"prefix": "fa-stop",
+		"body": "fa-stop",
+		"description": "fontawesome icon: fa-stop"
+	},
+	"fa-stop-circle": {
+		"prefix": "fa-stop-circle",
+		"body": "fa-stop-circle",
+		"description": "fontawesome icon: fa-stop-circle"
+	},
+	"fa-stop-circle-o": {
+		"prefix": "fa-stop-circle-o",
+		"body": "fa-stop-circle-o",
+		"description": "fontawesome icon: fa-stop-circle-o"
+	},
+	"fa-street-view": {
+		"prefix": "fa-street-view",
+		"body": "fa-street-view",
+		"description": "fontawesome icon: fa-street-view"
+	},
+	"fa-strikethrough": {
+		"prefix": "fa-strikethrough",
+		"body": "fa-strikethrough",
+		"description": "fontawesome icon: fa-strikethrough"
+	},
+	"fa-stumbleupon": {
+		"prefix": "fa-stumbleupon",
+		"body": "fa-stumbleupon",
+		"description": "fontawesome icon: fa-stumbleupon"
+	},
+	"fa-stumbleupon-circle": {
+		"prefix": "fa-stumbleupon-circle",
+		"body": "fa-stumbleupon-circle",
+		"description": "fontawesome icon: fa-stumbleupon-circle"
+	},
+	"fa-subscript": {
+		"prefix": "fa-subscript",
+		"body": "fa-subscript",
+		"description": "fontawesome icon: fa-subscript"
+	},
+	"fa-subway": {
+		"prefix": "fa-subway",
+		"body": "fa-subway",
+		"description": "fontawesome icon: fa-subway"
+	},
+	"fa-suitcase": {
+		"prefix": "fa-suitcase",
+		"body": "fa-suitcase",
+		"description": "fontawesome icon: fa-suitcase"
+	},
+	"fa-sun-o": {
+		"prefix": "fa-sun-o",
+		"body": "fa-sun-o",
+		"description": "fontawesome icon: fa-sun-o"
+	},
+	"fa-superpowers": {
+		"prefix": "fa-superpowers",
+		"body": "fa-superpowers",
+		"description": "fontawesome icon: fa-superpowers"
+	},
+	"fa-superscript": {
+		"prefix": "fa-superscript",
+		"body": "fa-superscript",
+		"description": "fontawesome icon: fa-superscript"
+	},
+	"fa-support": {
+		"prefix": "fa-support",
+		"body": "fa-support",
+		"description": "fontawesome icon: fa-support"
+	},
+	"fa-table": {
+		"prefix": "fa-table",
+		"body": "fa-table",
+		"description": "fontawesome icon: fa-table"
+	},
+	"fa-tablet": {
+		"prefix": "fa-tablet",
+		"body": "fa-tablet",
+		"description": "fontawesome icon: fa-tablet"
+	},
+	"fa-tachometer": {
+		"prefix": "fa-tachometer",
+		"body": "fa-tachometer",
+		"description": "fontawesome icon: fa-tachometer"
+	},
+	"fa-tag": {
+		"prefix": "fa-tag",
+		"body": "fa-tag",
+		"description": "fontawesome icon: fa-tag"
+	},
+	"fa-tags": {
+		"prefix": "fa-tags",
+		"body": "fa-tags",
+		"description": "fontawesome icon: fa-tags"
+	},
+	"fa-tasks": {
+		"prefix": "fa-tasks",
+		"body": "fa-tasks",
+		"description": "fontawesome icon: fa-tasks"
+	},
+	"fa-taxi": {
+		"prefix": "fa-taxi",
+		"body": "fa-taxi",
+		"description": "fontawesome icon: fa-taxi"
+	},
+	"fa-telegram": {
+		"prefix": "fa-telegram",
+		"body": "fa-telegram",
+		"description": "fontawesome icon: fa-telegram"
+	},
+	"fa-television": {
+		"prefix": "fa-television",
+		"body": "fa-television",
+		"description": "fontawesome icon: fa-television"
+	},
+	"fa-tencent-weibo": {
+		"prefix": "fa-tencent-weibo",
+		"body": "fa-tencent-weibo",
+		"description": "fontawesome icon: fa-tencent-weibo"
+	},
+	"fa-terminal": {
+		"prefix": "fa-terminal",
+		"body": "fa-terminal",
+		"description": "fontawesome icon: fa-terminal"
+	},
+	"fa-text-height": {
+		"prefix": "fa-text-height",
+		"body": "fa-text-height",
+		"description": "fontawesome icon: fa-text-height"
+	},
+	"fa-text-width": {
+		"prefix": "fa-text-width",
+		"body": "fa-text-width",
+		"description": "fontawesome icon: fa-text-width"
+	},
+	"fa-th": {
+		"prefix": "fa-th",
+		"body": "fa-th",
+		"description": "fontawesome icon: fa-th"
+	},
+	"fa-th-large": {
+		"prefix": "fa-th-large",
+		"body": "fa-th-large",
+		"description": "fontawesome icon: fa-th-large"
+	},
+	"fa-th-list": {
+		"prefix": "fa-th-list",
+		"body": "fa-th-list",
+		"description": "fontawesome icon: fa-th-list"
+	},
+	"fa-themeisle": {
+		"prefix": "fa-themeisle",
+		"body": "fa-themeisle",
+		"description": "fontawesome icon: fa-themeisle"
+	},
+	"fa-thermometer": {
+		"prefix": "fa-thermometer",
+		"body": "fa-thermometer",
+		"description": "fontawesome icon: fa-thermometer"
+	},
+	"fa-thermometer-0": {
+		"prefix": "fa-thermometer-0",
+		"body": "fa-thermometer-0",
+		"description": "fontawesome icon: fa-thermometer-0"
+	},
+	"fa-thermometer-1": {
+		"prefix": "fa-thermometer-1",
+		"body": "fa-thermometer-1",
+		"description": "fontawesome icon: fa-thermometer-1"
+	},
+	"fa-thermometer-2": {
+		"prefix": "fa-thermometer-2",
+		"body": "fa-thermometer-2",
+		"description": "fontawesome icon: fa-thermometer-2"
+	},
+	"fa-thermometer-3": {
+		"prefix": "fa-thermometer-3",
+		"body": "fa-thermometer-3",
+		"description": "fontawesome icon: fa-thermometer-3"
+	},
+	"fa-thermometer-4": {
+		"prefix": "fa-thermometer-4",
+		"body": "fa-thermometer-4",
+		"description": "fontawesome icon: fa-thermometer-4"
+	},
+	"fa-thermometer-empty": {
+		"prefix": "fa-thermometer-empty",
+		"body": "fa-thermometer-empty",
+		"description": "fontawesome icon: fa-thermometer-empty"
+	},
+	"fa-thermometer-full": {
+		"prefix": "fa-thermometer-full",
+		"body": "fa-thermometer-full",
+		"description": "fontawesome icon: fa-thermometer-full"
+	},
+	"fa-thermometer-half": {
+		"prefix": "fa-thermometer-half",
+		"body": "fa-thermometer-half",
+		"description": "fontawesome icon: fa-thermometer-half"
+	},
+	"fa-thermometer-quarter": {
+		"prefix": "fa-thermometer-quarter",
+		"body": "fa-thermometer-quarter",
+		"description": "fontawesome icon: fa-thermometer-quarter"
+	},
+	"fa-thermometer-three-quarters": {
+		"prefix": "fa-thermometer-three-quarters",
+		"body": "fa-thermometer-three-quarters",
+		"description": "fontawesome icon: fa-thermometer-three-quarters"
+	},
+	"fa-thumb-tack": {
+		"prefix": "fa-thumb-tack",
+		"body": "fa-thumb-tack",
+		"description": "fontawesome icon: fa-thumb-tack"
+	},
+	"fa-thumbs-down": {
+		"prefix": "fa-thumbs-down",
+		"body": "fa-thumbs-down",
+		"description": "fontawesome icon: fa-thumbs-down"
+	},
+	"fa-thumbs-o-down": {
+		"prefix": "fa-thumbs-o-down",
+		"body": "fa-thumbs-o-down",
+		"description": "fontawesome icon: fa-thumbs-o-down"
+	},
+	"fa-thumbs-o-up": {
+		"prefix": "fa-thumbs-o-up",
+		"body": "fa-thumbs-o-up",
+		"description": "fontawesome icon: fa-thumbs-o-up"
+	},
+	"fa-thumbs-up": {
+		"prefix": "fa-thumbs-up",
+		"body": "fa-thumbs-up",
+		"description": "fontawesome icon: fa-thumbs-up"
+	},
+	"fa-ticket": {
+		"prefix": "fa-ticket",
+		"body": "fa-ticket",
+		"description": "fontawesome icon: fa-ticket"
+	},
+	"fa-times": {
+		"prefix": "fa-times",
+		"body": "fa-times",
+		"description": "fontawesome icon: fa-times"
+	},
+	"fa-times-circle": {
+		"prefix": "fa-times-circle",
+		"body": "fa-times-circle",
+		"description": "fontawesome icon: fa-times-circle"
+	},
+	"fa-times-circle-o": {
+		"prefix": "fa-times-circle-o",
+		"body": "fa-times-circle-o",
+		"description": "fontawesome icon: fa-times-circle-o"
+	},
+	"fa-times-rectangle": {
+		"prefix": "fa-times-rectangle",
+		"body": "fa-times-rectangle",
+		"description": "fontawesome icon: fa-times-rectangle"
+	},
+	"fa-times-rectangle-o": {
+		"prefix": "fa-times-rectangle-o",
+		"body": "fa-times-rectangle-o",
+		"description": "fontawesome icon: fa-times-rectangle-o"
+	},
+	"fa-tint": {
+		"prefix": "fa-tint",
+		"body": "fa-tint",
+		"description": "fontawesome icon: fa-tint"
+	},
+	"fa-toggle-down": {
+		"prefix": "fa-toggle-down",
+		"body": "fa-toggle-down",
+		"description": "fontawesome icon: fa-toggle-down"
+	},
+	"fa-toggle-left": {
+		"prefix": "fa-toggle-left",
+		"body": "fa-toggle-left",
+		"description": "fontawesome icon: fa-toggle-left"
+	},
+	"fa-toggle-off": {
+		"prefix": "fa-toggle-off",
+		"body": "fa-toggle-off",
+		"description": "fontawesome icon: fa-toggle-off"
+	},
+	"fa-toggle-on": {
+		"prefix": "fa-toggle-on",
+		"body": "fa-toggle-on",
+		"description": "fontawesome icon: fa-toggle-on"
+	},
+	"fa-toggle-right": {
+		"prefix": "fa-toggle-right",
+		"body": "fa-toggle-right",
+		"description": "fontawesome icon: fa-toggle-right"
+	},
+	"fa-toggle-up": {
+		"prefix": "fa-toggle-up",
+		"body": "fa-toggle-up",
+		"description": "fontawesome icon: fa-toggle-up"
+	},
+	"fa-trademark": {
+		"prefix": "fa-trademark",
+		"body": "fa-trademark",
+		"description": "fontawesome icon: fa-trademark"
+	},
+	"fa-train": {
+		"prefix": "fa-train",
+		"body": "fa-train",
+		"description": "fontawesome icon: fa-train"
+	},
+	"fa-transgender": {
+		"prefix": "fa-transgender",
+		"body": "fa-transgender",
+		"description": "fontawesome icon: fa-transgender"
+	},
+	"fa-transgender-alt": {
+		"prefix": "fa-transgender-alt",
+		"body": "fa-transgender-alt",
+		"description": "fontawesome icon: fa-transgender-alt"
+	},
+	"fa-trash": {
+		"prefix": "fa-trash",
+		"body": "fa-trash",
+		"description": "fontawesome icon: fa-trash"
+	},
+	"fa-trash-o": {
+		"prefix": "fa-trash-o",
+		"body": "fa-trash-o",
+		"description": "fontawesome icon: fa-trash-o"
+	},
+	"fa-tree": {
+		"prefix": "fa-tree",
+		"body": "fa-tree",
+		"description": "fontawesome icon: fa-tree"
+	},
+	"fa-trello": {
+		"prefix": "fa-trello",
+		"body": "fa-trello",
+		"description": "fontawesome icon: fa-trello"
+	},
+	"fa-tripadvisor": {
+		"prefix": "fa-tripadvisor",
+		"body": "fa-tripadvisor",
+		"description": "fontawesome icon: fa-tripadvisor"
+	},
+	"fa-trophy": {
+		"prefix": "fa-trophy",
+		"body": "fa-trophy",
+		"description": "fontawesome icon: fa-trophy"
+	},
+	"fa-truck": {
+		"prefix": "fa-truck",
+		"body": "fa-truck",
+		"description": "fontawesome icon: fa-truck"
+	},
+	"fa-try": {
+		"prefix": "fa-try",
+		"body": "fa-try",
+		"description": "fontawesome icon: fa-try"
+	},
+	"fa-tty": {
+		"prefix": "fa-tty",
+		"body": "fa-tty",
+		"description": "fontawesome icon: fa-tty"
+	},
+	"fa-tumblr": {
+		"prefix": "fa-tumblr",
+		"body": "fa-tumblr",
+		"description": "fontawesome icon: fa-tumblr"
+	},
+	"fa-tumblr-square": {
+		"prefix": "fa-tumblr-square",
+		"body": "fa-tumblr-square",
+		"description": "fontawesome icon: fa-tumblr-square"
+	},
+	"fa-turkish-lira": {
+		"prefix": "fa-turkish-lira",
+		"body": "fa-turkish-lira",
+		"description": "fontawesome icon: fa-turkish-lira"
+	},
+	"fa-tv": {
+		"prefix": "fa-tv",
+		"body": "fa-tv",
+		"description": "fontawesome icon: fa-tv"
+	},
+	"fa-twitch": {
+		"prefix": "fa-twitch",
+		"body": "fa-twitch",
+		"description": "fontawesome icon: fa-twitch"
+	},
+	"fa-twitter": {
+		"prefix": "fa-twitter",
+		"body": "fa-twitter",
+		"description": "fontawesome icon: fa-twitter"
+	},
+	"fa-twitter-square": {
+		"prefix": "fa-twitter-square",
+		"body": "fa-twitter-square",
+		"description": "fontawesome icon: fa-twitter-square"
+	},
+	"fa-umbrella": {
+		"prefix": "fa-umbrella",
+		"body": "fa-umbrella",
+		"description": "fontawesome icon: fa-umbrella"
+	},
+	"fa-underline": {
+		"prefix": "fa-underline",
+		"body": "fa-underline",
+		"description": "fontawesome icon: fa-underline"
+	},
+	"fa-undo": {
+		"prefix": "fa-undo",
+		"body": "fa-undo",
+		"description": "fontawesome icon: fa-undo"
+	},
+	"fa-universal-access": {
+		"prefix": "fa-universal-access",
+		"body": "fa-universal-access",
+		"description": "fontawesome icon: fa-universal-access"
+	},
+	"fa-university": {
+		"prefix": "fa-university",
+		"body": "fa-university",
+		"description": "fontawesome icon: fa-university"
+	},
+	"fa-unlink": {
+		"prefix": "fa-unlink",
+		"body": "fa-unlink",
+		"description": "fontawesome icon: fa-unlink"
+	},
+	"fa-unlock": {
+		"prefix": "fa-unlock",
+		"body": "fa-unlock",
+		"description": "fontawesome icon: fa-unlock"
+	},
+	"fa-unlock-alt": {
+		"prefix": "fa-unlock-alt",
+		"body": "fa-unlock-alt",
+		"description": "fontawesome icon: fa-unlock-alt"
+	},
+	"fa-unsorted": {
+		"prefix": "fa-unsorted",
+		"body": "fa-unsorted",
+		"description": "fontawesome icon: fa-unsorted"
+	},
+	"fa-upload": {
+		"prefix": "fa-upload",
+		"body": "fa-upload",
+		"description": "fontawesome icon: fa-upload"
+	},
+	"fa-usb": {
+		"prefix": "fa-usb",
+		"body": "fa-usb",
+		"description": "fontawesome icon: fa-usb"
+	},
+	"fa-usd": {
+		"prefix": "fa-usd",
+		"body": "fa-usd",
+		"description": "fontawesome icon: fa-usd"
+	},
+	"fa-user": {
+		"prefix": "fa-user",
+		"body": "fa-user",
+		"description": "fontawesome icon: fa-user"
+	},
+	"fa-user-circle": {
+		"prefix": "fa-user-circle",
+		"body": "fa-user-circle",
+		"description": "fontawesome icon: fa-user-circle"
+	},
+	"fa-user-circle-o": {
+		"prefix": "fa-user-circle-o",
+		"body": "fa-user-circle-o",
+		"description": "fontawesome icon: fa-user-circle-o"
+	},
+	"fa-user-md": {
+		"prefix": "fa-user-md",
+		"body": "fa-user-md",
+		"description": "fontawesome icon: fa-user-md"
+	},
+	"fa-user-o": {
+		"prefix": "fa-user-o",
+		"body": "fa-user-o",
+		"description": "fontawesome icon: fa-user-o"
+	},
+	"fa-user-plus": {
+		"prefix": "fa-user-plus",
+		"body": "fa-user-plus",
+		"description": "fontawesome icon: fa-user-plus"
+	},
+	"fa-user-secret": {
+		"prefix": "fa-user-secret",
+		"body": "fa-user-secret",
+		"description": "fontawesome icon: fa-user-secret"
+	},
+	"fa-user-times": {
+		"prefix": "fa-user-times",
+		"body": "fa-user-times",
+		"description": "fontawesome icon: fa-user-times"
+	},
+	"fa-users": {
+		"prefix": "fa-users",
+		"body": "fa-users",
+		"description": "fontawesome icon: fa-users"
+	},
+	"fa-vcard": {
+		"prefix": "fa-vcard",
+		"body": "fa-vcard",
+		"description": "fontawesome icon: fa-vcard"
+	},
+	"fa-vcard-o": {
+		"prefix": "fa-vcard-o",
+		"body": "fa-vcard-o",
+		"description": "fontawesome icon: fa-vcard-o"
+	},
+	"fa-venus": {
+		"prefix": "fa-venus",
+		"body": "fa-venus",
+		"description": "fontawesome icon: fa-venus"
+	},
+	"fa-venus-double": {
+		"prefix": "fa-venus-double",
+		"body": "fa-venus-double",
+		"description": "fontawesome icon: fa-venus-double"
+	},
+	"fa-venus-mars": {
+		"prefix": "fa-venus-mars",
+		"body": "fa-venus-mars",
+		"description": "fontawesome icon: fa-venus-mars"
+	},
+	"fa-viacoin": {
+		"prefix": "fa-viacoin",
+		"body": "fa-viacoin",
+		"description": "fontawesome icon: fa-viacoin"
+	},
+	"fa-viadeo": {
+		"prefix": "fa-viadeo",
+		"body": "fa-viadeo",
+		"description": "fontawesome icon: fa-viadeo"
+	},
+	"fa-viadeo-square": {
+		"prefix": "fa-viadeo-square",
+		"body": "fa-viadeo-square",
+		"description": "fontawesome icon: fa-viadeo-square"
+	},
+	"fa-video-camera": {
+		"prefix": "fa-video-camera",
+		"body": "fa-video-camera",
+		"description": "fontawesome icon: fa-video-camera"
+	},
+	"fa-vimeo": {
+		"prefix": "fa-vimeo",
+		"body": "fa-vimeo",
+		"description": "fontawesome icon: fa-vimeo"
+	},
+	"fa-vimeo-square": {
+		"prefix": "fa-vimeo-square",
+		"body": "fa-vimeo-square",
+		"description": "fontawesome icon: fa-vimeo-square"
+	},
+	"fa-vine": {
+		"prefix": "fa-vine",
+		"body": "fa-vine",
+		"description": "fontawesome icon: fa-vine"
+	},
+	"fa-vk": {
+		"prefix": "fa-vk",
+		"body": "fa-vk",
+		"description": "fontawesome icon: fa-vk"
+	},
+	"fa-volume-control-phone": {
+		"prefix": "fa-volume-control-phone",
+		"body": "fa-volume-control-phone",
+		"description": "fontawesome icon: fa-volume-control-phone"
+	},
+	"fa-volume-down": {
+		"prefix": "fa-volume-down",
+		"body": "fa-volume-down",
+		"description": "fontawesome icon: fa-volume-down"
+	},
+	"fa-volume-off": {
+		"prefix": "fa-volume-off",
+		"body": "fa-volume-off",
+		"description": "fontawesome icon: fa-volume-off"
+	},
+	"fa-volume-up": {
+		"prefix": "fa-volume-up",
+		"body": "fa-volume-up",
+		"description": "fontawesome icon: fa-volume-up"
+	},
+	"fa-warning": {
+		"prefix": "fa-warning",
+		"body": "fa-warning",
+		"description": "fontawesome icon: fa-warning"
+	},
+	"fa-wechat": {
+		"prefix": "fa-wechat",
+		"body": "fa-wechat",
+		"description": "fontawesome icon: fa-wechat"
+	},
+	"fa-weibo": {
+		"prefix": "fa-weibo",
+		"body": "fa-weibo",
+		"description": "fontawesome icon: fa-weibo"
+	},
+	"fa-weixin": {
+		"prefix": "fa-weixin",
+		"body": "fa-weixin",
+		"description": "fontawesome icon: fa-weixin"
+	},
+	"fa-whatsapp": {
+		"prefix": "fa-whatsapp",
+		"body": "fa-whatsapp",
+		"description": "fontawesome icon: fa-whatsapp"
+	},
+	"fa-wheelchair": {
+		"prefix": "fa-wheelchair",
+		"body": "fa-wheelchair",
+		"description": "fontawesome icon: fa-wheelchair"
+	},
+	"fa-wheelchair-alt": {
+		"prefix": "fa-wheelchair-alt",
+		"body": "fa-wheelchair-alt",
+		"description": "fontawesome icon: fa-wheelchair-alt"
+	},
+	"fa-wifi": {
+		"prefix": "fa-wifi",
+		"body": "fa-wifi",
+		"description": "fontawesome icon: fa-wifi"
+	},
+	"fa-wikipedia-w": {
+		"prefix": "fa-wikipedia-w",
+		"body": "fa-wikipedia-w",
+		"description": "fontawesome icon: fa-wikipedia-w"
+	},
+	"fa-window-close": {
+		"prefix": "fa-window-close",
+		"body": "fa-window-close",
+		"description": "fontawesome icon: fa-window-close"
+	},
+	"fa-window-close-o": {
+		"prefix": "fa-window-close-o",
+		"body": "fa-window-close-o",
+		"description": "fontawesome icon: fa-window-close-o"
+	},
+	"fa-window-maximize": {
+		"prefix": "fa-window-maximize",
+		"body": "fa-window-maximize",
+		"description": "fontawesome icon: fa-window-maximize"
+	},
+	"fa-window-minimize": {
+		"prefix": "fa-window-minimize",
+		"body": "fa-window-minimize",
+		"description": "fontawesome icon: fa-window-minimize"
+	},
+	"fa-window-restore": {
+		"prefix": "fa-window-restore",
+		"body": "fa-window-restore",
+		"description": "fontawesome icon: fa-window-restore"
+	},
+	"fa-windows": {
+		"prefix": "fa-windows",
+		"body": "fa-windows",
+		"description": "fontawesome icon: fa-windows"
+	},
+	"fa-won": {
+		"prefix": "fa-won",
+		"body": "fa-won",
+		"description": "fontawesome icon: fa-won"
+	},
+	"fa-wordpress": {
+		"prefix": "fa-wordpress",
+		"body": "fa-wordpress",
+		"description": "fontawesome icon: fa-wordpress"
+	},
+	"fa-wpbeginner": {
+		"prefix": "fa-wpbeginner",
+		"body": "fa-wpbeginner",
+		"description": "fontawesome icon: fa-wpbeginner"
+	},
+	"fa-wpexplorer": {
+		"prefix": "fa-wpexplorer",
+		"body": "fa-wpexplorer",
+		"description": "fontawesome icon: fa-wpexplorer"
+	},
+	"fa-wpforms": {
+		"prefix": "fa-wpforms",
+		"body": "fa-wpforms",
+		"description": "fontawesome icon: fa-wpforms"
+	},
+	"fa-wrench": {
+		"prefix": "fa-wrench",
+		"body": "fa-wrench",
+		"description": "fontawesome icon: fa-wrench"
+	},
+	"fa-xing": {
+		"prefix": "fa-xing",
+		"body": "fa-xing",
+		"description": "fontawesome icon: fa-xing"
+	},
+	"fa-xing-square": {
+		"prefix": "fa-xing-square",
+		"body": "fa-xing-square",
+		"description": "fontawesome icon: fa-xing-square"
+	},
+	"fa-y-combinator": {
+		"prefix": "fa-y-combinator",
+		"body": "fa-y-combinator",
+		"description": "fontawesome icon: fa-y-combinator"
+	},
+	"fa-y-combinator-square": {
+		"prefix": "fa-y-combinator-square",
+		"body": "fa-y-combinator-square",
+		"description": "fontawesome icon: fa-y-combinator-square"
+	},
+	"fa-yahoo": {
+		"prefix": "fa-yahoo",
+		"body": "fa-yahoo",
+		"description": "fontawesome icon: fa-yahoo"
+	},
+	"fa-yc": {
+		"prefix": "fa-yc",
+		"body": "fa-yc",
+		"description": "fontawesome icon: fa-yc"
+	},
+	"fa-yc-square": {
+		"prefix": "fa-yc-square",
+		"body": "fa-yc-square",
+		"description": "fontawesome icon: fa-yc-square"
+	},
+	"fa-yelp": {
+		"prefix": "fa-yelp",
+		"body": "fa-yelp",
+		"description": "fontawesome icon: fa-yelp"
+	},
+	"fa-yen": {
+		"prefix": "fa-yen",
+		"body": "fa-yen",
+		"description": "fontawesome icon: fa-yen"
+	},
+	"fa-yoast": {
+		"prefix": "fa-yoast",
+		"body": "fa-yoast",
+		"description": "fontawesome icon: fa-yoast"
+	},
+	"fa-youtube": {
+		"prefix": "fa-youtube",
+		"body": "fa-youtube",
+		"description": "fontawesome icon: fa-youtube"
+	},
+	"fa-youtube-play": {
+		"prefix": "fa-youtube-play",
+		"body": "fa-youtube-play",
+		"description": "fontawesome icon: fa-youtube-play"
+	},
+	"fa-youtube-square": {
+		"prefix": "fa-youtube-square",
+		"body": "fa-youtube-square",
+		"description": "fontawesome icon: fa-youtube-square"
+	},
+	"fa-link-url": {
+		"prefix": "fa-url",
+		"body": "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css\" />",
+		"description" : "fontawesome icon url"
+	}
+}

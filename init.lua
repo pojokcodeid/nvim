@@ -19,7 +19,8 @@ require "user.indentline"
 require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
--- add by akn
-require "user.autotag"
+
 require "user.coderunner"
+require "user.autotag"
 require "user.colorizer"
+require "user.snip"

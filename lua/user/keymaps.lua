@@ -76,11 +76,10 @@ keymap("i","<M-Up>","<cmd>m-2<cr>",opts)
 keymap("n","<M-j>","<cmd>m+<cr>",opts)
 keymap("n","<M-k>","<cmd>m-2<cr>",opts)
 keymap("i","<C-s>","<cmd>w<cr>",opts)
+keymap("n","<C-s>","<cmd>w<cr>",opts)
 keymap("i","<C-l>","<cmd>LiveServer start<cr><cr>",opts)
 keymap("n","q","<cmd>q<cr>",opts)
 keymap("x","<S-Down>",":'<,'>t'><cr>",opts)
-
-
 
 -- Visual Block --
 -- Move text up and down

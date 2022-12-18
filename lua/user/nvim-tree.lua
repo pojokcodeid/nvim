@@ -11,12 +11,15 @@ end
 local tree_cb = nvim_tree_config.nvim_tree_callback
 
 nvim_tree.setup {
+  prefer_startup_root = true,
+  sync_root_with_cwd = true,
   update_focused_file = {
     enable = true,
-    update_cwd = true,
+    update_cwd = false,
   },
   renderer = {
-    root_folder_modifier = ":t",
+    --root_folder_modifier = ":t",
+    root_folder_modifier = ":~",
     icons = {
       glyphs = {
         default = "",
