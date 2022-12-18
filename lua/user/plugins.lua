@@ -97,6 +97,7 @@ return packer.startup(function(use)
 	use({ "CRAG666/code_runner.nvim", requires = "nvim-lua/plenary.nvim" })
 	use({ "NvChad/nvim-colorizer.lua" })
 	use({ "mfussenegger/nvim-jdtls" })
+	use {"williamboman/nvim-lsp-installer"}
 	-- use({ "ellisonleao/gruvbox.nvim" })
 	-- use({ "EdenEast/nightfox.nvim" })
 	-- use({ "morhetz/gruvbox" })
