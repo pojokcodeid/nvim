@@ -97,6 +97,9 @@ return packer.startup(function(use)
 	use({ "CRAG666/code_runner.nvim", requires = "nvim-lua/plenary.nvim" })
 	use({ "NvChad/nvim-colorizer.lua" })
 	use({ "mfussenegger/nvim-jdtls" })
+	-- use({ "ellisonleao/gruvbox.nvim" })
+	-- use({ "EdenEast/nightfox.nvim" })
+	-- use({ "morhetz/gruvbox" })
 
 	-- Git
 	use({ "lewis6991/gitsigns.nvim", commit = "2c6f96dda47e55fa07052ce2e2141e8367cbaaf2" })
