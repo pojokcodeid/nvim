@@ -5,14 +5,14 @@ end
 
 local dashboard = require("alpha.themes.dashboard")
 dashboard.section.header.val = {
-	[[                                      GGG              ]],
-	[[                                     #GGG              ]],
-	[[    &BBGBB      &#G#&GB&        &BBB##GGG    &#BGBB#&  ]],
-	[[   BGGGB##  &#GP555& P555GB&   #GGG##GGGG   #GGB&&BGG# ]],
-	[[  &GGG&    G555GB&    &#G5Y5P  BGGB  #GGG   GGGB  #GGG ]],
-	[[  &GGG&    G555GB&    &#G555P  BGGB  #GGG   GGG#       ]],
-	[[   BGGGBBB  &#GP5Y5& P555G#&   #GGGB#GGGG   #GGB&&#BB# ]],
-	[[    &BBBB#      &#G#&GB&        &BBB##BBB    &#BBBB#&  ]],
+	[[             _       _                    _      ]],
+	[[            (_)     | |                  | |     ]],
+	[[ _ __   ___  _  ___ | | __   ___ ___   __| | ___ ]],
+	[[| '_ \ / _ \| |/ _ \| |/ /  / __/ _ \ / _` |/ _ \]],
+	[[| |_) | (_) | | (_) |   <  | (_| (_) | (_| |  __/]],
+	[[| .__/ \___/| |\___/|_|\_\  \___\___/ \__,_|\___|]],
+	[[| |        _/ |                                  ]],
+	[[|_|       |__/                                   ]],
 }
 dashboard.section.buttons.val = {
 	dashboard.button("f", "  Find file", ":Telescope find_files <CR>"),
