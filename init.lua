@@ -24,3 +24,4 @@ require("user.autocommands")
 -- require "user.autotag"
 -- require "user.colorizer"
 require("user.snip")
+require("user.webdevicons")
