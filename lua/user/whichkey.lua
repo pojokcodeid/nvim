@@ -202,6 +202,10 @@ local mappings = {
 	},
 	r = {
 		name = "Run",
+		s = {
+			'<cmd>autocmd bufwritepost [^_]*.sass,[^_]*.scss  silent exec "!sass %:p %:r.css"<CR>',
+			"Auto Compile Sass",
+		},
 		r = { "<cmd>RunCode<CR>", "Run Code" },
 		f = { "<cmd>RunFile<CR>", "Run File" },
 		p = { "<cmd>RunProject<CR>", "Run Project" },
