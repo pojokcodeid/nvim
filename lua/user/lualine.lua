@@ -73,7 +73,7 @@ local progress = function()
 end
 
 local spaces = function()
-	return "spaces: " .. vim.api.nvim_buf_get_option(0, "shiftwidth")
+	return "->| " .. vim.api.nvim_buf_get_option(0, "shiftwidth")
 end
 
 local file_name = {
@@ -83,21 +83,29 @@ local file_name = {
 
 local lsp_info = {
 	function()
-		local msg = "No Active Lsp"
+		--local msg = "No Active Lsp"
+		local msg = ""
 		local buf_ft = vim.api.nvim_buf_get_option(0, "filetype")
 		local clients = vim.lsp.get_active_clients()
 		if next(clients) == nil then
-			return msg
+			for i, name in ipairs(clients) do
+				msg = msg .. " " .. name
+			end
+			return "[ " .. msg .. " ]"
 		end
 		for _, client in ipairs(clients) do
 			local filetypes = client.config.filetypes
 			if filetypes and vim.fn.index(filetypes, buf_ft) ~= -1 then
-				return client.name
+				if msg == "" then
+					msg = msg .. client.name
+				else
+					msg = msg .. ", " .. client.name
+				end
 			end
 		end
 		return msg
 	end,
-	icon = " LSP:",
+	icon = " ",
 }
 
 lualine.setup({
