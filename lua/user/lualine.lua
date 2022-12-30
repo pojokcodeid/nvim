@@ -63,7 +63,8 @@ local filetype = {
 local branch = {
 	"branch",
 	icons_enabled = true,
-	icon = "",
+	--icon = "",
+	icon = icons.git.Branch,
 }
 
 local location = {
