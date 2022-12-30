@@ -207,6 +207,12 @@ return packer.startup(function(use)
 			require("user.smartspit")
 		end,
 	})
+	use({
+		"jayp0521/mason-null-ls.nvim",
+		config = function()
+			require("user.mason-null-ls")
+		end,
+	})
 	-- use({ "mfussenegger/nvim-jdtls" })
 	-- use({ "ellisonleao/gruvbox.nvim" })
 	-- use({ "EdenEast/nightfox.nvim" })
