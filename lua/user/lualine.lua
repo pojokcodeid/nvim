@@ -2,7 +2,7 @@ local status_ok, lualine = pcall(require, "lualine")
 if not status_ok then
 	return
 end
-
+local icons = require("user.icons")
 local hide_in_width = function()
 	return vim.fn.winwidth(0) > 80
 end
@@ -25,16 +25,25 @@ local diagnostics = {
 	"diagnostics",
 	sources = { "nvim_diagnostic" },
 	sections = { "error", "warn" },
-	symbols = { error = " ", warn = " " },
-	colored = false,
+	-- symbols = { error = " ", warn = " " },
+	symbols = {
+		error = icons.diagnostics.BoldError .. " ",
+		warn = icons.diagnostics.BoldWarning .. " ",
+	},
+	colored = true,
 	update_in_insert = false,
-	always_visible = true,
+	always_visible = false,
 }
 
 local diff = {
 	"diff",
-	colored = false,
-	symbols = { added = " ", modified = " ", removed = " " }, -- changes diff symbols
+	colored = true,
+	-- symbols = { added = " ", modified = " ", removed = " " }, -- changes diff symbols
+	symbols = {
+		added = icons.git.LineAdded .. " ",
+		modified = icons.git.LineModified .. " ",
+		removed = icons.git.LineRemoved .. " ",
+	}, -- changes diff symbols
 	cond = hide_in_width,
 }
 
@@ -105,7 +114,8 @@ local lsp_info = {
 		end
 		return msg
 	end,
-	icon = " ",
+	--icon = " ",
+	icon = icons.ui.Gear .. "",
 }
 
 lualine.setup({
@@ -118,9 +128,9 @@ lualine.setup({
 		always_divide_middle = true,
 	},
 	sections = {
-		lualine_a = { branch, diagnostics },
+		lualine_a = { branch },
 		lualine_b = { mode },
-		lualine_c = { lsp_info },
+		lualine_c = { diagnostics, lsp_info },
 		-- lualine_c = { file_name, lsp_info },
 		-- lualine_x = { "encoding", "fileformat", "filetype" },
 		lualine_x = { diff, spaces, "encoding", filetype },

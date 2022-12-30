@@ -26,10 +26,10 @@ keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
 
 -- Resize with arrows
-keymap("n", "<C-Up>", ":resize -2<CR>", opts)
-keymap("n", "<C-Down>", ":resize +2<CR>", opts)
-keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
-keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
+-- keymap("n", "<C-Up>", ":resize -2<CR>", opts)
+-- keymap("n", "<C-Down>", ":resize +2<CR>", opts)
+-- keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
+-- keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
 -- Navigate buffers
 keymap("n", "<S-l>", ":bnext<CR>", opts)
@@ -40,7 +40,7 @@ keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
 keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
 
 -- Insert --
--- Press jk fast to exit insert mode 
+-- Press jk fast to exit insert mode
 keymap("i", "jk", "<ESC>", opts)
 keymap("i", "kj", "<ESC>", opts)
 
@@ -63,23 +63,23 @@ keymap("x", "<A-Down>", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 keymap("x", "<A-Up>", ":move '<-2<CR>gv-gv", opts)
 
-keymap("n","<S-Down>","<cmd>t.<cr>",opts)
-keymap("i","<S-Down>","<cmd>t.<cr>",opts)
-keymap("n","<S-Up>","<cmd>t -1<cr>",opts)
-keymap("i","<S-Up>","<cmd>t -1<cr>",opts)
-keymap("n","<M-J>","<cmd>t.<cr>",opts)
-keymap("n","<M-K>","<cmd>t -1<cr>",opts)
-keymap("n","<M-Down>","<cmd>m+<cr>",opts)
-keymap("i","<M-Down>","<cmd>m+<cr>",opts)
-keymap("n","<M-Up>","<cmd>m-2<cr>",opts)
-keymap("i","<M-Up>","<cmd>m-2<cr>",opts)
-keymap("n","<M-j>","<cmd>m+<cr>",opts)
-keymap("n","<M-k>","<cmd>m-2<cr>",opts)
-keymap("i","<C-s>","<cmd>w<cr>",opts)
-keymap("n","<C-s>","<cmd>w<cr>",opts)
-keymap("i","<C-l>","<cmd>LiveServer start<cr><cr>",opts)
-keymap("n","q","<cmd>q<cr>",opts)
-keymap("x","<S-Down>",":'<,'>t'><cr>",opts)
+keymap("n", "<S-Down>", "<cmd>t.<cr>", opts)
+keymap("i", "<S-Down>", "<cmd>t.<cr>", opts)
+keymap("n", "<S-Up>", "<cmd>t -1<cr>", opts)
+keymap("i", "<S-Up>", "<cmd>t -1<cr>", opts)
+keymap("n", "<M-J>", "<cmd>t.<cr>", opts)
+keymap("n", "<M-K>", "<cmd>t -1<cr>", opts)
+keymap("n", "<M-Down>", "<cmd>m+<cr>", opts)
+keymap("i", "<M-Down>", "<cmd>m+<cr>", opts)
+keymap("n", "<M-Up>", "<cmd>m-2<cr>", opts)
+keymap("i", "<M-Up>", "<cmd>m-2<cr>", opts)
+keymap("n", "<M-j>", "<cmd>m+<cr>", opts)
+keymap("n", "<M-k>", "<cmd>m-2<cr>", opts)
+keymap("i", "<C-s>", "<cmd>w<cr>", opts)
+keymap("n", "<C-s>", "<cmd>w<cr>", opts)
+keymap("i", "<C-l>", "<cmd>LiveServer start<cr><cr>", opts)
+keymap("n", "q", "<cmd>q<cr>", opts)
+keymap("x", "<S-Down>", ":'<,'>t'><cr>", opts)
 
 -- Visual Block --
 -- Move text up and down
@@ -94,5 +94,3 @@ keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 -- keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 -- keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 -- keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
-
-

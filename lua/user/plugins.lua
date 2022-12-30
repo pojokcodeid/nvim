@@ -195,6 +195,18 @@ return packer.startup(function(use)
 		requires = "neovim/nvim-lspconfig",
 	})
 	use({ "lunarvim/lunar.nvim" })
+	use({
+		"rcarriga/nvim-notify",
+		config = function()
+			vim.notify = require("notify")
+		end,
+	})
+	use({
+		"mrjones2014/smart-splits.nvim",
+		config = function()
+			require("user.smartspit")
+		end,
+	})
 	-- use({ "mfussenegger/nvim-jdtls" })
 	-- use({ "ellisonleao/gruvbox.nvim" })
 	-- use({ "EdenEast/nightfox.nvim" })
