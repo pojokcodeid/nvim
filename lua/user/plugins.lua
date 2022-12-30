@@ -213,6 +213,12 @@ return packer.startup(function(use)
 			require("user.mason-null-ls")
 		end,
 	})
+	use({
+		"stevearc/dressing.nvim",
+		config = function()
+			require("user.dressing")
+		end,
+	})
 	-- use({ "mfussenegger/nvim-jdtls" })
 	-- use({ "ellisonleao/gruvbox.nvim" })
 	-- use({ "EdenEast/nightfox.nvim" })
