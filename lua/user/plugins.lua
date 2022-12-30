@@ -184,6 +184,10 @@ return packer.startup(function(use)
 		end,
 	})
 	use({ "williamboman/nvim-lsp-installer" })
+	use({
+		"SmiteshP/nvim-navic",
+		requires = "neovim/nvim-lspconfig",
+	})
 	-- use({ "mfussenegger/nvim-jdtls" })
 	-- use({ "ellisonleao/gruvbox.nvim" })
 	-- use({ "EdenEast/nightfox.nvim" })

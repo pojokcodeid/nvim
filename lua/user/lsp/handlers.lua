@@ -51,6 +51,15 @@ M.setup = function()
 	})
 end
 
+local function attach_navic(client, bufnr)
+	vim.g.navic_silence = true
+	local status_ok, navic = pcall(require, "nvim-navic")
+	if not status_ok then
+		return
+	end
+	navic.attach(client, bufnr)
+end
+
 local function lsp_keymaps(bufnr)
 	local opts = { noremap = true, silent = true }
 	local keymap = vim.api.nvim_buf_set_keymap
@@ -70,8 +79,8 @@ local function lsp_keymaps(bufnr)
 	keymap(bufnr, "n", "<leader>ls", "<cmd>lua vim.lsp.buf.signature_help()<CR>", opts)
 	keymap(bufnr, "n", "<leader>lq", "<cmd>lua vim.diagnostic.setloclist()<CR>", opts)
 end
-
 M.on_attach = function(client, bufnr)
+	attach_navic(client, bufnr)
 	if client.name == "tsserver" then
 		client.server_capabilities.documentFormattingProvider = false
 	end

@@ -25,3 +25,5 @@ require("user.autocommands")
 -- require "user.colorizer"
 require("user.snip")
 require("user.webdevicons")
+require("user.breadcrumb")
+require("user.winbar")
