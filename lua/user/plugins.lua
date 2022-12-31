@@ -220,6 +220,14 @@ return packer.startup(function(use)
 		end,
 	})
 
+	use({
+		"folke/todo-comments.nvim",
+		event = "BufRead",
+		config = function()
+			require("todo-comments").setup()
+		end,
+	})
+
 	-- use({ "mfussenegger/nvim-jdtls" })
 	-- use({ "ellisonleao/gruvbox.nvim" })
 	-- use({ "EdenEast/nightfox.nvim" })
