@@ -83,7 +83,8 @@ local progress = function()
 end
 
 local spaces = function()
-	return "->| " .. vim.api.nvim_buf_get_option(0, "shiftwidth")
+	-- return "->| " .. vim.api.nvim_buf_get_option(0, "shiftwidth")
+	return icons.ui.Tab .. " " .. vim.api.nvim_buf_get_option(0, "shiftwidth")
 end
 
 local file_name = {
