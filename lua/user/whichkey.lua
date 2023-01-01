@@ -87,6 +87,11 @@ local opts2 = {
 	nowait = true, -- use `nowait` when creating keymaps
 }
 
+local trn = ""
+if vim.fn.has("win32") then
+	trn = "pwsh<cr>"
+end
+
 local mappings2 = {
 	["/"] = { "<esc><cmd>lua require('Comment.api').toggle.linewise(vim.fn.visualmode())<cr>", "Commet Block" },
 }
@@ -196,9 +201,9 @@ local mappings = {
 		u = { "<cmd>lua _NCDU_TOGGLE()<cr>", "NCDU" },
 		t = { "<cmd>lua _HTOP_TOGGLE()<cr>", "Htop" },
 		p = { "<cmd>lua _PYTHON_TOGGLE()<cr>", "Python" },
-		f = { "<cmd>ToggleTerm direction=float<cr>", "Float" },
+		f = { "<cmd>ToggleTerm direction=float<cr>" .. trn, "Float" },
 		h = { "<cmd>ToggleTerm size=10 direction=horizontal<cr>", "Horizontal" },
-		v = { "<cmd>ToggleTerm size=80 direction=vertical<cr>", "Vertical" },
+		v = { "<cmd>ToggleTerm size=80 direction=vertical<cr>" .. trn, "Vertical" },
 	},
 	r = {
 		name = "Run",
@@ -209,7 +214,7 @@ local mappings = {
 		r = { "<cmd>RunCode<CR>", "Run Code" },
 		f = { "<cmd>RunFile<CR>", "Run File" },
 		p = { "<cmd>RunProject<CR>", "Run Project" },
-		g = { "<cmd>ToggleTerm size=70 direction=vertical<cr>gradle run<cr>", "Run Gradle" },
+		g = { "<cmd>ToggleTerm size=70 direction=vertical<cr>gradle run<cr>" .. trn, "Run Gradle" },
 		m = {
 			"<cmd>ToggleTerm size=70 direction=vertical<cr>mvn exec:java -Dexec.mainClass=com.pojokcode.App<cr>",
 			"Run MVN",
