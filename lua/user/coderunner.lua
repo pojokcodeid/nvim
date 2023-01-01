@@ -8,7 +8,7 @@ code_runner.setup({
 		java = "cd $dir && javac $fileName && java $fileNameWithoutExt",
 		python = "python3 -u",
 		typescript = "deno run",
-		javascript = "node $fileName",
+		javascript = "node $dir/$fileName",
 		rust = "cd $dir && rustc $fileName && $dir/$fileNameWithoutExt",
 		-- cpp="gcc $fileName -lstdc++ -o $fileNameWithoutExt && $fileNameWithoutExt"
 		cpp = "g++ $fileName -o $fileNameWithoutExt && $dir/$fileNameWithoutExt",
