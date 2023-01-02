@@ -56,7 +56,11 @@ return packer.startup(function(use)
 			require("user.comment")
 		end,
 	})
-	use({ "JoosepAlviste/nvim-ts-context-commentstring", commit = "4d3a68c41a53add8804f471fcc49bb398fe8de08" })
+	use({
+		"JoosepAlviste/nvim-ts-context-commentstring",
+		commit = "4d3a68c41a53add8804f471fcc49bb398fe8de08",
+		event = "BufReadPost",
+	})
 	use({
 		"kyazdani42/nvim-web-devicons",
 		commit = "563f3635c2d8a7be7933b9e547f7c178ba0d4352",
