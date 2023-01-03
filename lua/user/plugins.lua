@@ -232,6 +232,8 @@ return packer.startup(function(use)
 		end,
 	})
 
+	use({ "shaunsingh/nord.nvim" })
+
 	-- use({ "mfussenegger/nvim-jdtls" })
 	-- use({ "ellisonleao/gruvbox.nvim" })
 	-- use({ "EdenEast/nightfox.nvim" })
