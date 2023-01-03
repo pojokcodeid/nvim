@@ -232,7 +232,6 @@ return packer.startup(function(use)
 		end,
 	})
 
-	use({ "shaunsingh/nord.nvim" })
 	-- use({
 	-- 	"petertriho/nvim-scrollbar",
 	-- 	config = function()
