@@ -20,6 +20,7 @@ null_ls.setup({
 		formatting.stylua,
 		formatting.eslint_d,
 		formatting.google_java_format,
+		-- formatting.phpcbf,
 		-- formatting.clang_format,
 		-- diagnostics.flake8
 	},
