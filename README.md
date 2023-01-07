@@ -103,6 +103,57 @@ git --version
 git clone https://github.com/pojokcodeid/nvim.git ~/.config/nvim
 ```
 
+## Setting LSP dan Treesitter
+
+### Config LSP - Cari file nvim/lua/user/lsp/mason.lua
+
+- Tambahkan pada bagian berikut
+
+```
+local servers = {
+	"sumneko_lua",
+	"cssls",
+	"html",
+	"tsserver",
+	"pyright",
+	-- "bashls",
+	"jsonls",
+	-- "yamlls",
+	-- "jdtls",
+	"emmet_ls",
+	"intelephense",
+}
+```
+
+- Rujukan Lnguage Support <br>
+  https://github.com/williamboman/mason.nvim/blob/main/PACKAGES.md
+
+### Comfig Treesitter Cari file nvim/lua/user/treesitter.lua
+
+- Tambahkan Pada Bagian berikut
+
+```
+ensure_installed = {
+		"bash",
+		"c",
+		"javascript",
+		"json",
+		"lua",
+		"python",
+		"typescript",
+		"tsx",
+		"css",
+		"rust",
+		"java",
+		"yaml",
+		"markdown",
+		"markdown_inline",
+	}, -- one of "all" or a list of languages
+```
+
+- Rujukan Language Support <br>
+  https://github.com/nvim-treesitter/nvim-treesitter#supported-languages
+
 ## Seting Bahasa Pemprograman
 
 - https://youtube.com/playlist?list=PLhzwHCJWMbnvhPy0wqZGVBRUEAgS93iuk
