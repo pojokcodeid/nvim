@@ -95,19 +95,20 @@ local file_name = {
 local lsp_info = {
 	function()
 		--local msg = "No Active Lsp"
-		local msg = ""
+		local msg = "LS Inactive"
 		local buf_ft = vim.api.nvim_buf_get_option(0, "filetype")
 		local clients = vim.lsp.get_active_clients()
 		if next(clients) == nil then
 			for i, name in ipairs(clients) do
 				msg = msg .. " " .. name
 			end
-			return "[ " .. msg .. " ]"
+			return msg
 		end
 		for _, client in ipairs(clients) do
 			local filetypes = client.config.filetypes
 			if filetypes and vim.fn.index(filetypes, buf_ft) ~= -1 then
-				if msg == "" then
+				if msg == "LS Inactive" then
+					msg = ""
 					msg = msg .. client.name
 				else
 					msg = msg .. ", " .. client.name
