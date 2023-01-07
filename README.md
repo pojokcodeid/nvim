@@ -27,6 +27,7 @@
 
 ## Panduan Windows
 
+- Pastikan sudah menginstall kebutuhan dasar diatas
 - Jalankan Script Dibawah pada Powershell
 
 ```
