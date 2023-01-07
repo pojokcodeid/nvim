@@ -13,50 +13,90 @@
 
 # Panduan Install Dan Konfigurasi NeoVim
 
+## Kebutuhan Dasar
+
+1. Install Neovim 8.0+ https://github.com/neovim/neovim/releases/tag/v0.8.1
+2. C++ (windows) Compiler https://www.msys2.org/
+3. GIT https://git-scm.com/download/win
+4. NodeJs https://nodejs.org/en/
+5. Ripgrep https://github.com/BurntSushi/ripgrep
+6. Lazygit https://github.com/jesseduffield/lazygit
+7. Nerd Font https://github.com/ryanoasis/nerd-fonts
+8. Windows Terminal (Windows) https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-id&gl=id
+9. Powershell (windows) https://apps.microsoft.com/store/detail/powershell/9MZ1SNWT0N5D?hl=en-id&gl=id
+
 ## Panduan Windows
 
-1. Download dan Install Neovim 0.8 (https://github.com/neovim/neovim/releases/tag/v0.8.1) <br> atau download dari link berikut (https://sourceforge.net/projects/neovim.mirror/files/)
-2. Install Git Download Dari link berikut (https://git-scm.com/download/win)
-3. Install Node Js, Download Dari Link Berikut (https://nodejs.org/en/)
-4. Install C atau C++ Compiler (https://sourceforge.net/projects/mingw-w64/files/ ) atau ( https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/) atau dari https://www.msys2.org/
-
-- panduan instalasi sihakan cek youtube https://youtu.be/6Z2aXiADa0c
-
-5. Install Ripgrep https://github.com/BurntSushi/ripgrep (untuk pencarian text)
-6. Install Lazygit https://github.com/jesseduffield/lazygit
-7. Install Font https://www.nerdfonts.com/font-downloads
-8. Untuk Masimal Install Windows Terminal https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-id&gl=id
-9. Install PowerShell Terbaru https://apps.microsoft.com/store/detail/powershell/9MZ1SNWT0N5D?hl=en-id&gl=id
-10. Import Config Windows
+- Jalankan Script Dibawah pada Powershell
 
 ```
 git clone https://github.com/pojokcodeid/nvim.git "$env:LOCALAPPDATA\nvim"
+nvim
 ```
 
-## Panduan Linux
+## Panduan Linux (Debian Based)
 
-1.  Instalasi
-
-```
-sudo apt install software-properties-common -y
-sudo add-apt-repository ppa:neovim-ppa/stable -y
-sudo apt-get update
-sudo apt install neovim -y
-```
-
-atau download versi 0.8 dari link berikut : https://github.com/neovim/neovim/releases<br><br> 2. Install Node Js
+1.  Pastikan Acess Administrator
 
 ```
+visudo
+[nama user] ALL=(ALL:ALL) ALL
+[nama user] ALL=(ALL) NOPASSWD:ALL
+```
+
+2. Install Neovim
+
+```
+sudo apt-get install wget
+mkdir download
+cd download
+wget https://github.com/neovim/neovim/releases/download/v0.8.1/nvim-linux64.deb
+sudo apt-get install ./nvim-linux64.deb
+nvim --version
+```
+
+3. Check GCC
+
+```
+gcc --version
+```
+
+4. Install NodeJS
+
+```
+sudo apt-get install curl
 sudo apt install build-essential libssl-dev
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 source ~/.bashrc
-nvm install 18.12.0
+nvm install 18.13.0
+node --version
+npm --version
 ```
 
-3.  Install Ripgrep https://github.com/BurntSushi/ripgrep (untuk pencarian text)
-4.  Install Lazygit https://github.com/jesseduffield/lazygit
-5.  Install Font https://www.nerdfonts.com/font-downloads
-6.  Install Config
+5. Install unzip, ripgrep
+
+```
+sudo apt-get install unzip
+sudo apt-get install ripgrep
+```
+
+6. Install lazygit
+
+```
+LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep '"tag_name":' |  sed -E 's/.*"v*([^"]+)".*/\1/')
+curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/latest/download/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
+sudo tar xf lazygit.tar.gz -C /usr/local/bin lazygit
+lazygit --version
+```
+
+7. Install Git
+
+```
+sudo apt-get install git
+git --version
+```
+
+8.  Clone Config
 
 ```
 git clone https://github.com/pojokcodeid/nvim.git ~/.config/nvim
