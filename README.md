@@ -167,6 +167,16 @@ ensure_installed = {
 - <a href="https://github.com/JoosepAlviste/nvim-ts-context-commentstring">nvim-ts-context-commentstring</a>
 - <a href="https://github.com/nvim-tree/nvim-web-devicons">nvim-web-devicons</a>
 - <a href="https://github.com/nvim-tree/nvim-tree.lua">nvim-tree.lua</a>
+- <a href="https://github.com/akinsho/bufferline.nvim">bufferline.nvim</a>
+- <a href="https://github.com/moll/vim-bbye">vim-bbye</a>
+- <a href="https://github.com/akinsho/toggleterm.nvim">toggleterm.nvim</a>
+- <a href="https://github.com/lewis6991/impatient.nvim">impatient.nvim</a>
+- <a href="https://github.com/lukas-reineke/indent-blankline.nvim">indent-blankline.nvim</a>
+- <a href="https://github.com/goolord/alpha-nvim">alpha-nvim</a>
+- <a href="https://github.com/folke/which-key.nvim">which-key.nvim</a>
+- <a href="https://github.com/folke/tokyonight.nvim">tokyonight.nvim</a>
+- <a href="https://github.com/hrsh7th/nvim-cmp">nvim-cmp</a>
+- <a href="https://github.com/hrsh7th/cmp-buffer">cmp-buffer</a>
 
 ## key lazygit
 

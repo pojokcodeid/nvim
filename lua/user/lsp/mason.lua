@@ -10,6 +10,7 @@ local servers = {
 	-- "jdtls",
 	"emmet_ls",
 	"intelephense",
+	"marksman",
 }
 
 local settings = {
