@@ -154,6 +154,27 @@ ensure_installed = {
 - Rujukan Language Support <br>
   https://github.com/nvim-treesitter/nvim-treesitter#supported-languages
 
+## Ubah Dashboard => Cari File nvim/lua/user/alpha.lua
+
+- Edit Bagian ini
+
+```
+dashboard.section.header.val = {
+	[[             _       _                    _      ]],
+	[[            (_)     | |                  | |     ]],
+	[[ _ __   ___  _  ___ | | __   ___ ___   __| | ___ ]],
+	[[| '_ \ / _ \| |/ _ \| |/ /  / __/ _ \ / _` |/ _ \]],
+	[[| |_) | (_) | | (_) |   <  | (_| (_) | (_| |  __/]],
+	[[| .__/ \___/| |\___/|_|\_\  \___\___/ \__,_|\___|]],
+	[[| |        _/ |                                  ]],
+	[[|_|       |__/                                   ]],
+}
+
+```
+
+- Link Generate Dasboard
+  https://patorjk.com/software/taag/
+
 ## Seting Bahasa Pemprograman
 
 - https://youtube.com/playlist?list=PLhzwHCJWMbnvhPy0wqZGVBRUEAgS93iuk
