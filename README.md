@@ -56,10 +56,10 @@ sudo apt-get install ./nvim-linux64.deb
 nvim --version
 ```
 
-3. Check GCC
+3. Check G++
 
 ```
-gcc --version
+g++ --version
 ```
 
 4. Install NodeJS
