@@ -161,6 +161,12 @@ ensure_installed = {
 ## List Plugins
 
 - <a href="https://github.com/wbthomason/packer.nvim">Packer </a>
+- <a href="https://github.com/nvim-lua/plenary.nvim">Plenary </a>
+- <a href="https://github.com/windwp/nvim-autopairs">Nvim-Autopairs </a>
+- <a href="https://github.com/numToStr/Comment.nvim">Comment.nvim</a>
+- <a href="https://github.com/JoosepAlviste/nvim-ts-context-commentstring">nvim-ts-context-commentstring</a>
+- <a href="https://github.com/nvim-tree/nvim-web-devicons">nvim-web-devicons</a>
+- <a href="https://github.com/nvim-tree/nvim-tree.lua">nvim-tree.lua</a>
 
 ## key lazygit
 
