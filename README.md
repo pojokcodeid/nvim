@@ -158,6 +158,10 @@ ensure_installed = {
 
 - https://youtube.com/playlist?list=PLhzwHCJWMbnvhPy0wqZGVBRUEAgS93iuk
 
+## List Plugins
+
+- <a href="https://github.com/wbthomason/packer.nvim">Packer </a>
+
 ## key lazygit
 
 <a href="https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md?fbclid=IwAR3BogewbYeP0PbPY1pewCkq2c3PKua3eHi-00rHpdSdz9gSKrY71Pv10u4" target="_blank">Key Lazygit</a>
