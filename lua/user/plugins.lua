@@ -243,6 +243,27 @@ return packer.startup(function(use)
 			require("user.nvimscroll")
 		end,
 	})
+	use({
+		"gelguy/wilder.nvim",
+		config = function()
+			local wilder = require("wilder")
+			wilder.setup({ modes = { ":", "/", "?" } })
+			wilder.set_option(
+				"renderer",
+				wilder.popupmenu_renderer({
+					highlighter = wilder.basic_highlighter(),
+					left = { " ", wilder.popupmenu_devicons() },
+					right = { " ", wilder.popupmenu_scrollbar() },
+				})
+			)
+		end,
+	})
+	use({
+		"gbprod/yanky.nvim",
+		config = function()
+			require("user.yanky")
+		end,
+	})
 
 	-- use({
 	-- 	"petertriho/nvim-scrollbar",
