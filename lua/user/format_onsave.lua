@@ -1,6 +1,9 @@
 function format_filter(client)
 	local filetype = vim.bo.filetype
-	local n = require("null-ls")
+	local status_ok,n = require("null-ls")
+	if not status_ok then
+		return
+	end
 	local s = require("null-ls.sources")
 	local method = n.methods.FORMATTING
 	local available_formatters = s.get_available(filetype, method)

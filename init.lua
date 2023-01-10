@@ -7,7 +7,7 @@ require("user.autocommands")
 require("user.snip")
 require("user.winbar")
 if onsave then
-	require("user.format_onsave")
+	-- require("user.format_onsave")
 end
 -- require("user.cmp")
 -- require("user.lsp")

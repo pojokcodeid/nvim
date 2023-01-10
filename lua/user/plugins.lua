@@ -231,13 +231,13 @@ return packer.startup(function(use)
 		end,
 	})
 	-- null-ls manager
-	use({
-		"jayp0521/mason-null-ls.nvim",
-		after = "null-ls.nvim",
-		config = function()
-			require("user.mason-null-ls")
-		end,
-	})
+	-- use({
+	-- 	"jayp0521/mason-null-ls.nvim",
+	-- 	after = "null-ls.nvim",
+	-- 	config = function()
+	-- 		require("user.mason-null-ls")
+	-- 	end,
+	-- })
 	use({
 		"stevearc/dressing.nvim",
 		config = function()
@@ -255,7 +255,7 @@ return packer.startup(function(use)
 	use({
 		"karb94/neoscroll.nvim",
 		config = function()
-			require("neoscroll").setup()
+			require("user.neoscroll")
 		end,
 	})
 	use({
