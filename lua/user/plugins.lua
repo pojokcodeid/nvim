@@ -16,12 +16,12 @@ if fn.empty(fn.glob(install_path)) > 0 then
 end
 
 -- Autocommand that reloads neovim whenever you save the plugins.lua file
-vim.cmd([[
-  augroup packer_user_config
-    autocmd!
-    autocmd BufWritePost plugins.lua source <afile> | PackerSync
-  augroup end
-]])
+-- vim.cmd([[
+--   augroup packer_user_config
+--     autocmd!
+--     autocmd BufWritePost plugins.lua source <afile> | PackerSync
+--   augroup end
+-- ]])
 
 -- Use a protected call so we don't error out on first use
 local status_ok, packer = pcall(require, "packer")
@@ -64,6 +64,9 @@ return packer.startup(function(use)
 	use({
 		"kyazdani42/nvim-web-devicons",
 		commit = "563f3635c2d8a7be7933b9e547f7c178ba0d4352",
+		config = function()
+			require("user.webdevicons")
+		end,
 	})
 	use({
 		"kyazdani42/nvim-tree.lua",
@@ -134,7 +137,13 @@ return packer.startup(function(use)
 	use({ "lunarvim/darkplus.nvim", commit = "13ef9daad28d3cf6c5e793acfc16ddbf456e1c83" })
 
 	-- Cmp
-	use({ "hrsh7th/nvim-cmp", commit = "b0dff0ec4f2748626aae13f011d1a47071fe9abc" }) -- The completion plugin
+	use({
+		"hrsh7th/nvim-cmp",
+		commit = "b0dff0ec4f2748626aae13f011d1a47071fe9abc",
+		config = function()
+			require("user.cmp")
+		end,
+	}) -- The completion plugin
 	use({ "hrsh7th/cmp-buffer", commit = "3022dbc9166796b644a841a02de8dd1cc1d311fa" }) -- buffer completions
 	use({ "hrsh7th/cmp-path", commit = "447c87cdd6e6d6a1d2488b1d43108bfa217f56e1" }) -- path completions
 	use({ "saadparwaiz1/cmp_luasnip", commit = "a9de941bcbda508d0a45d28ae366bb3f08db2e36" }) -- snippet completions
@@ -146,7 +155,13 @@ return packer.startup(function(use)
 	use({ "rafamadriz/friendly-snippets", commit = "2be79d8a9b03d4175ba6b3d14b082680de1b31b1" }) -- a bunch of snippets to use
 
 	-- LSP
-	use({ "neovim/nvim-lspconfig", commit = "f11fdff7e8b5b415e5ef1837bdcdd37ea6764dda" }) -- enable LSP
+	use({
+		"neovim/nvim-lspconfig",
+		commit = "f11fdff7e8b5b415e5ef1837bdcdd37ea6764dda",
+		config = function()
+			require("user.lsp")
+		end,
+	}) -- enable LSP
 	use({ "williamboman/mason.nvim", commit = "c2002d7a6b5a72ba02388548cfaf420b864fbc12" }) -- simple to use language server installer
 	use({ "williamboman/mason-lspconfig.nvim", commit = "0051870dd728f4988110a1b2d47f4a4510213e31" })
 	use({ "jose-elias-alvarez/null-ls.nvim", commit = "c0c19f32b614b3921e17886c541c13a72748d450" }) -- for formatters and linters
@@ -165,6 +180,7 @@ return packer.startup(function(use)
 	use({
 		"nvim-treesitter/nvim-treesitter",
 		commit = "8e763332b7bf7b3a426fd8707b7f5aa85823a5ac",
+		on = { "NvimTreeToggle" },
 		config = function()
 			require("user.treesitter")
 		end,
@@ -197,6 +213,9 @@ return packer.startup(function(use)
 	use({
 		"SmiteshP/nvim-navic",
 		requires = "neovim/nvim-lspconfig",
+		config = function()
+			require("user.breadcrumb")
+		end,
 	})
 	use({ "lunarvim/lunar.nvim" })
 	use({
@@ -211,8 +230,10 @@ return packer.startup(function(use)
 			require("user.smartspit")
 		end,
 	})
+	-- null-ls manager
 	use({
 		"jayp0521/mason-null-ls.nvim",
+		after = "null-ls.nvim",
 		config = function()
 			require("user.mason-null-ls")
 		end,
@@ -264,6 +285,7 @@ return packer.startup(function(use)
 			require("user.yanky")
 		end,
 	})
+	use({ "dstein64/vim-startuptime" })
 
 	-- use({
 	-- 	"petertriho/nvim-scrollbar",
