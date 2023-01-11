@@ -71,6 +71,7 @@ return packer.startup(function(use)
 	use({
 		"kyazdani42/nvim-tree.lua",
 		commit = "7282f7de8aedf861fe0162a559fc2b214383c51c",
+		on = { "NvimTreeToggle" },
 		config = function()
 			require("user.nvim-tree")
 		end,
@@ -180,7 +181,6 @@ return packer.startup(function(use)
 	use({
 		"nvim-treesitter/nvim-treesitter",
 		commit = "8e763332b7bf7b3a426fd8707b7f5aa85823a5ac",
-		on = { "NvimTreeToggle" },
 		config = function()
 			require("user.treesitter")
 		end,
