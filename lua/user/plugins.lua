@@ -155,7 +155,7 @@ return packer.startup(function(use)
 		-- event = "BufWinEnter",
 		config = function()
 			require("user.tokyonight")
-			require("user.colorscheme")
+			-- require("user.colorscheme")
 		end,
 	})
 
