@@ -6,6 +6,7 @@ end
 configs.setup({
 	ensure_installed = {
 		"bash",
+		"html",
 		"c",
 		"javascript",
 		"json",

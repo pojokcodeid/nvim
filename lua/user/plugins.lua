@@ -41,10 +41,16 @@ packer.init({
 -- Install your plugins here
 return packer.startup(function(use)
 	use({ "wbthomason/packer.nvim", commit = "6afb67460283f0e990d35d229fd38fdc04063e0a" }) -- Have packer manage itself
-	use({ "nvim-lua/plenary.nvim", commit = "4b7e52044bbb84242158d977a50c4cbcd85070c7" }) -- Useful lua functions used by lots of plugins
+	use({
+		"nvim-lua/plenary.nvim",
+		commit = "4b7e52044bbb84242158d977a50c4cbcd85070c7",
+		event = "BufWinEnter",
+		module = "plenary",
+	}) -- Useful lua functions used by lots of plugins
 	use({
 		"windwp/nvim-autopairs",
 		commit = "4fc96c8f3df89b6d23e5092d31c866c53a346347",
+		after = "nvim-cmp",
 		config = function()
 			require("user.autopairs")
 		end,
@@ -52,6 +58,7 @@ return packer.startup(function(use)
 	use({
 		"numToStr/Comment.nvim",
 		commit = "97a188a98b5a3a6f9b1b850799ac078faa17ab67",
+		event = "BufReadPost",
 		config = function()
 			require("user.comment")
 		end,
@@ -64,6 +71,7 @@ return packer.startup(function(use)
 	use({
 		"kyazdani42/nvim-web-devicons",
 		commit = "563f3635c2d8a7be7933b9e547f7c178ba0d4352",
+		module = "nvim-web-devicons",
 		config = function()
 			require("user.webdevicons")
 		end,
@@ -72,6 +80,8 @@ return packer.startup(function(use)
 		"kyazdani42/nvim-tree.lua",
 		commit = "7282f7de8aedf861fe0162a559fc2b214383c51c",
 		on = { "NvimTreeToggle" },
+		require = "kyazdani42/nvim-web-devicons",
+		cmd = "NvimTreeToggle",
 		config = function()
 			require("user.nvim-tree")
 		end,
@@ -79,6 +89,8 @@ return packer.startup(function(use)
 	use({
 		"akinsho/bufferline.nvim",
 		commit = "83bf4dc7bff642e145c8b4547aa596803a8b4dc4",
+		require = "kyazdani42/nvim-web-devicons",
+		event = "BufWinEnter",
 		config = function()
 			require("user.bufferline")
 		end,
@@ -87,6 +99,8 @@ return packer.startup(function(use)
 	use({
 		"nvim-lualine/lualine.nvim",
 		commit = "a52f078026b27694d2290e34efa61a6e4a690621",
+		require = { "kyazdani42/nvim-web-devicons", opt = true },
+		event = "BufWinEnter",
 		config = function()
 			require("user.lualine")
 		end,
@@ -94,6 +108,9 @@ return packer.startup(function(use)
 	use({
 		"akinsho/toggleterm.nvim",
 		commit = "2a787c426ef00cb3488c11b14f5dcf892bbd0bda",
+		module = "toggleterm",
+		cmd = "Toggleterm",
+		event = "BufWinEnter",
 		config = function()
 			require("user.toggleterm")
 		end,
@@ -109,6 +126,7 @@ return packer.startup(function(use)
 	use({
 		"lukas-reineke/indent-blankline.nvim",
 		commit = "db7cbcb40cc00fc5d6074d7569fb37197705e7f6",
+		event = "BufRead",
 		config = function()
 			require("user.indentline")
 		end,
@@ -116,12 +134,15 @@ return packer.startup(function(use)
 	use({
 		"goolord/alpha-nvim",
 		commit = "0bb6fc0646bcd1cdb4639737a1cee8d6e08bcc31",
+		module = "alpha",
+		event = "BufWinEnter",
 		config = function()
 			require("user.alpha")
 		end,
 	})
 	use({
 		"folke/which-key.nvim",
+		event = "BufWinEnter",
 		config = function()
 			require("user.whichkey")
 		end,
@@ -131,11 +152,12 @@ return packer.startup(function(use)
 	use({
 		"folke/tokyonight.nvim",
 		commit = "66bfc2e8f754869c7b651f3f47a2ee56ae557764",
+		-- event = "BufWinEnter",
 		config = function()
 			require("user.tokyonight")
+			require("user.colorscheme")
 		end,
 	})
-	use({ "lunarvim/darkplus.nvim", commit = "13ef9daad28d3cf6c5e793acfc16ddbf456e1c83" })
 
 	-- Cmp
 	use({
@@ -152,7 +174,13 @@ return packer.startup(function(use)
 	use({ "hrsh7th/cmp-nvim-lua", commit = "d276254e7198ab7d00f117e88e223b4bd8c02d21" })
 
 	-- Snippets
-	use({ "L3MON4D3/LuaSnip", commit = "8f8d493e7836f2697df878ef9c128337cbf2bb84" }) --snippet engine
+	use({
+		"L3MON4D3/LuaSnip",
+		commit = "8f8d493e7836f2697df878ef9c128337cbf2bb84",
+		config = function()
+			require("user.snip")
+		end,
+	}) --snippet engine
 	use({ "rafamadriz/friendly-snippets", commit = "2be79d8a9b03d4175ba6b3d14b082680de1b31b1" }) -- a bunch of snippets to use
 
 	-- LSP
@@ -172,6 +200,8 @@ return packer.startup(function(use)
 	use({
 		"nvim-telescope/telescope.nvim",
 		commit = "76ea9a898d3307244dce3573392dcf2cc38f340f",
+		require = { { "nvim-lua/plenary.nvim" } },
+		cmd = "Telescope",
 		config = function()
 			require("user.telescope")
 		end,
@@ -181,6 +211,8 @@ return packer.startup(function(use)
 	use({
 		"nvim-treesitter/nvim-treesitter",
 		commit = "8e763332b7bf7b3a426fd8707b7f5aa85823a5ac",
+		run = ":TSUpdate",
+		event = "BufWinEnter",
 		config = function()
 			require("user.treesitter")
 		end,
@@ -188,23 +220,26 @@ return packer.startup(function(use)
 
 	-- custom akn
 	use({ "manzeloth/live-server" })
-	use({ "mg979/vim-visual-multi" })
-	use({ "navarasu/onedark.nvim" })
+	use({ "mg979/vim-visual-multi", event = "BufWinEnter" })
 	use({
 		"windwp/nvim-ts-autotag",
-		config = function()
-			require("user.autotag")
-		end,
+		event = "InsertEnter",
+		after = "nvim-treesitter",
+		-- config = function()
+		-- 	require("user.autotag")
+		-- end,
 	})
 	use({
 		"CRAG666/code_runner.nvim",
 		requires = "nvim-lua/plenary.nvim",
+		cmd = { "RunCode", "RunFile", "RunProject", "RunClose" },
 		config = function()
 			require("user.coderunner")
 		end,
 	})
 	use({
 		"NvChad/nvim-colorizer.lua",
+		event = "BufWinEnter",
 		config = function()
 			require("user.colorizer")
 		end,
@@ -213,19 +248,23 @@ return packer.startup(function(use)
 	use({
 		"SmiteshP/nvim-navic",
 		requires = "neovim/nvim-lspconfig",
+		event = "BufRead",
 		config = function()
 			require("user.breadcrumb")
+			require("user.winbar")
 		end,
 	})
-	use({ "lunarvim/lunar.nvim" })
 	use({
 		"rcarriga/nvim-notify",
+		module = "notify",
+		event = "BufRead",
 		config = function()
 			vim.notify = require("notify")
 		end,
 	})
 	use({
 		"mrjones2014/smart-splits.nvim",
+		event = "BufWinEnter",
 		config = function()
 			require("user.smartspit")
 		end,
@@ -240,6 +279,7 @@ return packer.startup(function(use)
 	})
 	use({
 		"stevearc/dressing.nvim",
+		event = "BufWinEnter",
 		config = function()
 			require("user.dressing")
 		end,
@@ -254,18 +294,21 @@ return packer.startup(function(use)
 	})
 	use({
 		"karb94/neoscroll.nvim",
+		event = "BufRead",
 		config = function()
 			require("user.neoscroll")
 		end,
 	})
 	use({
 		"dstein64/nvim-scrollview",
+		event = "BufRead",
 		config = function()
 			require("user.nvimscroll")
 		end,
 	})
 	use({
 		"gelguy/wilder.nvim",
+		event = "BufWinEnter",
 		config = function()
 			local wilder = require("wilder")
 			wilder.setup({ modes = { ":", "/", "?" } })
@@ -286,13 +329,8 @@ return packer.startup(function(use)
 		end,
 	})
 	use({ "dstein64/vim-startuptime" })
-
-	-- use({
-	-- 	"petertriho/nvim-scrollbar",
-	-- 	config = function()
-	-- 		require("scrollbar").setup()
-	-- 	end,
-	-- })
+	use({ "p00f/nvim-ts-rainbow", event = "BufWinEnter", after = "nvim-treesitter" })
+	-- use({ "rebelot/kanagawa.nvim" })
 
 	-- use({ "mfussenegger/nvim-jdtls" })
 	-- use({ "ellisonleao/gruvbox.nvim" })
@@ -303,6 +341,7 @@ return packer.startup(function(use)
 	use({
 		"lewis6991/gitsigns.nvim",
 		commit = "2c6f96dda47e55fa07052ce2e2141e8367cbaaf2",
+		event = "BufWinEnter",
 		config = function()
 			require("user.gitsigns")
 		end,
