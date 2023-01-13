@@ -79,9 +79,10 @@ return packer.startup(function(use)
 	use({
 		"kyazdani42/nvim-tree.lua",
 		commit = "7282f7de8aedf861fe0162a559fc2b214383c51c",
+		-- ini dirimak karena jadi tab tidak kebuka full
 		-- on = { "NvimTreeToggle" },
-		require = "kyazdani42/nvim-web-devicons",
 		-- cmd = "NvimTreeToggle",
+		require = "kyazdani42/nvim-web-devicons",
 		config = function()
 			require("user.nvim-tree")
 		end,
@@ -152,6 +153,7 @@ return packer.startup(function(use)
 	use({
 		"folke/tokyonight.nvim",
 		commit = "66bfc2e8f754869c7b651f3f47a2ee56ae557764",
+		-- ini diremark karena tab diatas jadi tidak ada warnanya
 		-- event = "BufWinEnter",
 		config = function()
 			require("user.tokyonight")
@@ -225,6 +227,7 @@ return packer.startup(function(use)
 		"windwp/nvim-ts-autotag",
 		event = "InsertEnter",
 		after = "nvim-treesitter",
+		-- config dipindah ke treesitter config
 		-- config = function()
 		-- 	require("user.autotag")
 		-- end,
@@ -330,8 +333,9 @@ return packer.startup(function(use)
 	})
 	use({ "dstein64/vim-startuptime" })
 	use({ "p00f/nvim-ts-rainbow", event = "BufWinEnter", after = "nvim-treesitter" })
-	-- use({ "rebelot/kanagawa.nvim" })
 
+	-- ini plugins alternatif yang tidak digunakan lagi
+	-- use({ "rebelot/kanagawa.nvim" })
 	-- use({ "mfussenegger/nvim-jdtls" })
 	-- use({ "ellisonleao/gruvbox.nvim" })
 	-- use({ "EdenEast/nightfox.nvim" })
