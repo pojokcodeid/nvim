@@ -43,9 +43,9 @@ return packer.startup(function(use)
 	use({
 		"wbthomason/packer.nvim",
 		commit = "6afb67460283f0e990d35d229fd38fdc04063e0a",
-		config = function()
-			require("user.plugins")
-		end,
+		-- config = function()
+		-- 	require("user.plugins")
+		-- end,
 	}) -- Have packer manage itself
 	use({
 		"nvim-lua/plenary.nvim",
