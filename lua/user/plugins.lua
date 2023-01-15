@@ -40,7 +40,13 @@ packer.init({
 
 -- Install your plugins here
 return packer.startup(function(use)
-	use({ "wbthomason/packer.nvim", commit = "6afb67460283f0e990d35d229fd38fdc04063e0a" }) -- Have packer manage itself
+	use({
+		"wbthomason/packer.nvim",
+		commit = "6afb67460283f0e990d35d229fd38fdc04063e0a",
+		config = function()
+			require("user.plugins")
+		end,
+	}) -- Have packer manage itself
 	use({
 		"nvim-lua/plenary.nvim",
 		commit = "4b7e52044bbb84242158d977a50c4cbcd85070c7",
@@ -67,6 +73,7 @@ return packer.startup(function(use)
 		"JoosepAlviste/nvim-ts-context-commentstring",
 		commit = "4d3a68c41a53add8804f471fcc49bb398fe8de08",
 		event = "BufReadPost",
+		after = "nvim-treesitter",
 	})
 	use({
 		"kyazdani42/nvim-web-devicons",
@@ -165,35 +172,61 @@ return packer.startup(function(use)
 	use({
 		"hrsh7th/nvim-cmp",
 		commit = "b0dff0ec4f2748626aae13f011d1a47071fe9abc",
+		event = "BufWinEnter",
 		config = function()
 			require("user.cmp")
 		end,
 	}) -- The completion plugin
-	use({ "hrsh7th/cmp-buffer", commit = "3022dbc9166796b644a841a02de8dd1cc1d311fa" }) -- buffer completions
-	use({ "hrsh7th/cmp-path", commit = "447c87cdd6e6d6a1d2488b1d43108bfa217f56e1" }) -- path completions
-	use({ "saadparwaiz1/cmp_luasnip", commit = "a9de941bcbda508d0a45d28ae366bb3f08db2e36" }) -- snippet completions
-	use({ "hrsh7th/cmp-nvim-lsp", commit = "3cf38d9c957e95c397b66f91967758b31be4abe6" })
-	use({ "hrsh7th/cmp-nvim-lua", commit = "d276254e7198ab7d00f117e88e223b4bd8c02d21" })
+	use({ "hrsh7th/cmp-buffer", commit = "3022dbc9166796b644a841a02de8dd1cc1d311fa", after = "nvim-cmp" }) -- buffer completions
+	use({ "hrsh7th/cmp-path", commit = "447c87cdd6e6d6a1d2488b1d43108bfa217f56e1", after = "nvim-cmp" }) -- path completions
+	use({ "saadparwaiz1/cmp_luasnip", commit = "a9de941bcbda508d0a45d28ae366bb3f08db2e36", after = "nvim-cmp" }) -- snippet completions
+	use({
+		"hrsh7th/cmp-nvim-lsp",
+		commit = "3cf38d9c957e95c397b66f91967758b31be4abe6",
+		after = "nvim-cmp",
+		event = "BufWinEnter",
+	})
+	use({ "hrsh7th/cmp-nvim-lua", commit = "d276254e7198ab7d00f117e88e223b4bd8c02d21", after = "nvim-cmp" })
 
 	-- Snippets
 	use({
 		"L3MON4D3/LuaSnip",
 		commit = "8f8d493e7836f2697df878ef9c128337cbf2bb84",
+		module = "luasnip",
+		wants = "friendly-snippets",
 		config = function()
 			require("user.snip")
 		end,
 	}) --snippet engine
-	use({ "rafamadriz/friendly-snippets", commit = "2be79d8a9b03d4175ba6b3d14b082680de1b31b1" }) -- a bunch of snippets to use
+	use({ "rafamadriz/friendly-snippets", commit = "2be79d8a9b03d4175ba6b3d14b082680de1b31b1", opt = true }) -- a bunch of snippets to use
 
 	-- LSP
 	use({
 		"neovim/nvim-lspconfig",
 		commit = "f11fdff7e8b5b415e5ef1837bdcdd37ea6764dda",
+		module = "lspconfig",
+		event = "BufWinEnter",
 		config = function()
 			require("user.lsp")
 		end,
 	}) -- enable LSP
-	use({ "williamboman/mason.nvim", commit = "c2002d7a6b5a72ba02388548cfaf420b864fbc12" }) -- simple to use language server installer
+	use({
+		"williamboman/mason.nvim",
+		commit = "c2002d7a6b5a72ba02388548cfaf420b864fbc12",
+		module = "mason",
+		cmd = {
+			"Mason",
+			"MasonInstall",
+			"MasonUninstall",
+			"MasonUninstallAll",
+			"MasonLog",
+		},
+		config = function()
+			vim.tbl_map(function(plugin)
+				pcall(require, plugin)
+			end, { "lspconfig", "null-ls" })
+		end,
+	}) -- simple to use language server installer
 	use({ "williamboman/mason-lspconfig.nvim", commit = "0051870dd728f4988110a1b2d47f4a4510213e31" })
 	use({ "jose-elias-alvarez/null-ls.nvim", commit = "c0c19f32b614b3921e17886c541c13a72748d450" }) -- for formatters and linters
 	use({ "RRethy/vim-illuminate", commit = "a2e8476af3f3e993bb0d6477438aad3096512e42" })
@@ -276,6 +309,7 @@ return packer.startup(function(use)
 	use({
 		"jayp0521/mason-null-ls.nvim",
 		after = "null-ls.nvim",
+		event = "BufRead",
 		config = function()
 			require("user.mason-null-ls")
 		end,
@@ -327,12 +361,24 @@ return packer.startup(function(use)
 	})
 	use({
 		"gbprod/yanky.nvim",
+		event = "BufRead",
 		config = function()
 			require("user.yanky")
 		end,
 	})
 	use({ "dstein64/vim-startuptime" })
 	use({ "p00f/nvim-ts-rainbow", event = "BufWinEnter", after = "nvim-treesitter" })
+	-- Git
+	use({
+		"lewis6991/gitsigns.nvim",
+		commit = "2c6f96dda47e55fa07052ce2e2141e8367cbaaf2",
+		disable = vim.fn.executable("git") == 0,
+		ft = "gitcommit",
+		event = "BufWinEnter",
+		config = function()
+			require("user.gitsigns")
+		end,
+	})
 
 	-- ini plugins alternatif yang tidak digunakan lagi
 	-- use({ "rebelot/kanagawa.nvim" })
@@ -340,16 +386,6 @@ return packer.startup(function(use)
 	-- use({ "ellisonleao/gruvbox.nvim" })
 	-- use({ "EdenEast/nightfox.nvim" })
 	-- use({ "morhetz/gruvbox" })
-
-	-- Git
-	use({
-		"lewis6991/gitsigns.nvim",
-		commit = "2c6f96dda47e55fa07052ce2e2141e8367cbaaf2",
-		event = "BufWinEnter",
-		config = function()
-			require("user.gitsigns")
-		end,
-	})
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
