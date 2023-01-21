@@ -47,7 +47,7 @@ visudo
 
 2. Install Neovim
 
-```
+```bash
 sudo apt-get install wget
 mkdir download
 cd download
@@ -64,7 +64,7 @@ g++ --version
 
 4. Install NodeJS
 
-```
+```bash
 sudo apt-get install curl
 sudo apt install build-essential libssl-dev
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
@@ -83,7 +83,7 @@ sudo apt-get install ripgrep
 
 6. Install lazygit
 
-```
+```bash
 LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep '"tag_name":' |  sed -E 's/.*"v*([^"]+)".*/\1/')
 curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/latest/download/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
 sudo tar xf lazygit.tar.gz -C /usr/local/bin lazygit
@@ -109,7 +109,7 @@ git clone https://github.com/pojokcodeid/nvim.git ~/.config/nvim
 
 - Tambahkan pada bagian berikut
 
-```
+```lua
 local servers = {
 	"sumneko_lua",
 	"cssls",
@@ -132,7 +132,7 @@ local servers = {
 
 - Tambahkan Pada Bagian berikut
 
-```
+```lua
 ensure_installed = {
 		"bash",
 		"c",
@@ -158,7 +158,7 @@ ensure_installed = {
 
 - Edit Bagian ini
 
-```
+```lua
 dashboard.section.header.val = {
 	[[             _       _                    _      ]],
 	[[            (_)     | |                  | |     ]],
