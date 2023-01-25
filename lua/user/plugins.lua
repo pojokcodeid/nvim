@@ -368,6 +368,25 @@ return packer.startup(function(use)
 	})
 	use({ "dstein64/vim-startuptime" })
 	use({ "p00f/nvim-ts-rainbow", event = "BufWinEnter", after = "nvim-treesitter" })
+	-- For Debug
+	use({ "mfussenegger/nvim-dap", disable = vim.fn.has("win32") == 1, module = "dap", event = "BufWinEnter" })
+	use({
+		"rcarriga/nvim-dap-ui",
+		disable = vim.fn.has("win32") == 1,
+		event = "BufWinEnter",
+		config = function()
+			require("user.dapui")
+		end,
+	})
+	use({
+		"jayp0521/mason-nvim-dap.nvim",
+		event = "BufWinEnter",
+		cmd = { "DapInstall", "DapUninstall" },
+		disable = vim.fn.has("win32") == 1,
+		config = function()
+			require("user.mason_dap")
+		end,
+	})
 	-- Git
 	use({
 		"lewis6991/gitsigns.nvim",

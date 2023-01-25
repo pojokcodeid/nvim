@@ -15,14 +15,15 @@ null_ls.setup({
 	sources = {
 		--formatting.prettier.with({ extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" } }),
 		formatting.prettier,
-		formatting.prettierd,
+		-- formatting.prettierd,
 		formatting.black.with({ extra_args = { "--fast" } }),
 		formatting.stylua,
-		formatting.eslint_d,
-		formatting.google_java_format,
-		formatting.phpcbf,
+		-- formatting.eslint_d,
+		-- formatting.google_java_format,
+		-- formatting.phpcbf,
 		-- formatting.clang_format,
 		-- diagnostics.flake8
+		-- diagnostics.eslint_d,
 	},
 
 	on_attach = function(client, bufnr)
@@ -42,3 +43,4 @@ null_ls.setup({
 		end
 	end,
 })
+
