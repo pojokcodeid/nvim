@@ -1,4 +1,5 @@
-## HOME
+## HOME (No Maintenance)
+Untuk Update Terbaru gunakan https://github.com/pojokcodeid/nvim-lazy
 
 ![home!](img/home.png)
 
